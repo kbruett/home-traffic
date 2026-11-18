@@ -2,8 +2,10 @@ name: collect-traffic
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # GitHub may run this a few minutes late
-  workflow_dispatch:          # lets you run it by hand from the Actions tab
+    # Off-peak minutes: GitHub delays/skips jobs on :00/:10/:20 slots.
+    # Each run takes 3 samples 10 minutes apart, so two triggers per hour give a 10-minute cadence.
+    - cron: "7,37 * * * *"
+  workflow_dispatch:          # run by hand from the Actions tab
 
 permissions:
   contents: write
@@ -15,18 +17,20 @@ concurrency:
 jobs:
   sample:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
 
-      - name: Take a sample
-        run: python3 collect.py
+      - name: Sample 3 times, 10 minutes apart
         env:
           TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
           LOCATION: ${{ secrets.LOCATION }}
-
-      - name: Save it
         run: |
           git config user.name "traffic-bot"
           git config user.email "traffic-bot@users.noreply.github.com"
-          git add data/traffic_log.csv
-          git diff --cached --quiet || { git commit -m "sample"; git pull --rebase -q; git push; }
+          for i in 1 2 3; do
+            python3 collect.py || echo "sample failed"
+            git add data/traffic_log.csv
+            git diff --cached --quiet || { git commit -q -m "sample"; git pull --rebase -q; git push -q; }
+            [ "$i" -lt 3 ] && sleep 600
+          done
