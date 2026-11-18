@@ -1,0 +1,9 @@
+{
+  "name": "Home Traffic",
+  "short_name": "Traffic",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#161615",
+  "theme_color": "#d9541e"
+}
