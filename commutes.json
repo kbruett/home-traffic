@@ -1,0 +1,8 @@
+[
+  {"id": "commute-paramus", "name": "Paramus commute", "short": "Paramus",
+   "office": "403 Sette Dr, Paramus, NJ 07652", "days": [0, 2]},
+  {"id": "commute-montclair", "name": "Montclair commute", "short": "Montclair",
+   "office": "120 Valley Rd, Montclair, NJ 07042", "days": [1, 3]},
+  {"id": "commute-old-bridge", "name": "Old Bridge commute", "short": "Old Bridge",
+   "office": "2204 Route 18 North, Old Bridge, NJ 08857", "days": [4]}
+]

@@ -9,7 +9,10 @@ appears in the repo):
 
 Extra places (places.json) are resolved once, then each is timed in BOTH
 directions with TomTom's routing API (live traffic vs. free-flow travel time).
-Requests per sample = 1 (home) + 2 per place.
+Commutes (commutes.json) are home <-> office routes, timed both ways only on the
+days/hours they matter (default 5-11 AM and 3-8 PM on that office's days).
+Traffic incidents (crashes, closures, jams) are written to data/incidents.json.
+Requests per sample = 1 (home) + 2 per place + 1 (incidents) + 2-4 (active commute).
 """
 import csv, hashlib, json, math, os, sys, urllib.parse, urllib.request
 from datetime import datetime
@@ -19,6 +22,9 @@ TZ = ZoneInfo("America/New_York")
 HOME_LOG = os.path.join("data", "traffic_log.csv")
 PLACES_LOG = os.path.join("data", "places_log.csv")
 PLACES_CFG = "places.json"
+COMMUTES_CFG = "commutes.json"
+INCIDENTS = os.path.join("data", "incidents.json")
+DEFAULT_WINDOWS = [[5, 11], [15, 20]]
 RESOLVED = os.path.join("data", "places_resolved.json")
 CACHE = ".cache"
 HOME_FIELDS = ["timestamp", "dow", "hour", "current_mph", "freeflow_mph", "congestion_pct"]
@@ -151,6 +157,189 @@ def route_times(key, frm, to):
     return s["lengthInMeters"], s["travelTimeInSeconds"], s.get("noTrafficTravelTimeInSeconds", s["travelTimeInSeconds"])
 
 
+
+# ---------- commutes ----------
+def pt_to_seg_m(lat, lon, a, b):
+    """Distance in metres from a point to segment a-b (equirectangular approximation)."""
+    k = math.cos(math.radians(lat)) * 111320.0
+    px, py = (lon) * k, lat * 110540.0
+    ax, ay = a[1] * k, a[0] * 110540.0
+    bx, by = b[1] * k, b[0] * 110540.0
+    dx, dy = bx - ax, by - ay
+    t = 0 if dx == dy == 0 else max(0, min(1, ((px - ax) * dx + (py - ay) * dy) / (dx * dx + dy * dy)))
+    return math.hypot(px - (ax + t * dx), py - (ay + t * dy))
+
+
+def min_dist_to_line(lat, lon, line):
+    return min((pt_to_seg_m(lat, lon, line[i], line[i + 1]) for i in range(len(line) - 1)), default=1e9)
+
+
+def decimate(points, step_m=150):
+    out = [points[0]]
+    for p in points[1:]:
+        if distance_m(out[-1][0], out[-1][1], p[0], p[1]) >= step_m:
+            out.append(p)
+    if out[-1] != points[-1]:
+        out.append(points[-1])
+    return out
+
+
+def road_summary(instructions, total_m):
+    """Collapse turn-by-turn guidance into the main roads used, in order, with distance."""
+    segs = []
+    for i, ins in enumerate(instructions):
+        start = ins.get("routeOffsetInMeters", 0)
+        end = instructions[i + 1].get("routeOffsetInMeters", total_m) if i + 1 < len(instructions) else total_m
+        nums = ins.get("roadNumbers") or []
+        name = nums[0] if nums else (ins.get("street") or "")
+        if not name or end <= start:
+            continue
+        if segs and segs[-1]["name"] == name:
+            segs[-1]["m"] += end - start
+        else:
+            segs.append({"name": name, "m": end - start, "numbered": bool(nums)})
+    keep = [s for s in segs if s["numbered"] or s["m"] >= 2000]
+    merged = []
+    for s in keep:
+        if merged and merged[-1]["name"] == s["name"]:
+            merged[-1]["m"] += s["m"]
+        else:
+            merged.append(dict(s))
+    return [{"name": s["name"], "miles": round(s["m"] / 1609.34, 1)} for s in merged if s["m"] >= 400]
+
+
+def route_geometry(key, frm, to, guidance=False):
+    url = ("https://api.tomtom.com/routing/1/calculateRoute/"
+           f"{frm[0]:.6f},{frm[1]:.6f}:{to[0]:.6f},{to[1]:.6f}/json?key={key}&traffic=true&travelMode=car&routeType=fastest"
+           + ("&instructionsType=text" if guidance else ""))
+    r = get(url)["routes"][0]
+    pts = [(p["latitude"], p["longitude"]) for leg in r["legs"] for p in leg["points"]]
+    return r, pts
+
+
+def resolve_commute(key, cfg, home):
+    q = urllib.parse.quote(cfg["office"])
+    url = (f"https://api.tomtom.com/search/2/search/{q}.json?key={key}&limit=1&countrySet=US"
+           f"&lat={home['lat']}&lon={home['lon']}&radius=80000")
+    res = get(url)["results"][0]
+    p = res["position"]
+    route, pts = route_geometry(key, (home["lat"], home["lon"]), (p["lat"], p["lon"]), guidance=True)
+    summ = route["summary"]
+    roads = road_summary((route.get("guidance") or {}).get("instructions", []), summ["lengthInMeters"])
+    os.makedirs(CACHE, exist_ok=True)
+    json.dump(decimate(pts), open(os.path.join(CACHE, f"{cfg['id']}.json"), "w"))
+    office = {"lat": p["lat"], "lon": p["lon"]}
+    return {
+        "id": cfg["id"], "kind": "commute", "name": cfg["name"], "short": cfg.get("short", cfg["name"]),
+        "days": cfg["days"], "windows": cfg.get("windows", DEFAULT_WINDOWS), "query": cfg["office"],
+        "config_hash": cfg_hash(cfg),
+        "matched_address": res.get("address", {}).get("freeformAddress", ""), "matched_type": res.get("type", ""),
+        "lat": p["lat"], "lon": p["lon"], "road_matched": True,
+        "route_miles": round(summ["lengthInMeters"] / 1609.34, 1), "roads": roads,
+        "directions": [
+            {"label": "To office", "from": "home", "to": office},
+            {"label": "To home", "from": office, "to": "home"},
+        ],
+    }
+
+
+def commute_active(pl, now):
+    return now.weekday() in pl["days"] and any(a <= now.hour < b for a, b in pl["windows"])
+
+
+def corridor(key, pl, home):
+    """Decimated route polyline, cached per run in an untracked file (never committed)."""
+    path = os.path.join(CACHE, f"{pl['id']}.json")
+    if os.path.exists(path):
+        return json.load(open(path))
+    _, pts = route_geometry(key, (home["lat"], home["lon"]), (pl["lat"], pl["lon"]))
+    os.makedirs(CACHE, exist_ok=True)
+    line = decimate(pts)
+    json.dump(line, open(path, "w"))
+    return line
+
+
+# ---------- incidents ----------
+INC_LABEL = {1: "Crash", 2: "Fog", 3: "Dangerous conditions", 4: "Rain", 5: "Ice", 6: "Traffic jam", 7: "Lane closed",
+             8: "Road closed", 9: "Road work", 10: "Wind", 11: "Flooding", 14: "Broken-down vehicle"}
+INC_FIELDS = ("{incidents{type,geometry{type,coordinates},properties{id,iconCategory,magnitudeOfDelay,"
+              "events{description,iconCategory},startTime,endTime,from,to,length,delay,roadNumbers,timeValidity}}}")
+
+
+def fetch_incidents(key, lat_min, lon_min, lat_max, lon_max):
+    url = ("https://api.tomtom.com/traffic/services/5/incidentDetails?key=" + key
+           + f"&bbox={lon_min:.5f},{lat_min:.5f},{lon_max:.5f},{lat_max:.5f}"
+           + "&fields=" + urllib.parse.quote(INC_FIELDS, safe="{},")
+           + "&language=en-US&timeValidityFilter=present")
+    return get(url).get("incidents", [])
+
+
+def inc_coords(inc):
+    g = inc.get("geometry") or {}
+    c = g.get("coordinates") or []
+    if g.get("type") == "Point":
+        return [(c[1], c[0])] if len(c) >= 2 else []
+    return [(q[1], q[0]) for q in c if len(q) >= 2]
+
+
+def summarize(inc):
+    pr = inc.get("properties", {})
+    cat = pr.get("iconCategory", 0)
+    mag = pr.get("magnitudeOfDelay", 0)
+    # Keep what affects a drive; skip minor road work and weather labels with no delay.
+    if cat in (9, 10, 2, 4, 14) and mag < 2:
+        return None
+    if cat == 0 and mag < 2:
+        return None
+    ev = (pr.get("events") or [{}])[0]
+    return {
+        "id": pr.get("id", ""), "category": INC_LABEL.get(cat, "Incident"), "severity": mag,
+        "description": ev.get("description", ""), "from": pr.get("from", ""), "to": pr.get("to", ""),
+        "roads": pr.get("roadNumbers") or [], "delay_s": pr.get("delay") or 0, "length_m": pr.get("length") or 0,
+        "start": pr.get("startTime", ""),
+    }
+
+
+def home_incidents(key, home, radius_m=3500):
+    dlat, dlon = radius_m / 110540.0, radius_m / (111320.0 * math.cos(math.radians(home["lat"])))
+    out = []
+    for inc in fetch_incidents(key, home["lat"] - dlat, home["lon"] - dlon, home["lat"] + dlat, home["lon"] + dlon):
+        cs = inc_coords(inc)
+        if not cs or min(distance_m(home["lat"], home["lon"], a, b) for a, b in cs) > radius_m:
+            continue
+        s = summarize(inc)
+        if s:
+            out.append(s)
+    return out
+
+
+def route_incidents(key, line, buffer_m=150):
+    lats, lons = [p[0] for p in line], [p[1] for p in line]
+    pad = 0.003
+    out = []
+    for inc in fetch_incidents(key, min(lats) - pad, min(lons) - pad, max(lats) + pad, max(lons) + pad):
+        cs = inc_coords(inc)
+        if not cs or min(min_dist_to_line(a, b, line) for a, b in cs) > buffer_m:
+            continue
+        s = summarize(inc)
+        if s:
+            out.append(s)
+    return out
+
+
+def save_incidents(scopes):
+    """scopes: {scope_id: (label, [items])}. Rewrites only if the content changed."""
+    cur = json.load(open(INCIDENTS)) if os.path.exists(INCIDENTS) else {}
+    for sid, (label, items) in scopes.items():
+        items = sorted(items, key=lambda x: (-x["severity"], x["id"]))
+        cur[sid] = {"label": label, "items": items}
+    new = json.dumps(cur, indent=1, sort_keys=True)
+    old = open(INCIDENTS).read() if os.path.exists(INCIDENTS) else ""
+    if new != old:
+        os.makedirs("data", exist_ok=True)
+        open(INCIDENTS, "w").write(new)
+
+
 # ---------- logging ----------
 def append(path, fields, rows):
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -191,15 +380,16 @@ def main():
         print("home sample failed:", e, file=sys.stderr)
 
     cfgs = json.load(open(PLACES_CFG)) if os.path.exists(PLACES_CFG) else []
-    if cfgs and home:
+    commutes = json.load(open(COMMUTES_CFG)) if os.path.exists(COMMUTES_CFG) else []
+    if home and (cfgs or commutes):
         resolved = load_resolved()
         changed = False
-        for cfg in cfgs:
+        for cfg, fn in [(c, resolve_place) for c in cfgs] + [(c, resolve_commute) for c in commutes]:
             old = resolved.get(cfg["id"])
             if old and old.get("config_hash") == cfg_hash(cfg):
                 continue
             try:
-                resolved[cfg["id"]] = resolve_place(key, cfg, home)
+                resolved[cfg["id"]] = fn(key, cfg, home)
                 changed = True
                 print("resolved:", cfg["id"], resolved[cfg["id"]]["matched_address"])
             except Exception as e:
@@ -208,14 +398,20 @@ def main():
             os.makedirs("data", exist_ok=True)
             json.dump(resolved, open(RESOLVED, "w"), indent=1)
 
+        def coord(v):
+            return {"lat": home["lat"], "lon": home["lon"]} if v == "home" else v
+
         rows = []
-        for cfg in cfgs:
-            pl = resolved.get(cfg["id"])
+        wanted = [c["id"] for c in cfgs] + [c["id"] for c in commutes]
+        for pid in wanted:
+            pl = resolved.get(pid)
             if not pl:
+                continue
+            if pl.get("kind") == "commute" and not commute_active(pl, now):
                 continue
             for d in pl["directions"]:
                 try:
-                    length, trav, free_s = route_times(key, d["from"], d["to"])
+                    length, trav, free_s = route_times(key, coord(d["from"]), coord(d["to"]))
                     row = base_row(now)
                     row.update(current_mph=round(length / trav * MPS_TO_MPH, 1),
                                freeflow_mph=round(length / free_s * MPS_TO_MPH, 1),
@@ -229,6 +425,27 @@ def main():
             ok += 1
             for r in rows:
                 print("place:", r)
+
+        # Incidents: near home always; along a commute route only while it is being monitored.
+        scopes = {}
+        try:
+            scopes["home"] = ("Near home", home_incidents(key, home))
+        except Exception as e:
+            print("incidents (home) failed:", e, file=sys.stderr)
+        for pid in [c["id"] for c in commutes]:
+            pl = resolved.get(pid)
+            if not pl:
+                continue
+            if not commute_active(pl, now):
+                scopes[pid] = (pl["name"], [])
+                continue
+            try:
+                scopes[pid] = (pl["name"], route_incidents(key, corridor(key, pl, home)))
+            except Exception as e:
+                print(f"incidents ({pid}) failed:", e, file=sys.stderr)
+        if scopes:
+            save_incidents(scopes)
+            print("incidents:", {k: len(v[1]) for k, v in scopes.items()})
     if not ok:
         sys.exit(1)
 

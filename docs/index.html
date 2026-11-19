@@ -40,10 +40,17 @@ svg{width:100%;height:auto;display:block}svg text{fill:var(--mute);font-size:10p
 .place iframe{width:100%;height:230px;border:1px solid var(--line);border-radius:10px;display:block;background:var(--line)}
 .links{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:13px}.links a{color:var(--b);text-decoration:none}
 .warn{background:rgba(212,154,18,.14);border:1px solid rgba(212,154,18,.5);border-radius:8px;padding:8px 10px;font-size:12px;margin-top:10px}
+#incidents{margin:0 0 12px;display:grid;gap:8px}
+.inc{border-radius:10px;padding:9px 12px;font-size:13px;border:1px solid var(--line);background:var(--card);display:flex;gap:10px;align-items:flex-start}
+.inc b{font-weight:650}.inc .tag{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.04em;display:block}
+.inc.sev3{background:rgba(201,58,43,.12);border-color:rgba(201,58,43,.55)}.inc.sev2{background:rgba(212,154,18,.14);border-color:rgba(212,154,18,.5)}
+.inc.ok{color:var(--mute);background:transparent;border-style:dashed}
+.roads{font-size:13px;margin-top:8px}
 #empty{display:none;text-align:center;padding:60px 0;color:var(--mute)}
 </style></head><body><main>
 <h1>Home traffic</h1>
 <div class="sub" id="sub">Loading&hellip;</div>
+<div id="incidents"></div>
 <nav class="tabs" id="tabs"></nav>
 <div id="empty">No data yet. The first sample appears within about 10 minutes of the collector starting.</div>
 <div id="panel"></div>
@@ -89,7 +96,8 @@ function dowHTML(d){
 function seg(group,opts,cur){return `<div class="seg">`+opts.map(([k,l])=>`<button class="${k==cur?'on':''}" data-seg="${group}" data-val="${k}">${l}</button>`).join('')+'</div>'}
 
 // ---------- state ----------
-let DATA=null; const UI={tab:null,hourly:'weekday',heatDir:0};
+let DATA=null; const UI={tab:null,hourly:'weekday',heatDir:0,commute:null};
+const todayIdx=()=>{const w=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});return ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].indexOf(w)};
 
 // ---------- panels ----------
 function homePanel(d){
@@ -111,14 +119,25 @@ function homePanel(d){
 function placePanel(pl,dirs){
   const lat=pl.lat,lon=pl.lon;
   const bbox=`${(lon-0.004).toFixed(5)},${(lat-0.0025).toFixed(5)},${(lon+0.004).toFixed(5)},${(lat+0.0025).toFixed(5)}`;
-  const nm=pl.matched_name&&pl.matched_name!==pl.name?pl.matched_name+' · ':'';
+  const nm=pl.matched_name&&pl.matched_name!==pl.name?pl.matched_name+' \u00b7 ':'';
+  const isC=pl.kind==='commute',DN=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  const roads=(pl.roads||[]).map(r=>`${esc(r.name)} (${r.miles} mi)`).join(' \u2192 ');
+  const win=(pl.windows||[]).map(([a,b])=>fmtH(a)+'\u2013'+fmtH(b)).join(' and ');
+  const links=isC
+   ?`<a target="_blank" rel="noopener" href="https://maps.apple.com/?daddr=${lat},${lon}&dirflg=d">Directions (Apple)</a>
+   <a target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}&travelmode=driving">Directions (Google)</a>
+   <a target="_blank" rel="noopener" href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lon}">Street View</a>`
+   :`<a target="_blank" rel="noopener" href="https://maps.apple.com/?ll=${lat},${lon}&q=${encodeURIComponent(pl.name)}">Apple Maps</a>
+   <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${lat},${lon}">Google Maps</a>
+   <a target="_blank" rel="noopener" href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lon}">Street View</a>`;
+  const blurb=isC
+   ?`<div class="roads"><b>Usual route:</b> ${roads||'not available yet'}${pl.route_miles?` \u00b7 ${pl.route_miles} mi`:''}</div>
+     <div class="s" style="margin-top:6px">Timed each way between home and this office, live traffic. Measured only on ${(pl.days||[]).map(d=>DN[d]).join(' & ')} during ${esc(win)}.</div>`
+   :`<div class="s" style="margin-top:8px">Measures a ~${Math.round(pl.span_m*2)} m stretch of ${esc(pl.road||'road')} through this point, timed each way with live traffic.</div>
+   ${pl.road_matched?'':'<div class="warn">Heads-up: I couldn\'t confirm the measured road is '+esc(pl.road)+' (nearest road found: '+esc(pl.road_street||'unknown')+'). Compare the numbers with what you see in person.</div>'}`;
   let h=`<div class="card place"><h2>${esc(pl.name)}</h2><div class="addr">${esc(nm+(pl.matched_address||pl.query))}</div>
    <iframe loading="lazy" title="Map of ${esc(pl.name)}" src="https://www.openstreetmap.org/export/embed.html?bbox=${bbox}&layer=mapnik&marker=${lat},${lon}"></iframe>
-   <div class="links"><a target="_blank" rel="noopener" href="https://maps.apple.com/?ll=${lat},${lon}&q=${encodeURIComponent(pl.name)}">Apple Maps</a>
-   <a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${lat},${lon}">Google Maps</a>
-   <a target="_blank" rel="noopener" href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lon}">Street View</a></div>
-   <div class="s" style="margin-top:8px">Measures a ~${Math.round(pl.span_m*2)} m stretch of ${esc(pl.road||'road')} through this point, timed each way with live traffic.</div>
-   ${pl.road_matched?'':'<div class="warn">Heads-up: I couldn\'t confirm the measured road is '+esc(pl.road)+' (nearest road found: '+esc(pl.road_street||'unknown')+'). Compare the numbers with what you see in person.</div>'}
+   <div class="links">${links}</div>${blurb}
   </div>`;
   const live=dirs.filter(x=>!x.built.empty);
   if(!live.length)return h+'<section class="card"><div class="s">No samples for this place yet.</div></section>';
@@ -140,20 +159,46 @@ function placePanel(pl,dirs){
   return h;
 }
 
+// ---------- incidents ----------
+function incidentsHTML(){
+  const inc=DATA.incidents; if(!inc)return '';
+  const age=DATA.home&&!DATA.home.empty?DATA.home.now.age_min:null;
+  if(age!=null&&age>45)return '';           // collector looks stalled; don't show stale incidents
+  const t=todayIdx(),scopes=['home'];
+  DATA.places.filter(p=>p.pl.kind==='commute'&&p.pl.days.includes(t)).forEach(p=>scopes.push(p.pl.id));
+  const items=[];
+  scopes.forEach(id=>{const sc=inc[id];if(sc)sc.items.forEach(i=>items.push({...i,scope:sc.label}))});
+  if(!items.length)return `<div class="inc ok">No incidents reported near home${scopes.length>1?' or on today\'s commute':''}.</div>`;
+  const seen=new Set();
+  return items.filter(i=>{const k=i.id+i.scope;if(seen.has(k))return false;seen.add(k);return true}).slice(0,6).map(i=>{
+    const where=[i.roads&&i.roads.length?i.roads.join(', '):'',i.from?(i.to?i.from+' \u2192 '+i.to:i.from):''].filter(Boolean).join(' \u00b7 ');
+    const sev=i.severity>=3?'sev3':'sev2';
+    return `<div class="inc ${sev}"><div style="font-size:16px">${i.severity>=3?'\u26a0\ufe0f':'\u26a0'}</div><div><span class="tag">${esc(i.scope)}</span><b>${esc(i.category)}</b>${i.description&&i.description!==i.category?' \u2014 '+esc(i.description):''}${where?`<div class="s">${esc(where)}${i.delay_s>30?' \u00b7 +'+dur(i.delay_s)+' delay':''}</div>`:''}</div></div>`}).join('');
+}
+
 // ---------- render ----------
 function render(){
   if(!DATA)return;
   const tabs=[];
   if(DATA.home&&!DATA.home.empty)tabs.push({id:'home',label:'My street'});
-  DATA.places.forEach(p=>tabs.push({id:p.pl.id,label:p.pl.name.replace(/ (at|by) .*$/,'')}));
+  DATA.places.filter(p=>p.pl.kind!=='commute').forEach(p=>tabs.push({id:p.pl.id,label:p.pl.name.replace(/ (at|by) .*$/,'')}));
+  const commutes=DATA.places.filter(p=>p.pl.kind==='commute');
+  if(commutes.length)tabs.push({id:'commute',label:'Commute'});
   if(!tabs.length){$('empty').style.display='block';$('tabs').innerHTML='';$('panel').innerHTML='';$('sub').textContent='Waiting for first sample';return}
   $('empty').style.display='none';
+  $('incidents').innerHTML=incidentsHTML();
   if(!tabs.some(t=>t.id===UI.tab))UI.tab=tabs[0].id;
   $('tabs').innerHTML=tabs.length>1?tabs.map(t=>`<button class="${t.id===UI.tab?'on':''}" data-tab="${esc(t.id)}">${esc(t.label)}</button>`).join(''):'';
   let ageMin,count;
   if(UI.tab==='home'){const d=DATA.home;$('panel').innerHTML=homePanel(d);ageMin=d.now.age_min;count=d.stats.samples;
     $('sub').textContent=`${count.toLocaleString()} samples since ${d.stats.since} · last sample ${ago(ageMin)} · refreshes every minute`}
-  else{const p=DATA.places.find(x=>x.pl.id===UI.tab);$('panel').innerHTML=placePanel(p.pl,p.dirs);
+  else{let p,pre='';
+    if(UI.tab==='commute'){
+      if(!commutes.some(c=>c.pl.id===UI.commute)){const t=todayIdx();UI.commute=(commutes.find(c=>c.pl.days.includes(t))||commutes[0]).pl.id}
+      p=commutes.find(c=>c.pl.id===UI.commute);const t=todayIdx();
+      pre=seg('commute',commutes.map(c=>[c.pl.id,c.pl.short+(c.pl.days.includes(t)?' \u2022 today':'')]),UI.commute);
+    } else p=DATA.places.find(x=>x.pl.id===UI.tab);
+    $('panel').innerHTML=pre+placePanel(p.pl,p.dirs);
     const live=p.dirs.filter(x=>!x.built.empty);
     $('sub').textContent=live.length?`${live[0].built.stats.samples.toLocaleString()} samples each way since ${live[0].built.stats.since} · last sample ${ago(live[0].built.now.age_min)} · refreshes every minute`:'Waiting for first sample at this place'}
 }
@@ -175,14 +220,14 @@ async function fetchText(name){
 }
 async function load(){
   try{
-    const [homeTxt,placeTxt,resTxt]=await Promise.all([fetchText('traffic_log.csv'),fetchText('places_log.csv'),fetchText('places_resolved.json')]);
+    const [homeTxt,placeTxt,resTxt,incTxt]=await Promise.all([fetchText('traffic_log.csv'),fetchText('places_log.csv'),fetchText('places_resolved.json'),fetchText('incidents.json')]);
     const S=TrafficStats,home=homeTxt?S.build(S.parseCSV(homeTxt)):{empty:true};
     const resolved=resTxt?JSON.parse(resTxt):{},rows=placeTxt?S.parseCSV(placeTxt):[],places=[];
     for(const id of Object.keys(resolved)){
       const pl=resolved[id];
       places.push({pl,dirs:pl.directions.map(d=>({label:d.label,built:S.build(rows.filter(r=>r.place===id&&r.direction===d.label))}))});
     }
-    DATA={home,places};
+    DATA={home,places,incidents:incTxt?JSON.parse(incTxt):null};
     if(!UI.tab){const h=location.hash.slice(1);if(h)UI.tab=h}
     render();
   }catch(e){$('sub').textContent='Could not load data ('+e.message+')'}
