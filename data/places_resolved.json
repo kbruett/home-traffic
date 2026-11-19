@@ -1,0 +1,84 @@
+{
+ "speedwell": {
+  "id": "speedwell",
+  "name": "Speedwell Ave at the light",
+  "query": "Speedwell Ave & Mill Rd, Morris Plains, NJ",
+  "road": "Speedwell",
+  "span_m": 350.0,
+  "config_hash": "81b920e4ba",
+  "matched_address": "Speedwell Avenue & Mill Road, Morris Plains, NJ 07950",
+  "matched_name": "",
+  "matched_type": "Cross Street",
+  "lat": 40.818383,
+  "lon": -74.482252,
+  "bearing": 0.7,
+  "road_matched": true,
+  "road_street": "Speedwell Avenue",
+  "from_home_m": 397,
+  "directions": [
+   {
+    "label": "Northbound",
+    "from": {
+     "lat": 40.81523558516252,
+     "lon": -74.48230013203936
+    },
+    "to": {
+     "lat": 40.82153041481748,
+     "lon": -74.48220386339297
+    }
+   },
+   {
+    "label": "Southbound",
+    "from": {
+     "lat": 40.82153041481748,
+     "lon": -74.48220386339297
+    },
+    "to": {
+     "lat": 40.81523558516252,
+     "lon": -74.48230013203936
+    }
+   }
+  ]
+ },
+ "east-hanover": {
+  "id": "east-hanover",
+  "name": "East Hanover Ave by Camp Bow Wow",
+  "query": "Camp Bow Wow, East Hanover Ave, Morris Plains, NJ",
+  "road": "Hanover",
+  "span_m": 300.0,
+  "config_hash": "564036bbf6",
+  "matched_address": "73 E Hanover Ave, Morristown, NJ 07960",
+  "matched_name": "Camp Bow Wow",
+  "matched_type": "POI",
+  "lat": 40.8197,
+  "lon": -74.475047,
+  "bearing": 138.3,
+  "road_matched": true,
+  "road_street": "East Hanover Avenue",
+  "from_home_m": 1003,
+  "directions": [
+   {
+    "label": "Southbound",
+    "from": {
+     "lat": 40.82171313475421,
+     "lon": -74.47742053169415
+    },
+    "to": {
+     "lat": 40.81768681660831,
+     "lon": -74.47267361237434
+    }
+   },
+   {
+    "label": "Northbound",
+    "from": {
+     "lat": 40.81768681660831,
+     "lon": -74.47267361237434
+    },
+    "to": {
+     "lat": 40.82171313475421,
+     "lon": -74.47742053169415
+    }
+   }
+  ]
+ }
+}
