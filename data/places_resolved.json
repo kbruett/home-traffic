@@ -80,5 +80,216 @@
     }
    }
   ]
+ },
+ "commute-paramus": {
+  "id": "commute-paramus",
+  "kind": "commute",
+  "name": "Paramus commute",
+  "short": "Paramus",
+  "days": [
+   0,
+   2
+  ],
+  "windows": [
+   [
+    5,
+    11
+   ],
+   [
+    15,
+    20
+   ]
+  ],
+  "query": "403 Sette Dr, Paramus, NJ 07652",
+  "config_hash": "73ff10f9ed",
+  "matched_address": "403 Sette Drive, Paramus, NJ 07652",
+  "matched_type": "Point Address",
+  "lat": 40.946688,
+  "lon": -74.070526,
+  "road_matched": true,
+  "route_miles": 29.1,
+  "roads": [
+   {
+    "name": "US-202 N",
+    "miles": 4.2
+   },
+   {
+    "name": "I-80 E",
+    "miles": 10.6
+   },
+   {
+    "name": "US-46 E",
+    "miles": 5.5
+   },
+   {
+    "name": "Garden State Parkway N",
+    "miles": 7.3
+   },
+   {
+    "name": "NJ-17",
+    "miles": 0.9
+   }
+  ],
+  "directions": [
+   {
+    "label": "To office",
+    "from": "home",
+    "to": {
+     "lat": 40.946688,
+     "lon": -74.070526
+    }
+   },
+   {
+    "label": "To home",
+    "from": {
+     "lat": 40.946688,
+     "lon": -74.070526
+    },
+    "to": "home"
+   }
+  ]
+ },
+ "commute-montclair": {
+  "id": "commute-montclair",
+  "kind": "commute",
+  "name": "Montclair commute",
+  "short": "Montclair",
+  "days": [
+   1,
+   3
+  ],
+  "windows": [
+   [
+    5,
+    11
+   ],
+   [
+    15,
+    20
+   ]
+  ],
+  "query": "120 Valley Rd, Montclair, NJ 07042",
+  "config_hash": "6505fb9524",
+  "matched_address": "120 Valley Road, Montclair, NJ 07042",
+  "matched_type": "Point Address",
+  "lat": 40.82172,
+  "lon": -74.220689,
+  "road_matched": true,
+  "route_miles": 19.4,
+  "roads": [
+   {
+    "name": "US-202 N",
+    "miles": 4.2
+   },
+   {
+    "name": "I-80 E",
+    "miles": 3.2
+   },
+   {
+    "name": "I-280 E",
+    "miles": 8.3
+   },
+   {
+    "name": "County Hwy-577",
+    "miles": 2.5
+   },
+   {
+    "name": "County Hwy-506",
+    "miles": 0.4
+   }
+  ],
+  "directions": [
+   {
+    "label": "To office",
+    "from": "home",
+    "to": {
+     "lat": 40.82172,
+     "lon": -74.220689
+    }
+   },
+   {
+    "label": "To home",
+    "from": {
+     "lat": 40.82172,
+     "lon": -74.220689
+    },
+    "to": "home"
+   }
+  ]
+ },
+ "commute-old-bridge": {
+  "id": "commute-old-bridge",
+  "kind": "commute",
+  "name": "Old Bridge commute",
+  "short": "Old Bridge",
+  "days": [
+   4
+  ],
+  "windows": [
+   [
+    5,
+    11
+   ],
+   [
+    15,
+    20
+   ]
+  ],
+  "query": "2204 Route 18 North, Old Bridge, NJ 08857",
+  "config_hash": "3b11392f8e",
+  "matched_address": "State Route 18 North, Old Bridge, NJ 08857",
+  "matched_type": "Street",
+  "lat": 40.371221,
+  "lon": -74.307496,
+  "road_matched": true,
+  "route_miles": 50.4,
+  "roads": [
+   {
+    "name": "US-202 S",
+    "miles": 0.4
+   },
+   {
+    "name": "I-287 S",
+    "miles": 26.6
+   },
+   {
+    "name": "County Hwy-622",
+    "miles": 3.6
+   },
+   {
+    "name": "NJ-18",
+    "miles": 13.2
+   },
+   {
+    "name": "NJ-18 S",
+    "miles": 1.6
+   },
+   {
+    "name": "County Hwy-520",
+    "miles": 0.4
+   },
+   {
+    "name": "NJ-18 N",
+    "miles": 2.4
+   }
+  ],
+  "directions": [
+   {
+    "label": "To office",
+    "from": "home",
+    "to": {
+     "lat": 40.371221,
+     "lon": -74.307496
+    }
+   },
+   {
+    "label": "To home",
+    "from": {
+     "lat": 40.371221,
+     "lon": -74.307496
+    },
+    "to": "home"
+   }
+  ]
  }
 }
