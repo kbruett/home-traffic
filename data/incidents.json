@@ -15,11 +15,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 2323,
+    "delay_s": 1251,
     "description": "Stopped traffic",
     "from": "I-287/Exit 43 (I-80)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25633745840016000",
-    "length_m": 7701.8282461442,
+    "length_m": 7968.6269867757,
     "roads": [
      "I-80 W"
     ],
@@ -29,11 +29,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 445,
+    "delay_s": 196,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012005",
-    "length_m": 933.7388087209,
+    "length_m": 482.53360516,
     "roads": [
      "County Hwy-650"
     ],
@@ -43,19 +43,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 142,
-    "description": "Stopped traffic",
-    "from": "US Highway 46",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662600240008000",
-    "length_m": 755.5528175233,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-19T20:17:53Z",
-    "to": "I-80 W"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 204,
+    "delay_s": 138,
     "description": "Stopped traffic",
     "from": "I-280 W",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662600252016000",
@@ -67,26 +55,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 110,
+    "delay_s": 68,
     "description": "Backed up traffic",
-    "from": "Malapardis Rd (Littleton Rd/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444034000",
-    "length_m": 767.0401028358,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
+    "from": "US Highway 46",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662600240008000",
+    "length_m": 532.6818875581,
+    "roads": [],
     "severity": 2,
-    "start": "2026-11-19T23:24:15Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
+    "start": "2026-11-19T20:17:53Z",
+    "to": "I-80 W"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 141,
+    "delay_s": 177,
     "description": "Backed up traffic",
     "from": "NJ-10/Mount Pleasant Ave (Mount Pleasant Ave)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25714537792027001",
-    "length_m": 667.0983579572,
+    "length_m": 696.9507490186,
     "roads": [
      "County Hwy-577"
     ],
@@ -96,11 +81,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 340,
+    "delay_s": 112,
     "description": "Slow traffic",
-    "from": "NJ-24/Exit 37 (I-287)",
+    "from": "Parsippany Rd/Exit 40 (I-287)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25639516944000000",
-    "length_m": 6807.7398294689,
+    "length_m": 2975.0213873994,
     "roads": [
      "I-287 N"
     ],
@@ -110,11 +95,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 117,
+    "delay_s": 27,
+    "description": "Slow traffic",
+    "from": "exit [41B]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651058408008000",
+    "length_m": 668.0782206311,
+    "roads": [],
+    "severity": 1,
+    "start": "2026-11-19T23:32:51Z",
+    "to": "I-80 W"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 62,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651058512072000",
-    "length_m": 2587.3563959817,
+    "length_m": 1848.6383697516,
     "roads": [
      "I-80 W"
     ],
@@ -124,11 +121,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 330,
+    "delay_s": 67,
     "description": "Slow traffic",
-    "from": "New Rd/Exit 1 (I-280)",
+    "from": "Livingston Ave/Exit 5B (I-280)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25702995944008000",
-    "length_m": 7746.3136991099,
+    "length_m": 2901.3073263015,
     "roads": [
      "I-280 E"
     ],
@@ -175,59 +172,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 445,
+    "delay_s": 196,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012005",
-    "length_m": 933.7388087209,
+    "length_m": 482.53360516,
     "roads": [
      "County Hwy-650"
     ],
     "severity": 3,
     "start": "2026-11-19T19:55:24Z",
     "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 111,
-    "description": "Stopped traffic",
-    "from": "Morris St (Spring St)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713936020000",
-    "length_m": 287.5833313161,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-19T21:44:11Z",
-    "to": "US-202/Speedwell Ave (Spring St)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 110,
-    "description": "Backed up traffic",
-    "from": "Malapardis Rd (Littleton Rd/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444034000",
-    "length_m": 767.0401028358,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-19T23:24:15Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 127,
-    "description": "Backed up traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713880098000",
-    "length_m": 473.8429625433,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-19T23:15:09Z",
-    "to": "Spring St (Speedwell Ave/US-202)"
    }
   ],
   "label": "Near home"
