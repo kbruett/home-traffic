@@ -1,14 +1,16 @@
 name: collect-traffic
 
+# Each run samples every 10 minutes for ~5.5 hours, then starts the next run itself,
+# so it does not depend on GitHub's unreliable scheduler. The cron line is only a
+# backup restart in case the chain is ever broken (concurrency prevents overlap).
 on:
   schedule:
-    # Off-peak minutes: GitHub delays/skips jobs on :00/:10/:20 slots.
-    # Each run takes 3 samples 10 minutes apart, so two triggers per hour give a 10-minute cadence.
-    - cron: "7,37 * * * *"
-  workflow_dispatch:          # run by hand from the Actions tab
+    - cron: "23 */3 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: collect
@@ -17,20 +19,29 @@ concurrency:
 jobs:
   sample:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
-      - name: Sample 3 times, 10 minutes apart
+      - name: Sample every 10 minutes for ~5.5 hours
         env:
           TOMTOM_API_KEY: ${{ secrets.TOMTOM_API_KEY }}
           LOCATION: ${{ secrets.LOCATION }}
         run: |
           git config user.name "traffic-bot"
           git config user.email "traffic-bot@users.noreply.github.com"
-          for i in 1 2 3; do
+          for i in $(seq 1 33); do
+            start=$(date +%s)
             python3 collect.py || echo "sample failed"
             git add data/traffic_log.csv
             git diff --cached --quiet || { git commit -q -m "sample"; git pull --rebase -q; git push -q; }
-            [ "$i" -lt 3 ] && sleep 600
+            [ "$i" -lt 33 ] || break
+            elapsed=$(( $(date +%s) - start ))
+            [ "$elapsed" -lt 600 ] && sleep $(( 600 - elapsed ))
           done
+
+      - name: Start the next run
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run collect.yml --repo "${{ github.repository }}" --ref "${{ github.ref_name }}"
