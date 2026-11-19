@@ -15,102 +15,44 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 796,
+    "delay_s": 135,
     "description": "Stopped traffic",
-    "from": "I-287/Exit 43 (I-80)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25633745840016000",
-    "length_m": 8018.5706133795,
-    "roads": [
-     "I-80 W"
-    ],
+    "from": "Tabor Rd",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011000",
+    "length_m": 52.4816098938,
+    "roads": [],
     "severity": 3,
-    "start": "2026-11-19T20:32:50Z",
-    "to": "Ford Rd (I-80)"
+    "start": "2026-11-19T23:55:15Z",
+    "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 136,
-    "description": "Backed up traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172364026000",
-    "length_m": 771.5662445618,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-19T23:38:15Z",
-    "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 117,
-    "description": "Backed up traffic",
+    "delay_s": 237,
+    "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012005",
-    "length_m": 344.2250973834,
+    "length_m": 464.6808272346,
     "roads": [
      "County Hwy-650"
     ],
-    "severity": 2,
+    "severity": 3,
     "start": "2026-11-19T19:55:24Z",
     "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 129,
+    "delay_s": 181,
     "description": "Backed up traffic",
-    "from": "NJ-10/Mount Pleasant Ave (Mount Pleasant Ave)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25714537792027001",
-    "length_m": 614.086361755,
+    "from": "Malapardis Rd (Littleton Rd/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444034000",
+    "length_m": 971.8810272877,
     "roads": [
-     "County Hwy-577"
+     "US-202 S",
+     "US-202 N"
     ],
     "severity": 2,
-    "start": "2026-11-19T23:07:29Z",
-    "to": "Bloomfield Ave (Prospect Ave)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 94,
-    "description": "Slow traffic",
-    "from": "Parsippany Rd/Exit 40 (I-287)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25639516944000000",
-    "length_m": 2283.8817379649,
-    "roads": [
-     "I-287 N"
-    ],
-    "severity": 1,
-    "start": "2026-11-19T22:16:53Z",
-    "to": "Intervale Rd/Exit 43 (I-287)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 48,
-    "description": "Slow traffic",
-    "from": "I-280/Exit 47A (I-80)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651058512072000",
-    "length_m": 1809.7016162767,
-    "roads": [
-     "I-80 W"
-    ],
-    "severity": 1,
-    "start": "2026-11-19T21:46:25Z",
-    "to": "I-287/Exit 43 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 34,
-    "description": "Slow traffic",
-    "from": "New Rd/Exit 1 (I-280)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25685683540064000",
-    "length_m": 1243.5009970628,
-    "roads": [
-     "I-280 E"
-    ],
-    "severity": 1,
-    "start": "2026-11-19T23:43:27Z",
-    "to": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)"
+    "start": "2026-11-19T23:51:45Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
    }
   ],
   "label": "Montclair commute"
@@ -151,32 +93,44 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 136,
+    "delay_s": 135,
+    "description": "Stopped traffic",
+    "from": "Tabor Rd",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011000",
+    "length_m": 52.4816098938,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-19T23:55:15Z",
+    "to": "Littleton Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 237,
+    "description": "Stopped traffic",
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012005",
+    "length_m": 464.6808272346,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-19T19:55:24Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 181,
     "description": "Backed up traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172364026000",
-    "length_m": 771.5662445618,
+    "from": "Malapardis Rd (Littleton Rd/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444034000",
+    "length_m": 971.8810272877,
     "roads": [
      "US-202 S",
      "US-202 N"
     ],
     "severity": 2,
-    "start": "2026-11-19T23:38:15Z",
-    "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 117,
-    "description": "Backed up traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012005",
-    "length_m": 344.2250973834,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 2,
-    "start": "2026-11-19T19:55:24Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+    "start": "2026-11-19T23:51:45Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
    }
   ],
   "label": "Near home"
