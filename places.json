@@ -1,0 +1,16 @@
+[
+  {
+    "id": "speedwell",
+    "name": "Speedwell Ave at the light",
+    "query": "Speedwell Ave & Mill Rd, Morris Plains, NJ",
+    "road": "Speedwell",
+    "span_m": 350
+  },
+  {
+    "id": "east-hanover",
+    "name": "East Hanover Ave by Camp Bow Wow",
+    "query": "Camp Bow Wow, East Hanover Ave, Morris Plains, NJ",
+    "road": "Hanover",
+    "span_m": 300
+  }
+]

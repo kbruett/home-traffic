@@ -4,7 +4,8 @@ Samples road traffic every 10 minutes with a GitHub Actions job and shows averag
 day and hour on a GitHub Pages dashboard.
 
 - `collect.py` takes one sample; `.github/workflows/collect.yml` runs it every 10 minutes
-- `data/traffic_log.csv` is the growing log
+- `data/traffic_log.csv` is the log for the home street; `data/places_log.csv` has the extra places, one row per direction
+- `places.json` lists the extra places to watch (edit it to add or change places; ~2 API requests per place per sample)
 - `docs/` is the dashboard (served by GitHub Pages)
 
 ## Setup (all doable from a phone browser)

@@ -33,7 +33,7 @@ jobs:
           for i in $(seq 1 33); do
             start=$(date +%s)
             python3 collect.py || echo "sample failed"
-            git add data/traffic_log.csv
+            git add data/
             git diff --cached --quiet || { git commit -q -m "sample"; git pull --rebase -q; git push -q; }
             [ "$i" -lt 33 ] || break
             elapsed=$(( $(date +%s) - start ))
