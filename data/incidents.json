@@ -7,99 +7,45 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 210,
+    "delay_s": 223,
     "description": "Stopped traffic",
-    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860012000",
-    "length_m": 460.8555307953,
+    "from": "I-78/Mill Rd/Exit 142 (Garden State Pkwy)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25752047416177000",
+    "length_m": 1983.9015590876,
     "roads": [
-     "County Hwy-650"
+     "Garden State Pkwy S"
     ],
     "severity": 3,
-    "start": "2026-11-20T13:25:49Z",
-    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
+    "start": "2026-11-20T12:46:45Z",
+    "to": "US-22/NJ-82/Exit 140 (Garden State Pkwy)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 48,
-    "description": "Stopped traffic",
-    "from": "US Highway 9",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25844378136014000",
-    "length_m": 117.3146098402,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T13:18:45Z",
-    "to": "Perrine Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 201,
-    "description": "Slow traffic",
+    "delay_s": 290,
+    "description": "Backed up traffic",
     "from": "I-287 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25674141080377001",
-    "length_m": 3753.5251921924,
+    "length_m": 3603.5336667876,
     "roads": [
      "NJ-24 E"
     ],
-    "severity": 1,
+    "severity": 2,
     "start": "2026-11-20T12:07:45Z",
     "to": "NJ-124/Exit 7 (NJ-24)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 111,
+    "delay_s": 134,
     "description": "Slow traffic",
     "from": "Summit Ave/Exit 8 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25705880624073000",
-    "length_m": 2059.0857568822,
+    "length_m": 2293.6116780461,
     "roads": [
      "NJ-24 W"
     ],
     "severity": 1,
     "start": "2026-11-20T12:19:45Z",
     "to": "Columbia Tpke/Exit 2B-2A (NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 72,
-    "description": "Slow traffic",
-    "from": "Garden State Pkwy/Exit 52 (I-78)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25734734744017001",
-    "length_m": 2154.1696466054,
-    "roads": [
-     "I-78 W"
-    ],
-    "severity": 1,
-    "start": "2026-11-20T12:05:15Z",
-    "to": "NJ-24/Exit 48 (I-78)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 394,
-    "description": "Slow traffic",
-    "from": "I-78/Mill Rd/Exit 142 (Garden State Pkwy)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25760703096041000",
-    "length_m": 7404.3084504904,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 1,
-    "start": "2026-11-20T12:46:45Z",
-    "to": "Centennial Ave/Exit 136 (Garden State Pkwy)"
-   },
-   {
-    "category": "Crash",
-    "delay_s": 0,
-    "description": "Accident",
-    "from": "Exit 138 (Garden State Pkwy)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25760703096121000",
-    "length_m": 1490.3053952963,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 0,
-    "start": "2026-11-20T13:17:15Z",
-    "to": "Centennial Ave/Exit 136 (Garden State Pkwy)"
    }
   ],
   "label": "Old Bridge commute"
@@ -109,61 +55,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 291,
-    "description": "Stopped traffic",
-    "from": "I-80 (Littleton Rd/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25645287252010000",
-    "length_m": 486.6488332616,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T13:03:48Z",
-    "to": "NJ-10 (Littleton Rd/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 102,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25645287280003000",
-    "length_m": 43.6063153467,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T12:51:23Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 153,
-    "description": "Stopped traffic",
-    "from": "Atno Ave",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713840022000",
-    "length_m": 165.969,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T13:20:15Z",
-    "to": "Speedwell Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 210,
-    "description": "Stopped traffic",
-    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860012000",
-    "length_m": 460.8555307953,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T13:25:49Z",
-    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
