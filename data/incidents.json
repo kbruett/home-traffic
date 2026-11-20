@@ -15,11 +15,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 150,
+    "delay_s": 151,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012005",
-    "length_m": 390.7707452635,
+    "length_m": 440.5294551031,
     "roads": [
      "County Hwy-650"
     ],
@@ -66,32 +66,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 150,
+    "delay_s": 151,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012005",
-    "length_m": 390.7707452635,
+    "length_m": 440.5294551031,
     "roads": [
      "County Hwy-650"
     ],
     "severity": 3,
     "start": "2026-11-19T19:55:24Z",
     "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 136,
-    "description": "Slow traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713876034000",
-    "length_m": 666.8608192213,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 1,
-    "start": "2026-11-19T23:59:15Z",
-    "to": "NJ-24/Washington St/Morris St/Park Pl (Market St/US-202)"
    }
   ],
   "label": "Near home"
