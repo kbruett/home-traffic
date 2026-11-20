@@ -7,57 +7,17 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 185,
-    "description": "Stopped traffic",
-    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
-    "length_m": 626.8913600846,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T14:45:45Z",
-    "to": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 130,
-    "description": "Stopped traffic",
-    "from": "exit [50B]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25743391168028000",
-    "length_m": 268.0885871546,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T14:59:45Z",
-    "to": "exit [50B]"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 287,
+    "delay_s": 188,
     "description": "Stopped traffic",
     "from": "Salem Rd (Vauxhall Rd)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932772036000",
-    "length_m": 408.7757239716,
+    "length_m": 484.8003545762,
     "roads": [
      "County Hwy-630"
     ],
     "severity": 3,
     "start": "2026-11-20T14:55:15Z",
     "to": "Garden State Pkwy (Vauxhall Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 113,
-    "description": "Slow traffic",
-    "from": "Stuyvesant Ave (Vauxhall Rd)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25737620240020003",
-    "length_m": 586.6816440681,
-    "roads": [
-     "County Hwy-630"
-    ],
-    "severity": 1,
-    "start": "2026-11-20T14:54:45Z",
-    "to": "NJ-124/Springfield Ave (Vauxhall Rd)"
    }
   ],
   "label": "Old Bridge commute"
@@ -67,36 +27,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 185,
-    "description": "Stopped traffic",
-    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
-    "length_m": 626.8913600846,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T14:45:45Z",
-    "to": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 120,
-    "description": "Backed up traffic",
-    "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599192027000",
-    "length_m": 517.113,
-    "roads": [
-     "NJ-124"
-    ],
-    "severity": 2,
-    "start": "2026-11-20T14:46:15Z",
-    "to": "NJ-124/Madison Ave (South St/NJ-24)"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
