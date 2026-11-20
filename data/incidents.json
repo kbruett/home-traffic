@@ -4,7 +4,22 @@
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 29,
+    "description": "Slow traffic",
+    "from": "Centennial Ave/Exit 136 (Garden State Pkwy)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25760703028017000",
+    "length_m": 884.8968501467,
+    "roads": [
+     "Garden State Pkwy N"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T11:52:45Z",
+    "to": "NJ-28/Exit 137 (Garden State Pkwy)"
+   }
+  ],
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
