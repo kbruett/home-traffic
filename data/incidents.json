@@ -7,93 +7,49 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 786,
+    "delay_s": 125,
     "description": "Stopped traffic",
-    "from": "I-78/Mill Rd/Exit 142 (Garden State Pkwy)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25760703096041000",
-    "length_m": 7198.6527563994,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
+    "from": "exit [50B]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25743391168028000",
+    "length_m": 268.0885871546,
+    "roads": [],
     "severity": 3,
-    "start": "2026-11-20T12:46:45Z",
-    "to": "Centennial Ave/Exit 136 (Garden State Pkwy)"
+    "start": "2026-11-20T13:18:45Z",
+    "to": "exit [50B]"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 232,
-    "description": "Backed up traffic",
+    "delay_s": 48,
+    "description": "Stopped traffic",
+    "from": "US Highway 9",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25844378136014000",
+    "length_m": 117.3146098402,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T13:18:45Z",
+    "to": "Perrine Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 188,
+    "description": "Slow traffic",
     "from": "I-287 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25674141080377001",
-    "length_m": 3603.5336667876,
+    "length_m": 3753.5251921924,
     "roads": [
      "NJ-24 E"
     ],
-    "severity": 2,
+    "severity": 1,
     "start": "2026-11-20T12:07:45Z",
     "to": "NJ-124/Exit 7 (NJ-24)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 228,
-    "description": "Backed up traffic",
-    "from": "Stuyvesant Ave (Vauxhall Rd)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25737620240012000",
-    "length_m": 733.514542905,
-    "roads": [
-     "County Hwy-630"
-    ],
-    "severity": 2,
-    "start": "2026-11-20T13:01:15Z",
-    "to": "NJ-124/Springfield Ave (Vauxhall Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 200,
-    "description": "Backed up traffic",
-    "from": "Old Water Works Rd",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25844378152014000",
-    "length_m": 871.9317412702,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-20T13:06:45Z",
-    "to": "US Highway 9"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 120,
-    "description": "Backed up traffic",
-    "from": "US-9/Gordons Corner Rd/Wickatunk Rd (Tennent Rd/CR-3)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25881887820036000",
-    "length_m": 563.7309557149,
-    "roads": [
-     "County Hwy-3"
-    ],
-    "severity": 2,
-    "start": "2026-11-20T13:04:15Z",
-    "to": "NJ-18/CR-520 (Tennent Rd/CR-3)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 32,
-    "description": "Heavy traffic",
-    "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25691453480073000",
-    "length_m": 1408.2685829479,
-    "roads": [
-     "NJ-24 E"
-    ],
-    "severity": 1,
-    "start": "2026-11-20T13:15:15Z",
-    "to": "NJ-124/Exit 7 (NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 113,
+    "delay_s": 116,
     "description": "Slow traffic",
     "from": "Summit Ave/Exit 8 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25705880624073000",
-    "length_m": 2293.6116780461,
+    "length_m": 2059.0857568822,
     "roads": [
      "NJ-24 W"
     ],
@@ -103,11 +59,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 146,
+    "delay_s": 83,
     "description": "Slow traffic",
-    "from": "Vauxhall Rd/Exit 50 (I-78)",
+    "from": "Garden State Pkwy/Exit 52 (I-78)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25734734744017001",
-    "length_m": 2717.3165065652,
+    "length_m": 2154.1696466054,
     "roads": [
      "I-78 W"
     ],
@@ -117,17 +73,31 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 62,
+    "delay_s": 410,
     "description": "Slow traffic",
-    "from": "Central Ave/Brant Ave/Exit 135 (Garden State Pkwy)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25760703028017000",
-    "length_m": 1760.6322738813,
+    "from": "I-78/Mill Rd/Exit 142 (Garden State Pkwy)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25760703096041000",
+    "length_m": 7404.3084504904,
     "roads": [
-     "Garden State Pkwy N"
+     "Garden State Pkwy S"
     ],
     "severity": 1,
-    "start": "2026-11-20T11:52:45Z",
-    "to": "NJ-28/Exit 137 (Garden State Pkwy)"
+    "start": "2026-11-20T12:46:45Z",
+    "to": "Centennial Ave/Exit 136 (Garden State Pkwy)"
+   },
+   {
+    "category": "Crash",
+    "delay_s": 0,
+    "description": "Accident",
+    "from": "Exit 138 (Garden State Pkwy)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25760703096121000",
+    "length_m": 1490.3053952963,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 0,
+    "start": "2026-11-20T13:17:15Z",
+    "to": "Centennial Ave/Exit 136 (Garden State Pkwy)"
    }
   ],
   "label": "Old Bridge commute"
@@ -140,11 +110,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 326,
+    "delay_s": 291,
     "description": "Stopped traffic",
     "from": "I-80 (Littleton Rd/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25645287252010000",
-    "length_m": 369.9231201641,
+    "length_m": 466.6675620106,
     "roads": [
      "US-202 S",
      "US-202 N"
@@ -155,7 +125,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 119,
+    "delay_s": 102,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25645287280003000",
@@ -167,18 +137,15 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 146,
-    "description": "Backed up traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713876034000",
-    "length_m": 422.84,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-20T12:52:15Z",
-    "to": "Spring St (Speedwell Ave/US-202)"
+    "delay_s": 153,
+    "description": "Stopped traffic",
+    "from": "Atno Ave",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713840022000",
+    "length_m": 165.969,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T13:20:15Z",
+    "to": "Speedwell Ave"
    }
   ],
   "label": "Near home"
