@@ -12,20 +12,6 @@
     "severity": 4,
     "start": "2026-08-11T16:01:38Z",
     "to": "exit [4A]"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 165,
-    "description": "Stopped traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012005",
-    "length_m": 390.7707452635,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-19T19:55:24Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    }
   ],
   "label": "Montclair commute"
@@ -51,20 +37,6 @@
     "severity": 4,
     "start": "2026-11-19T22:06:40Z",
     "to": "Glenbrook Rd / Stiles Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 165,
-    "description": "Stopped traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012005",
-    "length_m": 390.7707452635,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-19T19:55:24Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
