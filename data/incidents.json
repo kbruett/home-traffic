@@ -19,10 +19,22 @@
     "description": "Closed",
     "from": "Jonathan Smith Rd",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286600037000",
-    "length_m": 389.878,
+    "length_m": 389.8783152283,
     "roads": [],
     "severity": 4,
     "start": "2026-11-20T17:50:45Z",
+    "to": "Sussex Ave / Lake Rd"
+   },
+   {
+    "category": "Road closed",
+    "delay_s": 0,
+    "description": "Closed",
+    "from": "Jonathan Smith Rd",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286612037000",
+    "length_m": 413.864,
+    "roads": [],
+    "severity": 4,
+    "start": "2026-11-20T19:50:32Z",
     "to": "Sussex Ave / Lake Rd"
    },
    {
@@ -39,11 +51,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 203,
+    "delay_s": 64,
+    "description": "Stopped traffic",
+    "from": "State Route 10",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25645287280003000",
+    "length_m": 43.6063153467,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T19:49:02Z",
+    "to": "Littleton Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 184,
     "description": "Stopped traffic",
     "from": "Hanover Ave (Speedwell Ave/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713876026000",
-    "length_m": 432.0894806735,
+    "length_m": 407.9292672782,
     "roads": [
      "US-202 S",
      "US-202 N"
@@ -54,15 +78,15 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 130,
-    "description": "Backed up traffic",
-    "from": "Early St",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25656828408022000",
-    "length_m": 184.4088602709,
+    "delay_s": 188,
+    "description": "Stopped traffic",
+    "from": "exit [37]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599484033000",
+    "length_m": 1117.3077206131,
     "roads": [],
-    "severity": 2,
-    "start": "2026-11-20T19:32:58Z",
-    "to": "Washington St"
+    "severity": 3,
+    "start": "2026-11-20T19:52:44Z",
+    "to": "State Route 24"
    }
   ],
   "label": "Near home"
