@@ -48,20 +48,6 @@
     "severity": 4,
     "start": "2026-11-20T18:03:15Z",
     "to": "Jonathan Smith Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 167,
-    "description": "Stopped traffic",
-    "from": "Dryden Way (NJ-10)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25645287148011001",
-    "length_m": 966.5805676241,
-    "roads": [
-     "NJ-10"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T18:30:45Z",
-    "to": "NJ-53/Tabor Rd (NJ-10)"
    }
   ],
   "label": "Near home"
