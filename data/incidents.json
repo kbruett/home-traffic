@@ -51,29 +51,18 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 74,
-    "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011000",
-    "length_m": 52.4816098938,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T18:07:15Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 115,
-    "description": "Slow traffic",
-    "from": "Washington Valley Rd (NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25656828240036000",
-    "length_m": 461.5689148609,
+    "delay_s": 167,
+    "description": "Backed up traffic",
+    "from": "Spring St (Speedwell Ave/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172356026001",
+    "length_m": 923.4780967709,
     "roads": [
-     "County Hwy-510"
+     "US-202 S",
+     "US-202 N"
     ],
-    "severity": 1,
-    "start": "2026-11-20T18:14:45Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
+    "severity": 2,
+    "start": "2026-11-20T18:23:15Z",
+    "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
    }
   ],
   "label": "Near home"
