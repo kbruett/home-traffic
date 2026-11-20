@@ -25,20 +25,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "Juniper Dr",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286940014000",
-    "length_m": 116.67,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-11-19T22:06:40Z",
-    "to": "Glenbrook Rd / Stiles Ave"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
