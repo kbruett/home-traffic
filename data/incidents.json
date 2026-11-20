@@ -7,30 +7,70 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 134,
-    "description": "Backed up traffic",
-    "from": "Ernston Rd (US-9)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25832836804050001",
-    "length_m": 1238.3856141576,
-    "roads": [
-     "US-9 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-20T14:41:15Z",
-    "to": "Garden State Pkwy (South Amboy) (US-9)"
+    "delay_s": 62,
+    "description": "Stopped traffic",
+    "from": "W Hanover Ave",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057740012000",
+    "length_m": 58.3479,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T14:55:15Z",
+    "to": "Speedwell Ave"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 34,
-    "description": "Heavy traffic",
+    "delay_s": 272,
+    "description": "Stopped traffic",
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
+    "length_m": 871.8260252093,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T14:45:45Z",
+    "to": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 130,
+    "description": "Stopped traffic",
+    "from": "Salem Rd (Vauxhall Rd)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932772036000",
+    "length_m": 352.2717707854,
+    "roads": [
+     "County Hwy-630"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T14:55:15Z",
+    "to": "Garden State Pkwy (Vauxhall Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 215,
+    "description": "Backed up traffic",
+    "from": "Stuyvesant Ave (Vauxhall Rd)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25737620240020003",
+    "length_m": 586.6816440681,
+    "roads": [
+     "County Hwy-630"
+    ],
+    "severity": 2,
+    "start": "2026-11-20T14:54:45Z",
+    "to": "NJ-124/Springfield Ave (Vauxhall Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 114,
+    "description": "Slow traffic",
     "from": "NJ-124/Exit 7 (NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25682797280073000",
-    "length_m": 1476.8233461043,
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25685682752073000",
+    "length_m": 2215.407217943,
     "roads": [
      "NJ-24 W"
     ],
     "severity": 1,
-    "start": "2026-11-20T14:45:45Z",
+    "start": "2026-11-20T14:48:15Z",
     "to": "Columbia Tpke/Exit 2B-2A (NJ-24)"
    }
   ],
@@ -41,7 +81,48 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 62,
+    "description": "Stopped traffic",
+    "from": "W Hanover Ave",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057740012000",
+    "length_m": 58.3479,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T14:55:15Z",
+    "to": "Speedwell Ave"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 272,
+    "description": "Stopped traffic",
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
+    "length_m": 871.8260252093,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T14:45:45Z",
+    "to": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 296,
+    "description": "Stopped traffic",
+    "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599192027000",
+    "length_m": 627.528376236,
+    "roads": [
+     "NJ-124"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T14:46:15Z",
+    "to": "NJ-124/Madison Ave (South St/NJ-24)"
+   }
+  ],
   "label": "Near home"
  }
 }
