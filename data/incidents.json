@@ -19,7 +19,7 @@
     "description": "Closed",
     "from": "Jonathan Smith Rd",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286600037000",
-    "length_m": 389.8783152283,
+    "length_m": 389.878,
     "roads": [],
     "severity": 4,
     "start": "2026-11-20T17:50:45Z",
@@ -31,7 +31,7 @@
     "description": "Closed",
     "from": "Sussex Ave / Lake Rd",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286672037000",
-    "length_m": 893.1,
+    "length_m": 893.1000412715,
     "roads": [],
     "severity": 4,
     "start": "2026-11-20T17:50:45Z",
@@ -39,13 +39,28 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 178,
+    "delay_s": 203,
     "description": "Stopped traffic",
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713876026000",
+    "length_m": 432.0894806735,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T19:38:47Z",
+    "to": "Spring St (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 130,
+    "description": "Backed up traffic",
     "from": "Early St",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25656828408022000",
     "length_m": 184.4088602709,
     "roads": [],
-    "severity": 3,
+    "severity": 2,
     "start": "2026-11-20T19:32:58Z",
     "to": "Washington St"
    }
