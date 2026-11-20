@@ -7,21 +7,73 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 325,
+    "delay_s": 357,
     "description": "Stopped traffic",
     "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
-    "length_m": 907.3903833361,
+    "length_m": 892.6558439067,
     "roads": [
      "County Hwy-650"
     ],
     "severity": 3,
     "start": "2026-11-20T13:50:17Z",
-    "to": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)"
+    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 144,
+    "delay_s": 154,
+    "description": "Stopped traffic",
+    "from": "Garden State Pkwy (US-22)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932684041000",
+    "length_m": 604.4109358924,
+    "roads": [
+     "US-22 E"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T14:05:15Z",
+    "to": "Vauxhall Rd (US-22)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 160,
+    "description": "Stopped traffic",
+    "from": "US Highway 22",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932760020000",
+    "length_m": 177.3457062677,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T14:02:15Z",
+    "to": "Vauxhall Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 1026,
+    "description": "Stopped traffic",
+    "from": "Salem Rd (Vauxhall Rd)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932772028000",
+    "length_m": 870.0869692228,
+    "roads": [
+     "County Hwy-630"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T13:56:45Z",
+    "to": "Garden State Pkwy (Vauxhall Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 67,
+    "description": "Stopped traffic",
+    "from": "exit [136]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25763588300020000",
+    "length_m": 241.6609582822,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T14:02:15Z",
+    "to": "exit [136]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 241,
     "description": "Stopped traffic",
     "from": "Woodbridge",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25809753972028000",
@@ -33,23 +85,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 109,
+    "delay_s": 55,
     "description": "Stopped traffic",
     "from": "County Hwy-520 exit [29]",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25879002564020000",
     "length_m": 160.661638762,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-20T13:49:45Z",
+    "start": "2026-11-20T14:04:50Z",
     "to": "Tennent Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 177,
+    "delay_s": 112,
     "description": "Backed up traffic",
     "from": "NJ-79/Roosevelt Ave (Lloyd Rd/Tennent Rd/CR-3)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25879002424012003",
-    "length_m": 789.7544736106,
+    "length_m": 452.7951881536,
     "roads": [
      "County Hwy-3"
     ],
@@ -59,11 +111,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 85,
+    "delay_s": 26,
     "description": "Slow traffic",
     "from": "Whippany Rd/Exit 1A (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25674141080377001",
-    "length_m": 2503.6620153446,
+    "length_m": 1183.1054926814,
     "roads": [
      "NJ-24 E"
     ],
@@ -73,11 +125,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 125,
+    "delay_s": 28,
     "description": "Slow traffic",
-    "from": "Summit Ave/Exit 8 (NJ-24)",
+    "from": "NJ-124/Exit 7 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25705880624073000",
-    "length_m": 2175.1621072409,
+    "length_m": 779.7958232883,
     "roads": [
      "NJ-24 W"
     ],
@@ -87,17 +139,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 170,
+    "delay_s": 36,
     "description": "Slow traffic",
-    "from": "Lyons Ave/Exit 143 (Garden State Pkwy)",
+    "from": "Union Ave/Exit 142 (Garden State Pkwy)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25752047416177000",
-    "length_m": 2900.4942504896,
+    "length_m": 1119.9555983669,
     "roads": [
      "Garden State Pkwy S"
     ],
     "severity": 1,
     "start": "2026-11-20T12:46:45Z",
-    "to": "US-22/NJ-82/Exit 140 (Garden State Pkwy)"
+    "to": "Vauxhall Rd/Exit 141 (Garden State Pkwy)"
    }
   ],
   "label": "Old Bridge commute"
@@ -110,41 +162,17 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 132,
-    "description": "Stopped traffic",
-    "from": "Morris St",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713716007000",
-    "length_m": 45.1253145544,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T13:53:15Z",
-    "to": "Pine St"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 327,
-    "description": "Stopped traffic",
-    "from": "Speedwell Ave",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713848014000",
-    "length_m": 109.761,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T13:41:45Z",
-    "to": "Martin Luther King Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 325,
+    "delay_s": 357,
     "description": "Stopped traffic",
     "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
-    "length_m": 907.3903833361,
+    "length_m": 892.656,
     "roads": [
      "County Hwy-650"
     ],
     "severity": 3,
     "start": "2026-11-20T13:50:17Z",
-    "to": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)"
+    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
