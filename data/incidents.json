@@ -12,20 +12,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 106,
-    "description": "Stopped traffic",
-    "from": "Morris St",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484616004000",
-    "length_m": 38.7689,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T03:15:15Z",
-    "to": "Lafayette Ave"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
