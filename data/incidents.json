@@ -7,25 +7,63 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 272,
+    "delay_s": 325,
     "description": "Stopped traffic",
-    "from": "Lyons Ave/Exit 143 (Garden State Pkwy)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25752047416177000",
-    "length_m": 2403.2833289436,
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
+    "length_m": 907.3903833361,
     "roads": [
-     "Garden State Pkwy S"
+     "County Hwy-650"
     ],
     "severity": 3,
-    "start": "2026-11-20T12:46:45Z",
-    "to": "US-22/NJ-82/Exit 140 (Garden State Pkwy)"
+    "start": "2026-11-20T13:50:17Z",
+    "to": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 137,
+    "delay_s": 144,
+    "description": "Stopped traffic",
+    "from": "Woodbridge",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25809753972028000",
+    "length_m": 273.8966888139,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T13:53:46Z",
+    "to": "New Brunswick Ave"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 109,
+    "description": "Stopped traffic",
+    "from": "County Hwy-520 exit [29]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25879002564020000",
+    "length_m": 160.661638762,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T13:49:45Z",
+    "to": "Tennent Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 177,
+    "description": "Backed up traffic",
+    "from": "NJ-79/Roosevelt Ave (Lloyd Rd/Tennent Rd/CR-3)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25879002424012003",
+    "length_m": 789.7544736106,
+    "roads": [
+     "County Hwy-3"
+    ],
+    "severity": 2,
+    "start": "2026-11-20T13:53:15Z",
+    "to": "NJ-18/CR-520 (Tennent Rd/CR-3)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 85,
     "description": "Slow traffic",
-    "from": "I-287 (NJ-24)",
+    "from": "Whippany Rd/Exit 1A (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25674141080377001",
-    "length_m": 3603.5336667876,
+    "length_m": 2503.6620153446,
     "roads": [
      "NJ-24 E"
     ],
@@ -35,17 +73,31 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 158,
+    "delay_s": 125,
     "description": "Slow traffic",
     "from": "Summit Ave/Exit 8 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25705880624073000",
-    "length_m": 2588.3946971684,
+    "length_m": 2175.1621072409,
     "roads": [
      "NJ-24 W"
     ],
     "severity": 1,
     "start": "2026-11-20T12:19:45Z",
     "to": "Columbia Tpke/Exit 2B-2A (NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 170,
+    "description": "Slow traffic",
+    "from": "Lyons Ave/Exit 143 (Garden State Pkwy)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25752047416177000",
+    "length_m": 2900.4942504896,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T12:46:45Z",
+    "to": "US-22/NJ-82/Exit 140 (Garden State Pkwy)"
    }
   ],
   "label": "Old Bridge commute"
@@ -58,7 +110,19 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 311,
+    "delay_s": 132,
+    "description": "Stopped traffic",
+    "from": "Morris St",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713716007000",
+    "length_m": 45.1253145544,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T13:53:15Z",
+    "to": "Pine St"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 327,
     "description": "Stopped traffic",
     "from": "Speedwell Ave",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713848014000",
@@ -67,6 +131,20 @@
     "severity": 3,
     "start": "2026-11-20T13:41:45Z",
     "to": "Martin Luther King Ave"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 325,
+    "description": "Stopped traffic",
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
+    "length_m": 907.3903833361,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T13:50:17Z",
+    "to": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
