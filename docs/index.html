@@ -40,11 +40,20 @@ svg{width:100%;height:auto;display:block}svg text{fill:var(--mute);font-size:10p
 .place iframe{width:100%;height:230px;border:1px solid var(--line);border-radius:10px;display:block;background:var(--line)}
 .links{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:13px}.links a{color:var(--b);text-decoration:none}
 .warn{background:rgba(212,154,18,.14);border:1px solid rgba(212,154,18,.5);border-radius:8px;padding:8px 10px;font-size:12px;margin-top:10px}
-#incidents{margin:0 0 12px;display:grid;gap:8px}
-.inc{border-radius:10px;padding:9px 12px;font-size:13px;border:1px solid var(--line);background:var(--card);display:flex;gap:10px;align-items:flex-start}
-.inc b{font-weight:650}.inc .tag{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.04em;display:block}
-.inc.sev3{background:rgba(201,58,43,.12);border-color:rgba(201,58,43,.55)}.inc.sev2{background:rgba(212,154,18,.14);border-color:rgba(212,154,18,.5)}
-.inc.ok{color:var(--mute);background:transparent;border-style:dashed}
+#incidents{margin:0 0 12px}
+details.incbox{border-radius:10px;border:1px solid var(--line);background:var(--card);overflow:hidden}
+details.incbox.sev3{background:rgba(201,58,43,.12);border-color:rgba(201,58,43,.55)}
+details.incbox.sev2{background:rgba(212,154,18,.14);border-color:rgba(212,154,18,.5)}
+details.incbox summary{list-style:none;cursor:pointer;padding:10px 12px;font-size:13px;display:flex;align-items:center;gap:8px}
+details.incbox summary::-webkit-details-marker{display:none}
+details.incbox summary .sum{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.incbox summary .chev{color:var(--mute);transition:transform .15s}
+details.incbox[open] summary .chev{transform:rotate(180deg)}
+.incl{border-top:1px solid var(--line);padding:2px 12px 6px}
+.incl .it{padding:8px 0;font-size:13px;border-bottom:1px solid var(--line)}.incl .it:last-child{border-bottom:0}
+.incl .tag{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.04em;display:block}
+.incl .s{margin-top:1px}
+.inc{border-radius:10px;padding:9px 12px;font-size:13px;border:1px dashed var(--line);color:var(--mute)}
 .roads{font-size:13px;margin-top:8px}
 #empty{display:none;text-align:center;padding:60px 0;color:var(--mute)}
 </style></head><body><main>
@@ -96,7 +105,7 @@ function dowHTML(d){
 function seg(group,opts,cur){return `<div class="seg">`+opts.map(([k,l])=>`<button class="${k==cur?'on':''}" data-seg="${group}" data-val="${k}">${l}</button>`).join('')+'</div>'}
 
 // ---------- state ----------
-let DATA=null; const UI={tab:null,hourly:'weekday',heatDir:0,commute:null};
+let DATA=null; const UI={incOpen:false,tab:null,hourly:'weekday',heatDir:0,commute:null};
 const todayIdx=()=>{const w=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});return ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].indexOf(w)};
 
 // ---------- panels ----------
@@ -166,14 +175,17 @@ function incidentsHTML(){
   if(age!=null&&age>45)return '';           // collector looks stalled; don't show stale incidents
   const t=todayIdx(),scopes=['home'];
   DATA.places.filter(p=>p.pl.kind==='commute'&&p.pl.days.includes(t)).forEach(p=>scopes.push(p.pl.id));
-  const items=[];
-  scopes.forEach(id=>{const sc=inc[id];if(sc)sc.items.forEach(i=>items.push({...i,scope:sc.label}))});
-  if(!items.length)return `<div class="inc ok">No incidents reported near home${scopes.length>1?' or on today\'s commute':''}.</div>`;
-  const seen=new Set();
-  return items.filter(i=>{const k=i.id+i.scope;if(seen.has(k))return false;seen.add(k);return true}).slice(0,6).map(i=>{
-    const where=[i.roads&&i.roads.length?i.roads.join(', '):'',i.from?(i.to?i.from+' \u2192 '+i.to:i.from):''].filter(Boolean).join(' \u00b7 ');
-    const sev=i.severity>=3?'sev3':'sev2';
-    return `<div class="inc ${sev}"><div style="font-size:16px">${i.severity>=3?'\u26a0\ufe0f':'\u26a0'}</div><div><span class="tag">${esc(i.scope)}</span><b>${esc(i.category)}</b>${i.description&&i.description!==i.category?' \u2014 '+esc(i.description):''}${where?`<div class="s">${esc(where)}${i.delay_s>30?' \u00b7 +'+dur(i.delay_s)+' delay':''}</div>`:''}</div></div>`}).join('');
+  const seen=new Set(),items=[];
+  scopes.forEach(id=>{const sc=inc[id];if(sc)sc.items.forEach(i=>{const k=i.id+id;if(!seen.has(k)){seen.add(k);items.push({...i,scope:sc.label})}})});
+  if(!items.length)return `<div class="inc">✓ No incidents reported near home${scopes.length>1?' or on today\'s commute':''}</div>`;
+  items.sort((a,b)=>b.severity-a.severity||b.delay_s-a.delay_s);
+  const worst=items[0],sev=worst.severity>=3?'sev3':'sev2',n=items.length;
+  const wRoad=worst.roads&&worst.roads[0]?' on '+worst.roads[0]:'';
+  const sum=`<b>${n} incident${n>1?'s':''}</b> · ${esc(worst.category)}${esc(wRoad)}${n>1?` +${n-1} more`:''}`;
+  const rows=items.slice(0,8).map(i=>{
+    const where=[i.roads&&i.roads.length?i.roads.join(', '):'',i.from?(i.to?i.from+' → '+i.to:i.from):''].filter(Boolean).join(' · ');
+    return `<div class="it"><span class="tag">${esc(i.scope)}</span><b>${esc(i.category)}</b>${i.description&&i.description!==i.category?' — '+esc(i.description):''}${(where||i.delay_s>30)?`<div class="s">${esc(where)}${i.delay_s>30?(where?' · ':'')+'+'+dur(i.delay_s)+' delay':''}</div>`:''}</div>`}).join('');
+  return `<details class="incbox ${sev}" id="incbox"${UI.incOpen?' open':''}><summary><span>⚠️</span><span class="sum">${sum}</span><span class="chev">▾</span></summary><div class="incl">${rows}</div></details>`;
 }
 
 // ---------- render ----------
@@ -202,6 +214,7 @@ function render(){
     const live=p.dirs.filter(x=>!x.built.empty);
     $('sub').textContent=live.length?`${live[0].built.stats.samples.toLocaleString()} samples each way since ${live[0].built.stats.since} · last sample ${ago(live[0].built.now.age_min)} · refreshes every minute`:'Waiting for first sample at this place'}
 }
+document.addEventListener('toggle',e=>{if(e.target.id==='incbox')UI.incOpen=e.target.open},true);
 document.addEventListener('click',e=>{
   const t=e.target.closest('[data-tab]');if(t){UI.tab=t.dataset.tab;try{history.replaceState(null,'','#'+UI.tab)}catch(_){}render();return}
   const s=e.target.closest('[data-seg]');if(s){UI[s.dataset.seg]=s.dataset.seg==='heatDir'?+s.dataset.val:s.dataset.val;render()}
