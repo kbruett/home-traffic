@@ -39,18 +39,15 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 122,
-    "description": "Backed up traffic",
-    "from": "Malapardis Rd (Littleton Rd/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444018001",
-    "length_m": 526.0610971187,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-20T19:02:46Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
+    "delay_s": 74,
+    "description": "Stopped traffic",
+    "from": "State Route 10",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25645287280003000",
+    "length_m": 43.6063153467,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T19:15:29Z",
+    "to": "Littleton Rd"
    }
   ],
   "label": "Near home"
