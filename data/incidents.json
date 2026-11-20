@@ -4,7 +4,22 @@
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 217,
+    "description": "Stopped traffic",
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
+    "length_m": 595.5575876708,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T15:51:45Z",
+    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
+   }
+  ],
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
@@ -12,7 +27,22 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 217,
+    "description": "Stopped traffic",
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
+    "length_m": 595.558,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T15:51:45Z",
+    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
+   }
+  ],
   "label": "Near home"
  }
 }
