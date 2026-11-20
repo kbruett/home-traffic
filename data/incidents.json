@@ -15,11 +15,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 151,
+    "delay_s": 165,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012005",
-    "length_m": 440.5294551031,
+    "length_m": 390.7707452635,
     "roads": [
      "County Hwy-650"
     ],
@@ -53,24 +53,12 @@
     "to": "Glenbrook Rd / Stiles Ave"
    },
    {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "Washington Ave",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286940014001",
-    "length_m": 100.0403804649,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-11-19T22:06:40Z",
-    "to": "Juniper Dr"
-   },
-   {
     "category": "Traffic jam",
-    "delay_s": 151,
+    "delay_s": 165,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012005",
-    "length_m": 440.5294551031,
+    "length_m": 390.7707452635,
     "roads": [
      "County Hwy-650"
     ],
