@@ -7,11 +7,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 103,
+    "delay_s": 133,
     "description": "Backed up traffic",
     "from": "I-287 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25668370128041000",
-    "length_m": 1489.4764330258,
+    "length_m": 1583.5547908042,
     "roads": [
      "NJ-24 E"
     ],
@@ -21,7 +21,21 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 139,
+    "delay_s": 24,
+    "description": "Slow traffic",
+    "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25679911880017000",
+    "length_m": 1141.0739255047,
+    "roads": [
+     "NJ-24 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T12:07:45Z",
+    "to": "NJ-124/Exit 7 (NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 113,
     "description": "Slow traffic",
     "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25697224272049000",
@@ -35,11 +49,25 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 37,
+    "delay_s": 95,
+    "description": "Slow traffic",
+    "from": "Summit Ave/Exit 8 (NJ-24)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25705880624073000",
+    "length_m": 1926.0203812889,
+    "roads": [
+     "NJ-24 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T12:19:45Z",
+    "to": "Columbia Tpke/Exit 2B-2A (NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 81,
     "description": "Slow traffic",
     "from": "Vauxhall Rd/Exit 50 (I-78)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25734734744017001",
-    "length_m": 1053.1148494604,
+    "length_m": 2070.116880462,
     "roads": [
      "I-78 W"
     ],
@@ -49,11 +77,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 133,
+    "delay_s": 184,
     "description": "Slow traffic",
-    "from": "Raritan Rd (Garden State Pkwy)",
+    "from": "Central Ave/Brant Ave/Exit 135 (Garden State Pkwy)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25760703028017000",
-    "length_m": 2731.9542408645,
+    "length_m": 3509.131259245,
     "roads": [
      "Garden State Pkwy N"
     ],
