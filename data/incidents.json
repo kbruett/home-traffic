@@ -15,45 +15,17 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 103,
-    "description": "Stopped traffic",
-    "from": "I-287 (James St)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599152012004",
-    "length_m": 127.247,
-    "roads": [
-     "County Hwy-663"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T17:13:15Z",
-    "to": "NJ-24/South St (James St)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 502,
-    "description": "Stopped traffic",
+    "delay_s": 186,
+    "description": "Backed up traffic",
     "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599192027001",
-    "length_m": 766.2936548761,
+    "length_m": 627.528,
     "roads": [
      "NJ-124"
     ],
-    "severity": 3,
+    "severity": 2,
     "start": "2026-11-20T17:04:15Z",
     "to": "NJ-124/Madison Ave (South St/NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 125,
-    "description": "Stopped traffic",
-    "from": "NJ-124/Madison Ave (South St/NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599264011003",
-    "length_m": 419.9853948951,
-    "roads": [
-     "NJ-124"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T17:08:18Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
    }
   ],
   "label": "Near home"
