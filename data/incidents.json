@@ -14,18 +14,42 @@
  "home": {
   "items": [
    {
+    "category": "Road closed",
+    "delay_s": 0,
+    "description": "Closed",
+    "from": "Jonathan Smith Rd",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286600037000",
+    "length_m": 379.0930975415,
+    "roads": [],
+    "severity": 4,
+    "start": "2026-11-20T17:50:45Z",
+    "to": "Sussex Ave / Lake Rd"
+   },
+   {
+    "category": "Road closed",
+    "delay_s": 0,
+    "description": "Closed",
+    "from": "Sussex Ave / Lake Rd",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286672037000",
+    "length_m": 379.093,
+    "roads": [],
+    "severity": 4,
+    "start": "2026-11-20T17:50:45Z",
+    "to": "Jonathan Smith Rd"
+   },
+   {
     "category": "Traffic jam",
-    "delay_s": 168,
-    "description": "Backed up traffic",
-    "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599192027001",
-    "length_m": 670.46,
+    "delay_s": 142,
+    "description": "Slow traffic",
+    "from": "NJ-124/Madison Ave (South St/NJ-24)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599264019002",
+    "length_m": 891.8945569251,
     "roads": [
      "NJ-124"
     ],
-    "severity": 2,
-    "start": "2026-11-20T17:35:54Z",
-    "to": "NJ-124/Madison Ave (South St/NJ-24)"
+    "severity": 1,
+    "start": "2026-11-20T17:55:49Z",
+    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
    }
   ],
   "label": "Near home"
