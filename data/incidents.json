@@ -7,53 +7,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 245,
-    "description": "Stopped traffic",
-    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
-    "length_m": 650.588497557,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T13:50:17Z",
-    "to": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 153,
-    "description": "Stopped traffic",
-    "from": "Garden State Pkwy (US-22)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932684041000",
-    "length_m": 819.5880003251,
-    "roads": [
-     "US-22 E"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T14:05:15Z",
-    "to": "Vauxhall Rd (US-22)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 148,
-    "description": "Stopped traffic",
-    "from": "Stuyvesant Ave (Vauxhall Rd)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932692020000",
-    "length_m": 292.7316209098,
-    "roads": [
-     "County Hwy-630"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T14:10:15Z",
-    "to": "Garden State Pkwy (Vauxhall Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 845,
+    "delay_s": 596,
     "description": "Stopped traffic",
     "from": "Salem Rd (Vauxhall Rd)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932772028000",
-    "length_m": 943.774281306,
+    "length_m": 681.1291334355,
     "roads": [
      "County Hwy-630"
     ],
@@ -63,53 +21,29 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 178,
-    "description": "Stopped traffic",
-    "from": "Woodbridge",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25809753972028000",
-    "length_m": 273.8966888139,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T13:53:46Z",
-    "to": "New Brunswick Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 199,
-    "description": "Stopped traffic",
-    "from": "NJ-79/Roosevelt Ave (Lloyd Rd/Tennent Rd/CR-3)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25879002424012004",
-    "length_m": 452.7951881536,
-    "roads": [
-     "County Hwy-3"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T14:12:15Z",
-    "to": "NJ-18/CR-520 (Tennent Rd/CR-3)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 88,
-    "description": "Stopped traffic",
-    "from": "County Hwy-520 exit [29]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25879002564020000",
-    "length_m": 160.661638762,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T14:04:50Z",
-    "to": "Tennent Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 50,
+    "delay_s": 176,
     "description": "Backed up traffic",
-    "from": "exit [136]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25763588300020000",
-    "length_m": 241.6609582822,
+    "from": "Ernston Rd (US-9)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25832836804050000",
+    "length_m": 1467.7051920925,
+    "roads": [
+     "US-9 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-20T14:21:45Z",
+    "to": "Garden State Pkwy (South Amboy) (US-9)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 42,
+    "description": "Backed up traffic",
+    "from": "Eugene Blvd",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25832836892012000",
+    "length_m": 101.9551601914,
     "roads": [],
     "severity": 2,
-    "start": "2026-11-20T14:02:15Z",
-    "to": "exit [136]"
+    "start": "2026-11-20T14:19:45Z",
+    "to": "US Highway 9"
    }
   ],
   "label": "Old Bridge commute"
@@ -119,22 +53,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 245,
-    "description": "Stopped traffic",
-    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
-    "length_m": 650.588,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T13:50:17Z",
-    "to": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
