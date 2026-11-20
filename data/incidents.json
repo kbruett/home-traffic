@@ -19,7 +19,7 @@
     "description": "Closed",
     "from": "Jonathan Smith Rd",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286600037000",
-    "length_m": 389.878,
+    "length_m": 389.8783152283,
     "roads": [],
     "severity": 4,
     "start": "2026-11-20T17:50:45Z",
@@ -31,7 +31,7 @@
     "description": "Closed",
     "from": "Sussex Ave / Lake Rd",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286672037000",
-    "length_m": 893.1000412715,
+    "length_m": 893.1,
     "roads": [],
     "severity": 4,
     "start": "2026-11-20T17:50:45Z",
@@ -39,31 +39,15 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 132,
-    "description": "Slow traffic",
-    "from": "Washington Valley Rd (NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25656828380012001",
-    "length_m": 689.1458823571,
-    "roads": [
-     "County Hwy-510"
-    ],
-    "severity": 1,
-    "start": "2026-11-20T19:26:01Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 149,
-    "description": "Slow traffic",
-    "from": "NJ-124/Madison Ave (South St/NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599260011001",
-    "length_m": 577.5956486505,
-    "roads": [
-     "NJ-124"
-    ],
-    "severity": 1,
-    "start": "2026-11-20T19:21:02Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
+    "delay_s": 178,
+    "description": "Stopped traffic",
+    "from": "Early St",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25656828408022000",
+    "length_m": 184.4088602709,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T19:32:58Z",
+    "to": "Washington St"
    }
   ],
   "label": "Near home"
