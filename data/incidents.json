@@ -7,11 +7,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 596,
+    "delay_s": 293,
     "description": "Stopped traffic",
     "from": "Salem Rd (Vauxhall Rd)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932772028000",
-    "length_m": 681.1291334355,
+    "length_m": 582.3277609646,
     "roads": [
      "County Hwy-630"
     ],
@@ -21,29 +21,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 176,
+    "delay_s": 145,
     "description": "Backed up traffic",
     "from": "Ernston Rd (US-9)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25832836804050000",
-    "length_m": 1467.7051920925,
+    "length_m": 1308.4381747506,
     "roads": [
      "US-9 N"
     ],
     "severity": 2,
     "start": "2026-11-20T14:21:45Z",
     "to": "Garden State Pkwy (South Amboy) (US-9)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 42,
-    "description": "Backed up traffic",
-    "from": "Eugene Blvd",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25832836892012000",
-    "length_m": 101.9551601914,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-20T14:19:45Z",
-    "to": "US Highway 9"
    }
   ],
   "label": "Old Bridge commute"
@@ -53,7 +41,20 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 69,
+    "description": "Stopped traffic",
+    "from": "Tabor Rd",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011000",
+    "length_m": 52.4816,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T14:27:15Z",
+    "to": "Littleton Rd"
+   }
+  ],
   "label": "Near home"
  }
 }
