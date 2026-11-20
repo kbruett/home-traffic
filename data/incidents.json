@@ -7,31 +7,31 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 293,
-    "description": "Stopped traffic",
-    "from": "Salem Rd (Vauxhall Rd)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932772028000",
-    "length_m": 582.3277609646,
-    "roads": [
-     "County Hwy-630"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T13:56:45Z",
-    "to": "Garden State Pkwy (Vauxhall Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 145,
+    "delay_s": 134,
     "description": "Backed up traffic",
     "from": "Ernston Rd (US-9)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25832836804050000",
-    "length_m": 1308.4381747506,
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25832836804050001",
+    "length_m": 1238.3856141576,
     "roads": [
      "US-9 N"
     ],
     "severity": 2,
-    "start": "2026-11-20T14:21:45Z",
+    "start": "2026-11-20T14:41:15Z",
     "to": "Garden State Pkwy (South Amboy) (US-9)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 34,
+    "description": "Heavy traffic",
+    "from": "NJ-124/Exit 7 (NJ-24)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25682797280073000",
+    "length_m": 1476.8233461043,
+    "roads": [
+     "NJ-24 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T14:45:45Z",
+    "to": "Columbia Tpke/Exit 2B-2A (NJ-24)"
    }
   ],
   "label": "Old Bridge commute"
@@ -41,20 +41,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 69,
-    "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011000",
-    "length_m": 52.4816,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T14:27:15Z",
-    "to": "Littleton Rd"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
