@@ -4,22 +4,7 @@
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 188,
-    "description": "Stopped traffic",
-    "from": "Salem Rd (Vauxhall Rd)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932772036000",
-    "length_m": 484.8003545762,
-    "roads": [
-     "County Hwy-630"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T14:55:15Z",
-    "to": "Garden State Pkwy (Vauxhall Rd)"
-   }
-  ],
+  "items": [],
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
