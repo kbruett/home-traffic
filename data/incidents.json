@@ -15,7 +15,22 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 111,
+    "delay_s": 165,
+    "description": "Stopped traffic",
+    "from": "NJ-10 (Tabor Rd/NJ-53)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172416027000",
+    "length_m": 296.054957736,
+    "roads": [
+     "Alex DeCroce Memorial Hwy",
+     "NJ-53"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T17:03:45Z",
+    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 67,
     "description": "Stopped traffic",
     "from": "Tabor Rd",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011000",
@@ -27,25 +42,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 208,
-    "description": "Stopped traffic",
-    "from": "I-287 (James St)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599152012004",
-    "length_m": 309.7664613629,
-    "roads": [
-     "County Hwy-663"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T16:53:48Z",
-    "to": "NJ-24/South St (James St)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 125,
+    "delay_s": 218,
     "description": "Backed up traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "from": "Spring St (Speedwell Ave/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172356018000",
-    "length_m": 529.193,
+    "length_m": 896.364,
     "roads": [
      "US-202 S",
      "US-202 N"
@@ -53,6 +54,20 @@
     "severity": 2,
     "start": "2026-11-20T16:48:15Z",
     "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 141,
+    "description": "Backed up traffic",
+    "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599192027001",
+    "length_m": 421.0534765148,
+    "roads": [
+     "NJ-124"
+    ],
+    "severity": 2,
+    "start": "2026-11-20T17:04:15Z",
+    "to": "NJ-124/Madison Ave (South St/NJ-24)"
    }
   ],
   "label": "Near home"
