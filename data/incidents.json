@@ -4,7 +4,23 @@
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
-  "items": [],
+  "items": [
+   {
+    "category": "Road closed",
+    "delay_s": 0,
+    "description": "Closed",
+    "from": "Mercer--Middlesex County Border (I-95)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25803982815992000",
+    "length_m": 58396.6089675751,
+    "roads": [
+     "I-95 N",
+     "New Jersey Tpke N"
+    ],
+    "severity": 4,
+    "start": "2026-11-20T01:06:45Z",
+    "to": "New Jersey Tpke/Exits 15W-18W (I-95)"
+   }
+  ],
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
