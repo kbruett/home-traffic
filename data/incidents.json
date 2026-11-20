@@ -7,15 +7,17 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 125,
+    "delay_s": 210,
     "description": "Stopped traffic",
-    "from": "exit [50B]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25743391168028000",
-    "length_m": 268.0885871546,
-    "roads": [],
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860012000",
+    "length_m": 460.8555307953,
+    "roads": [
+     "County Hwy-650"
+    ],
     "severity": 3,
-    "start": "2026-11-20T13:18:45Z",
-    "to": "exit [50B]"
+    "start": "2026-11-20T13:25:49Z",
+    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
    },
    {
     "category": "Traffic jam",
@@ -31,7 +33,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 188,
+    "delay_s": 201,
     "description": "Slow traffic",
     "from": "I-287 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25674141080377001",
@@ -45,7 +47,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 116,
+    "delay_s": 111,
     "description": "Slow traffic",
     "from": "Summit Ave/Exit 8 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25705880624073000",
@@ -59,7 +61,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 83,
+    "delay_s": 72,
     "description": "Slow traffic",
     "from": "Garden State Pkwy/Exit 52 (I-78)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25734734744017001",
@@ -73,7 +75,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 410,
+    "delay_s": 394,
     "description": "Slow traffic",
     "from": "I-78/Mill Rd/Exit 142 (Garden State Pkwy)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25760703096041000",
@@ -114,7 +116,7 @@
     "description": "Stopped traffic",
     "from": "I-80 (Littleton Rd/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25645287252010000",
-    "length_m": 466.6675620106,
+    "length_m": 486.6488332616,
     "roads": [
      "US-202 S",
      "US-202 N"
@@ -146,6 +148,20 @@
     "severity": 3,
     "start": "2026-11-20T13:20:15Z",
     "to": "Speedwell Ave"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 210,
+    "description": "Stopped traffic",
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860012000",
+    "length_m": 460.8555307953,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T13:25:49Z",
+    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
