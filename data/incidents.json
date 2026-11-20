@@ -11,11 +11,11 @@
     "description": "Closed",
     "from": "Atlantic St",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25786672188021000",
-    "length_m": 316.4303243463,
+    "length_m": 159.4636280509,
     "roads": [],
     "severity": 4,
     "start": "2026-09-01T14:00:00Z",
-    "to": "Erie St"
+    "to": "Lt Glenn Zamorski Dr"
    },
    {
     "category": "Road closed",
@@ -31,11 +31,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 1271,
+    "delay_s": 1095,
     "description": "Stopped traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25642402280016000",
-    "length_m": 9369.1153992164,
+    "length_m": 9722.692259621,
     "roads": [
      "I-287 N"
     ],
@@ -45,11 +45,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 569,
+    "delay_s": 538,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012000",
-    "length_m": 996.8340399259,
+    "length_m": 1044.0611497203,
     "roads": [
      "County Hwy-650"
     ],
@@ -59,7 +59,19 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 71,
+    "delay_s": 119,
+    "description": "Stopped traffic",
+    "from": "exit [1B]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25668370364036000",
+    "length_m": 391.0971678365,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T22:33:34Z",
+    "to": "exit [1B]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 78,
     "description": "Stopped traffic",
     "from": "Summit Ave exit [8]",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25714536676019000",
@@ -71,11 +83,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 682,
+    "delay_s": 742,
     "description": "Stopped traffic",
     "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25726078276049000",
-    "length_m": 4854.3955023177,
+    "length_m": 5020.2203269389,
     "roads": [
      "NJ-24 E"
     ],
@@ -85,11 +97,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 187,
+    "delay_s": 113,
     "description": "Stopped traffic",
     "from": "NJ-24 (Summit) (West) (Morris Tpke/NJ-124)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25726078416027000",
-    "length_m": 690.1424077185,
+    "length_m": 313.2546696869,
     "roads": [
      "NJ-124"
     ],
@@ -99,21 +111,21 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 174,
+    "delay_s": 65,
     "description": "Stopped traffic",
-    "from": "NJ-124/Springfield Ave (Main St)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25734734640060000",
-    "length_m": 539.9681513696,
+    "from": "Glenside Ave (County Hwy-527) exit [45]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25731849200024000",
+    "length_m": 516.1970075547,
     "roads": [
-     "County Hwy-577"
+     "I-78 E"
     ],
     "severity": 3,
-    "start": "2026-11-20T21:04:45Z",
-    "to": "Main St/Millburn Ave (Main St)"
+    "start": "2026-11-20T22:35:06Z",
+    "to": "W Peddie St exit [56]"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 119,
+    "delay_s": 177,
     "description": "Stopped traffic",
     "from": "exit [50A]",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25743391068028000",
@@ -125,19 +137,21 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 162,
+    "delay_s": 2139,
     "description": "Stopped traffic",
-    "from": "Stiles St",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25743391152013000",
-    "length_m": 115.2725196374,
-    "roads": [],
+    "from": "Essex Toll Plaza (Garden State Pkwy)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25746276901633000",
+    "length_m": 17828.9549770852,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
     "severity": 3,
-    "start": "2026-11-20T22:22:20Z",
-    "to": "Vauxhall Rd"
+    "start": "2026-11-20T21:24:48Z",
+    "to": "NJ-28/Exit 137 (Garden State Pkwy)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 71,
+    "delay_s": 97,
     "description": "Stopped traffic",
     "from": "G S Parkway exit [52]",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25749161872025000",
@@ -149,7 +163,19 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 202,
+    "delay_s": 120,
+    "description": "Stopped traffic",
+    "from": "G S Parkway exit [52]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25752047336009000",
+    "length_m": 436.7902671836,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T22:32:44Z",
+    "to": "Garden State Pkwy N"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 165,
     "description": "Stopped traffic",
     "from": "exit [52]",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25752047404017001",
@@ -161,51 +187,51 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 367,
+    "delay_s": 1261,
     "description": "Stopped traffic",
-    "from": "Garden State Pkwy/Union Ave/Ball St (Lyons Ave)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932996012002",
-    "length_m": 706.349611219,
+    "from": "NJ-27/Frelinghuysen Ave (US-22)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25763589312105001",
+    "length_m": 6526.4802554465,
     "roads": [
-     "County Hwy-602"
+     "US-22 W"
     ],
     "severity": 3,
-    "start": "2026-11-20T21:58:57Z",
-    "to": "Elizabeth Ave (Lyons Ave)"
+    "start": "2026-11-20T16:12:15Z",
+    "to": "Garden State Pkwy (US-22)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 123,
+    "delay_s": 76,
     "description": "Stopped traffic",
-    "from": "Jelliff Ave",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25760704008021000",
-    "length_m": 232.940338286,
+    "from": "exit [57]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25772245564033000",
+    "length_m": 413.2200475342,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-20T22:19:40Z",
-    "to": "Bergen St"
+    "start": "2026-11-20T22:32:44Z",
+    "to": "US Highway 1 Expy"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 707,
+    "delay_s": 617,
     "description": "Stopped traffic",
-    "from": "US-9 (Garden State Pkwy)",
+    "from": "New Brunswick Ave (Garden State Pkwy)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25775129524081000",
-    "length_m": 5518.4238491146,
+    "length_m": 5969.2718242929,
     "roads": [
      "Garden State Pkwy N"
     ],
     "severity": 3,
     "start": "2026-11-20T20:08:47Z",
-    "to": "Central Ave/Brant Ave/Exit 135 (Garden State Pkwy)"
+    "to": "NJ-27/Exit 131 (Garden State Pkwy)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 577,
+    "delay_s": 560,
     "description": "Stopped traffic",
     "from": "US-22/NJ-21/McCarter Hwy (US-1&9 Exp)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25775130888041001",
-    "length_m": 2171.9740889723,
+    "length_m": 2739.3646265411,
     "roads": [
      "US-1 S",
      "US-9 S"
@@ -216,7 +242,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 647,
+    "delay_s": 744,
     "description": "Stopped traffic",
     "from": "NJ-81 (US-9/US-1)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25778016084017004",
@@ -231,7 +257,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 130,
+    "delay_s": 320,
     "description": "Stopped traffic",
     "from": "North Ave E",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25778016092044000",
@@ -243,7 +269,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 504,
+    "delay_s": 184,
     "description": "Stopped traffic",
     "from": "State Route 81",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25778016208028000",
@@ -255,7 +281,21 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 113,
+    "delay_s": 161,
+    "description": "Stopped traffic",
+    "from": "NJ-81 Toll (NJ-81)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25778016284033000",
+    "length_m": 1053.4769179199,
+    "roads": [
+     "NJ-81 N"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T22:19:40Z",
+    "to": "US-1 (NJ-81)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 90,
     "description": "Stopped traffic",
     "from": "Goethals Br exit [13]",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25783786876025000",
@@ -267,7 +307,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 222,
+    "delay_s": 174,
     "description": "Stopped traffic",
     "from": "Goethals Br exit [13]",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25783787008009004",
@@ -279,11 +319,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 300,
+    "delay_s": 560,
     "description": "Stopped traffic",
     "from": "US-1 (NJ-81)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25783787008009005",
-    "length_m": 993.868685558,
+    "length_m": 1019.7413362442,
     "roads": [
      "NJ-81 S"
     ],
@@ -293,7 +333,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 76,
+    "delay_s": 88,
     "description": "Stopped traffic",
     "from": "exit [3A]",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25786671992040000",
@@ -305,19 +345,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 136,
-    "description": "Stopped traffic",
-    "from": "S 1st St/Amboy Ave (Bayway Ave)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25786672108015000",
-    "length_m": 321.0436090553,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T22:12:39Z",
-    "to": "Cole Ave/Trenton Ave (Bayway Ave)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 279,
+    "delay_s": 152,
     "description": "Stopped traffic",
     "from": "US-9 exit [11]",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25801097892017001",
@@ -329,22 +357,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 1174,
-    "description": "Stopped traffic",
-    "from": "US-9/Exit 11 (I-95 Car Only/I-95)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25803983536016000",
-    "length_m": 7906.3244110863,
-    "roads": [
-     "I-95 N",
-     "New Jersey Tpke N"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T21:19:55Z",
-    "to": "I-278/Exit 13 (I-95 Car Only/I-95)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 103,
+    "delay_s": 89,
     "description": "Stopped traffic",
     "from": "Woodbridge",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25806868664026000",
@@ -356,23 +369,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 216,
-    "description": "Stopped traffic",
-    "from": "State Route 440",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25809753940026000",
-    "length_m": 1132.9870652097,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T22:12:39Z",
-    "to": "US Highway 9 S"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 166,
+    "delay_s": 468,
     "description": "Stopped traffic",
     "from": "Woodbridge",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25809753972028000",
-    "length_m": 273.8966888139,
+    "length_m": 358.6471681817,
     "roads": [],
     "severity": 3,
     "start": "2026-11-20T22:23:58Z",
@@ -380,46 +381,43 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 399,
-    "description": "Stopped traffic",
-    "from": "Old Water Works Rd",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25844378152022000",
-    "length_m": 871.9317412702,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T20:35:21Z",
-    "to": "US Highway 9"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 110,
+    "delay_s": 118,
     "description": "Stopped traffic",
     "from": "US Highway 9",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25858804668004000",
-    "length_m": 32.6211321726,
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25832836752004000",
+    "length_m": 120.2756818709,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-20T22:02:21Z",
-    "to": "US Highway 9 / Ferry Rd"
+    "start": "2026-11-20T22:29:41Z",
+    "to": "Bordentown Ave / Kenneth Ave"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 297,
+    "delay_s": 221,
     "description": "Stopped traffic",
-    "from": "CR-3/Tennent Rd (NJ-18)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25858804732035000",
-    "length_m": 1790.7442527941,
-    "roads": [
-     "NJ-18",
-     "NJ-18 N"
-    ],
+    "from": "US Highway 9",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25844378136014000",
+    "length_m": 117.3146098402,
+    "roads": [],
     "severity": 3,
-    "start": "2026-11-20T19:26:36Z",
-    "to": "Leon Ave (NJ-18)"
+    "start": "2026-11-20T22:28:07Z",
+    "to": "Perrine Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 140,
+    "delay_s": 77,
+    "description": "Stopped traffic",
+    "from": "US Highway 9",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25867460936005000",
+    "length_m": 24.678448137,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T22:31:19Z",
+    "to": "US Highway 9 / Spring Valley Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 158,
     "description": "Stopped traffic",
     "from": "exit [30]",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25867461008043000",
@@ -431,11 +429,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 339,
+    "delay_s": 299,
     "description": "Stopped traffic",
     "from": "CR-520 (US-9)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25867461016010002",
-    "length_m": 1831.2648550052,
+    "length_m": 1721.1677907284,
     "roads": [
      "US-9 N"
     ],
@@ -445,11 +443,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 241,
+    "delay_s": 307,
     "description": "Stopped traffic",
-    "from": "CR-3/Tennent Rd (NJ-18)",
+    "from": "CR-520 (NJ-18)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25873231804091000",
-    "length_m": 1862.609797528,
+    "length_m": 2214.4710187445,
     "roads": [
      "NJ-18 N"
     ],
@@ -459,37 +457,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 213,
-    "description": "Stopped traffic",
-    "from": "NJ-79/Roosevelt Ave (Lloyd Rd/Tennent Rd/CR-3)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25879002424012004",
-    "length_m": 714.4785022718,
-    "roads": [
-     "County Hwy-3"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T22:14:18Z",
-    "to": "NJ-18/CR-520 (Tennent Rd/CR-3)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 84,
-    "description": "Stopped traffic",
-    "from": "County Hwy-520 exit [29]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25879002564020002",
-    "length_m": 160.661638762,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T22:17:19Z",
-    "to": "Tennent Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 86,
+    "delay_s": 51,
     "description": "Backed up traffic",
     "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25668370360009000",
-    "length_m": 967.600674978,
+    "length_m": 685.5464270646,
     "roads": [
      "NJ-24 W"
     ],
@@ -499,35 +471,21 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 396,
+    "delay_s": 264,
     "description": "Backed up traffic",
-    "from": "I-287 (NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25679911880017000",
-    "length_m": 4704.6875754383,
-    "roads": [
-     "NJ-24 E"
-    ],
-    "severity": 2,
-    "start": "2026-11-20T19:19:58Z",
-    "to": "NJ-124/Exit 7 (NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 173,
-    "description": "Backed up traffic",
-    "from": "NJ-124/Exit 49 (I-78)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25743391096073001",
-    "length_m": 2704.7352854148,
+    "from": "NJ-24/Exit 48 (I-78 Exp)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25743391096000000",
+    "length_m": 3141.7024511376,
     "roads": [
      "I-78 E"
     ],
     "severity": 2,
-    "start": "2026-11-20T21:56:21Z",
-    "to": "Garden State Pkwy/Exit 52 (I-78)"
+    "start": "2026-11-20T22:05:38Z",
+    "to": "Garden State Pkwy/Exit 52 (I-78 Exp)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 692,
+    "delay_s": 487,
     "description": "Backed up traffic",
     "from": "Millburn Ave (Vauxhall Rd)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25743391124012001",
@@ -541,108 +499,52 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 1990,
+    "delay_s": 268,
     "description": "Backed up traffic",
-    "from": "Watchung Ave/Exit 151 (Garden State Pkwy)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25746276901633000",
-    "length_m": 20181.8251377173,
+    "from": "Garden State Pkwy/Union Ave/Ball St (Lyons Ave)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932996012002",
+    "length_m": 706.349611219,
     "roads": [
-     "Garden State Pkwy S"
+     "County Hwy-602"
     ],
     "severity": 2,
-    "start": "2026-11-20T21:24:48Z",
-    "to": "Centennial Ave/Exit 136 (Garden State Pkwy)"
+    "start": "2026-11-20T21:58:57Z",
+    "to": "Elizabeth Ave (Lyons Ave)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 129,
-    "description": "Backed up traffic",
-    "from": "US-22 (Frelinghuysen Ave/NJ-27)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25763589368020001",
-    "length_m": 513.2230676909,
-    "roads": [
-     "NJ-27"
-    ],
-    "severity": 2,
-    "start": "2026-11-20T22:12:39Z",
-    "to": "Sherman Ave/Astor St (Frelinghuysen Ave/NJ-27)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 130,
-    "description": "Backed up traffic",
-    "from": "EXP US-1/EXP US-9/Exit 58 (I-78)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25763589480001000",
-    "length_m": 1565.2763137671,
-    "roads": [
-     "I-78 W"
-    ],
-    "severity": 2,
-    "start": "2026-11-20T18:56:43Z",
-    "to": "Hillside Ave/Exit 56 (I-78)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 228,
-    "description": "Backed up traffic",
-    "from": "I-78/NJ-21 (US-22)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25766474788201001",
-    "length_m": 2580.8070787286,
-    "roads": [
-     "US-22 W"
-    ],
-    "severity": 2,
-    "start": "2026-11-20T16:12:15Z",
-    "to": "Hillside Ave (US-22)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 224,
+    "delay_s": 241,
     "description": "Backed up traffic",
     "from": "I-78 (US-9/US-1)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25769360244017000",
-    "length_m": 2600.1192973426,
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25769360248137000",
+    "length_m": 2302.9063483999,
     "roads": [
      "US-1 S",
      "US-9 S"
     ],
     "severity": 2,
-    "start": "2026-11-20T22:18:09Z",
-    "to": "McClellan St (US-9/US-1)"
+    "start": "2026-11-20T19:47:06Z",
+    "to": "Newark International Airport (Elizabeth) (US-9/US-1)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 273,
+    "delay_s": 31,
     "description": "Backed up traffic",
-    "from": "NJ-81 (North Ave)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25778016264028001",
-    "length_m": 597.2819736039,
+    "from": "exit [3A]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25786671920032000",
+    "length_m": 398.1005751592,
     "roads": [],
     "severity": 2,
-    "start": "2026-11-20T22:22:20Z",
-    "to": "Spring St (North Ave)"
+    "start": "2026-11-20T22:30:27Z",
+    "to": "New Jersey Tpke S"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 58,
-    "description": "Backed up traffic",
-    "from": "NJ-81 Toll (NJ-81)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25778016284033000",
-    "length_m": 565.7204279612,
-    "roads": [
-     "NJ-81 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-20T22:19:40Z",
-    "to": "US-1 (NJ-81)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 893,
+    "delay_s": 758,
     "description": "Backed up traffic",
     "from": "US-9/Exit 11 (I-95)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25789557464032000",
-    "length_m": 12331.1335910497,
+    "length_m": 12438.0028670657,
     "roads": [
      "I-95 N",
      "New Jersey Tpke N"
@@ -653,11 +555,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 917,
+    "delay_s": 824,
     "description": "Backed up traffic",
     "from": "New Jersey Tpke (To Lincoln Tunnel)/End I-95 Car Only (I-95)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25789557536120000",
-    "length_m": 11250.808919575,
+    "length_m": 11111.3538227953,
     "roads": [
      "New Jersey Tpke S",
      "I-95 S"
@@ -668,11 +570,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 1018,
+    "delay_s": 1140,
     "description": "Backed up traffic",
     "from": "New Jersey Tpke (To Lincoln Tunnel)/End I-95 Car Only (I-95 Car Only/I-95)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25792442576008000",
-    "length_m": 12807.0079789585,
+    "length_m": 11947.6000326374,
     "roads": [
      "New Jersey Tpke S",
      "I-95 S"
@@ -683,23 +585,52 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 56,
+    "delay_s": 107,
     "description": "Backed up traffic",
-    "from": "Roosevelt Ave",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25798213156028000",
-    "length_m": 396.4435232802,
+    "from": "exit [12]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25798213216060000",
+    "length_m": 745.0588439824,
     "roads": [],
     "severity": 2,
-    "start": "2026-11-20T21:52:09Z",
-    "to": "New Jersey Tpke N"
+    "start": "2026-11-20T22:29:41Z",
+    "to": "Driftway / Industrial Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 198,
+    "delay_s": 640,
+    "description": "Backed up traffic",
+    "from": "US-9/Exit 11 (I-95 Car Only/I-95)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25803983536016000",
+    "length_m": 9173.576288228,
+    "roads": [
+     "I-95 N",
+     "New Jersey Tpke N"
+    ],
+    "severity": 2,
+    "start": "2026-11-20T21:19:55Z",
+    "to": "I-278/Exit 13 (I-95 Car Only/I-95)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 142,
+    "description": "Backed up traffic",
+    "from": "Rahway Ave (Port Reading Ave)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25803983548076000",
+    "length_m": 947.1450812863,
+    "roads": [
+     "County Hwy-604"
+    ],
+    "severity": 2,
+    "start": "2026-11-20T22:35:06Z",
+    "to": "West Ave (Port Reading Ave)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 100,
     "description": "Backed up traffic",
     "from": "Garden State Pkwy (King Georges Rd)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25809754084027000",
-    "length_m": 930.5795274662,
+    "length_m": 427.8952745326,
     "roads": [
      "NJ-184"
     ],
@@ -709,11 +640,40 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 166,
+    "delay_s": 246,
+    "description": "Backed up traffic",
+    "from": "CR-3/Tennent Rd (NJ-18)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25858804732035000",
+    "length_m": 1790.7442527941,
+    "roads": [
+     "NJ-18",
+     "NJ-18 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-20T19:26:36Z",
+    "to": "Leon Ave (NJ-18)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 199,
     "description": "Slow traffic",
-    "from": "Garden State Pkwy/Exit 52 (I-78 Exp)",
+    "from": "I-287 (NJ-24)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25679911880017000",
+    "length_m": 3878.753032554,
+    "roads": [
+     "NJ-24 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T19:19:58Z",
+    "to": "NJ-124/Exit 7 (NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 67,
+    "description": "Slow traffic",
+    "from": "Vauxhall Rd/Exit 50 (I-78 Exp)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25731849276008000",
-    "length_m": 4994.1773564238,
+    "length_m": 1516.9871010325,
     "roads": [
      "I-78 W"
     ],
@@ -723,11 +683,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 46,
+    "delay_s": 119,
     "description": "Slow traffic",
     "from": "Vauxhall Rd/Exit 50 (I-78)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25737620216025000",
-    "length_m": 1233.6451485367,
+    "length_m": 2437.9368262662,
     "roads": [
      "I-78 W"
     ],
@@ -737,25 +697,39 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 188,
+    "delay_s": 190,
     "description": "Slow traffic",
-    "from": "NJ-24/Exit 48 (I-78 Exp)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25743391096000000",
-    "length_m": 4006.6061875824,
+    "from": "NJ-124/Exit 49 (I-78)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25743391096073001",
+    "length_m": 3140.2374769531,
     "roads": [
      "I-78 E"
     ],
     "severity": 1,
-    "start": "2026-11-20T22:05:38Z",
-    "to": "Garden State Pkwy/Exit 52 (I-78 Exp)"
+    "start": "2026-11-20T21:56:21Z",
+    "to": "Garden State Pkwy/Exit 52 (I-78)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 85,
+    "delay_s": 34,
+    "description": "Heavy traffic",
+    "from": "Vauxhall Rd/Exit 50 (I-78)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932824009001",
+    "length_m": 2216.6177038825,
+    "roads": [
+     "I-78 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T22:33:34Z",
+    "to": "Winans Ave/Exit 54 (I-78)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 69,
     "description": "Slow traffic",
-    "from": "Glenwood Ave (I-78)",
+    "from": "Garden State Pkwy/Exit 52 (I-78)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932912025000",
-    "length_m": 2428.8258828003,
+    "length_m": 1684.5529883055,
     "roads": [
      "I-78 W"
     ],
@@ -765,25 +739,39 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 34,
+    "delay_s": 131,
     "description": "Slow traffic",
-    "from": "US-1/US-9/Exit 58 (I-78 Exp)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25766474932008000",
-    "length_m": 1271.1898681882,
+    "from": "EXP US-1/EXP US-9/Exit 58 (I-78)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25763589480001000",
+    "length_m": 1739.2386442563,
     "roads": [
      "I-78 W"
     ],
     "severity": 1,
-    "start": "2026-11-20T20:14:00Z",
+    "start": "2026-11-20T18:56:43Z",
+    "to": "Hillside Ave/Exit 56 (I-78)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 46,
+    "description": "Slow traffic",
+    "from": "US-1/US-9/Exit 58 (I-78 Exp)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25766474932008000",
+    "length_m": 1466.1401461587,
+    "roads": [
+     "I-78 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T22:28:07Z",
     "to": "Hillside Ave/Exit 56 (I-78 Exp)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 88,
+    "delay_s": 37,
     "description": "Slow traffic",
-    "from": "McClellan St (US-9/US-1)",
+    "from": "Newark International Airport (Newark) (US-9/US-1)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25769360168009000",
-    "length_m": 1255.7375419346,
+    "length_m": 887.7532703276,
     "roads": [
      "US-1 N",
      "US-9 N"
@@ -794,11 +782,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 94,
+    "delay_s": 46,
     "description": "Slow traffic",
     "from": "CR-602/Roosevelt Ave/Exit 12 (I-95 Car Only/I-95)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25789557464008001",
-    "length_m": 2730.9177227455,
+    "length_m": 1363.3843511294,
     "roads": [
      "I-95 N",
      "New Jersey Tpke N"
@@ -809,11 +797,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 131,
+    "delay_s": 103,
     "description": "Slow traffic",
     "from": "exit [3A]",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25789557464024000",
-    "length_m": 1701.9931997205,
+    "length_m": 1853.4777613158,
     "roads": [],
     "severity": 1,
     "start": "2026-11-20T22:23:10Z",
@@ -821,25 +809,41 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 79,
-    "description": "Slow traffic",
-    "from": "Meeker Ave/Forest Ave/Exit 4 (I-278)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25789557584000001",
-    "length_m": 2224.1127869089,
+    "delay_s": 36,
+    "description": "Heavy traffic",
+    "from": "I-278/Exit 13 (I-95 Car Only/I-95)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25792442576040000",
+    "length_m": 2276.0847713319,
     "roads": [
-     "I-278 W"
+     "New Jersey Tpke S",
+     "I-95 S"
     ],
     "severity": 1,
-    "start": "2026-11-20T22:16:33Z",
-    "to": "I-95/New Jersey Tpke/Bayway Ave (I-278)"
+    "start": "2026-11-20T22:30:27Z",
+    "to": "CR-602/Roosevelt Ave/Exit 12 (I-95 Car Only/I-95)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 54,
+    "delay_s": 25,
+    "description": "Slow traffic",
+    "from": "I-278/Exit 13 (I-95)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25795327908040000",
+    "length_m": 936.0034311377,
+    "roads": [
+     "New Jersey Tpke S",
+     "I-95 S"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T22:28:07Z",
+    "to": "Roosevelt Ave/Exit 12 (I-95)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 36,
     "description": "Slow traffic",
     "from": "CR-602/Roosevelt Ave/Exit 12 (I-95 Car Only/I-95)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25803983468000000",
-    "length_m": 1162.4742428892,
+    "length_m": 912.5736206495,
     "roads": [
      "New Jersey Tpke S",
      "I-95 S"
@@ -847,32 +851,6 @@
     "severity": 1,
     "start": "2026-11-20T22:10:03Z",
     "to": "US-9/Exit 11 (I-95 Car Only/I-95)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 134,
-    "description": "Slow traffic",
-    "from": "Rahway Ave (Port Reading Ave)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25803983548100000",
-    "length_m": 934.2292834278,
-    "roads": [
-     "County Hwy-604"
-    ],
-    "severity": 1,
-    "start": "2026-11-20T22:18:09Z",
-    "to": "West Ave (Port Reading Ave)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 50,
-    "description": "Slow traffic",
-    "from": "County Hwy-520 exit [29]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25879002532012000",
-    "length_m": 318.9596684128,
-    "roads": [],
-    "severity": 1,
-    "start": "2026-11-20T22:24:52Z",
-    "to": "County Hwy-520 exit [29]"
    }
   ],
   "label": "Old Bridge commute"
@@ -885,11 +863,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 1271,
+    "delay_s": 1095,
     "description": "Stopped traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25642402280016000",
-    "length_m": 9369.1153992164,
+    "length_m": 9722.692259621,
     "roads": [
      "I-287 N"
     ],
@@ -899,7 +877,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 242,
+    "delay_s": 175,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25645287228011000",
@@ -911,26 +889,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 181,
+    "delay_s": 69,
     "description": "Stopped traffic",
-    "from": "NJ-10 (Tabor Rd/NJ-53)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172416027002",
-    "length_m": 296.054957736,
-    "roads": [
-     "Alex DeCroce Memorial Hwy",
-     "NJ-53"
-    ],
+    "from": "Tabor Rd",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011001",
+    "length_m": 52.4816098938,
+    "roads": [],
     "severity": 3,
-    "start": "2026-11-20T22:13:32Z",
-    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
+    "start": "2026-11-20T22:34:18Z",
+    "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 856,
+    "delay_s": 650,
     "description": "Stopped traffic",
     "from": "NJ-10 (Littleton Rd/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444026001",
-    "length_m": 1677.8183351749,
+    "length_m": 1550.3808921661,
     "roads": [
      "US-202 S",
      "US-202 N"
@@ -941,11 +916,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 569,
+    "delay_s": 538,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796012000",
-    "length_m": 996.8340399259,
+    "length_m": 1044.0611497203,
     "roads": [
      "County Hwy-650"
     ],
@@ -955,23 +930,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 169,
+    "delay_s": 387,
     "description": "Stopped traffic",
-    "from": "Spring St / Center St",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713772006000",
-    "length_m": 96.054155854,
+    "from": "Martin Luther King Ave",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25656828596030000",
+    "length_m": 889.9710828583,
     "roads": [],
     "severity": 3,
     "start": "2026-11-20T22:22:20Z",
-    "to": "E Park Pl / N Park Pl"
+    "to": "Speedwell Ave"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 350,
+    "delay_s": 313,
     "description": "Stopped traffic",
     "from": "Hanover Ave (Speedwell Ave/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713876026000",
-    "length_m": 620.989,
+    "length_m": 511.732,
     "roads": [
      "US-202 S",
      "US-202 N"
@@ -982,11 +957,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 149,
+    "delay_s": 151,
     "description": "Stopped traffic",
     "from": "Abbett Ave (Martin Luther King Ave)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713900013000",
-    "length_m": 211.0473639988,
+    "length_m": 176.2532849053,
     "roads": [],
     "severity": 3,
     "start": "2026-11-20T22:20:39Z",
@@ -1006,7 +981,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 368,
+    "delay_s": 336,
     "description": "Stopped traffic",
     "from": "Morris St (Spring St)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713932012001",
@@ -1018,23 +993,25 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 189,
+    "delay_s": 107,
     "description": "Backed up traffic",
-    "from": "Martin Luther King Ave",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25656828596030000",
-    "length_m": 654.6336040581,
-    "roads": [],
+    "from": "Whippany Rd/Lindsley Dr (Columbia Rd)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599228012002",
+    "length_m": 352.7929649518,
+    "roads": [
+     "County Hwy-510"
+    ],
     "severity": 2,
-    "start": "2026-11-20T22:22:20Z",
-    "to": "Speedwell Ave"
+    "start": "2026-11-20T22:27:27Z",
+    "to": "Ridgedale Ave (Morristown) (Lafayette Ave/Morris St)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 245,
+    "delay_s": 240,
     "description": "Backed up traffic",
     "from": "NJ-124/Madison Ave (South St/NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599264027001",
-    "length_m": 997.5810435455,
+    "length_m": 962.6254901013,
     "roads": [
      "NJ-124"
     ],
@@ -1044,25 +1021,25 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 284,
-    "description": "Backed up traffic",
-    "from": "NJ-24/Exit 37 (I-287)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25668369884064000",
-    "length_m": 3937.7729055655,
+    "delay_s": 130,
+    "description": "Slow traffic",
+    "from": "Ridgedale Ave (Morristown) (Lafayette Ave/Morris St)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713764012002",
+    "length_m": 489.9620267744,
     "roads": [
-     "I-287 S"
+     "County Hwy-510"
     ],
-    "severity": 2,
-    "start": "2026-11-20T20:17:15Z",
-    "to": "Harter Rd/Exit 33 (I-287)"
+    "severity": 1,
+    "start": "2026-11-20T22:30:27Z",
+    "to": "US-202/NJ-24/Dumont Pl/E Park Pl (Morris St)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 161,
+    "delay_s": 117,
     "description": "Slow traffic",
     "from": "NJ-24/Washington St/Morris St/Park Pl (Market St/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713948018001",
-    "length_m": 636.7342281392,
+    "length_m": 393.8551662366,
     "roads": [
      "US-202 S",
      "US-202 N"
@@ -1070,6 +1047,20 @@
     "severity": 1,
     "start": "2026-11-20T22:23:10Z",
     "to": "Hanover Ave (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 177,
+    "description": "Slow traffic",
+    "from": "NJ-24/Exit 37 (I-287)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25668369884064000",
+    "length_m": 3602.0892668337,
+    "roads": [
+     "I-287 S"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T20:17:15Z",
+    "to": "Harter Rd/Exit 33 (I-287)"
    }
   ],
   "label": "Near home"
