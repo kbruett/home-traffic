@@ -7,17 +7,59 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 29,
+    "delay_s": 44,
+    "description": "Slow traffic",
+    "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484888009000",
+    "length_m": 764.1833149306,
+    "roads": [
+     "NJ-24 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T12:03:15Z",
+    "to": "I-287 (NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 31,
+    "description": "Slow traffic",
+    "from": "NJ-124/Exit 49 (I-78)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25734734744017001",
+    "length_m": 768.73250196,
+    "roads": [
+     "I-78 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T12:05:15Z",
+    "to": "NJ-24/Exit 48 (I-78)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 79,
     "description": "Slow traffic",
     "from": "Centennial Ave/Exit 136 (Garden State Pkwy)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25760703028017000",
-    "length_m": 884.8968501467,
+    "length_m": 1502.3328617165,
     "roads": [
      "Garden State Pkwy N"
     ],
     "severity": 1,
     "start": "2026-11-20T11:52:45Z",
-    "to": "NJ-28/Exit 137 (Garden State Pkwy)"
+    "to": "Exit 138 (Garden State Pkwy)"
+   },
+   {
+    "category": "Crash",
+    "delay_s": 0,
+    "description": "Accident",
+    "from": "NJ-28/Exit 137 (Garden State Pkwy)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25757817560017001",
+    "length_m": 187.2069774117,
+    "roads": [
+     "Garden State Pkwy N"
+    ],
+    "severity": 0,
+    "start": "2026-11-20T12:02:15Z",
+    "to": "Exit 138 (Garden State Pkwy)"
    }
   ],
   "label": "Old Bridge commute"
