@@ -7,39 +7,53 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 133,
-    "description": "Backed up traffic",
-    "from": "I-287 (NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25668370128041000",
-    "length_m": 1583.5547908042,
+    "delay_s": 156,
+    "description": "Stopped traffic",
+    "from": "Greenwood Ave (Ridgedale Ave)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25688568040013000",
+    "length_m": 170.694306737,
     "roads": [
-     "NJ-24 E"
+     "County Hwy-608"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T12:35:15Z",
+    "to": "Park Ave (Ridgedale Ave)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 222,
+    "description": "Stopped traffic",
+    "from": "Park Ave (Ridgedale Ave)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25691453440021000",
+    "length_m": 659.306225185,
+    "roads": [
+     "County Hwy-608"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T12:33:15Z",
+    "to": "Greenwood Ave (Ridgedale Ave)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 197,
+    "description": "Backed up traffic",
+    "from": "Garden State Pkwy/Exit 52 (I-78)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25734734744017001",
+    "length_m": 2809.4668535436,
+    "roads": [
+     "I-78 W"
     ],
     "severity": 2,
-    "start": "2026-11-20T12:10:45Z",
-    "to": "Columbia Tpke/Exit 2B-2A (NJ-24)"
+    "start": "2026-11-20T12:05:15Z",
+    "to": "NJ-24/Exit 48 (I-78)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 24,
+    "delay_s": 354,
     "description": "Slow traffic",
-    "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25679911880017000",
-    "length_m": 1141.0739255047,
-    "roads": [
-     "NJ-24 E"
-    ],
-    "severity": 1,
-    "start": "2026-11-20T12:07:45Z",
-    "to": "NJ-124/Exit 7 (NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 113,
-    "description": "Slow traffic",
-    "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
+    "from": "I-287 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25697224272049000",
-    "length_m": 2301.9121529361,
+    "length_m": 7022.029772585,
     "roads": [
      "NJ-24 E"
     ],
@@ -49,11 +63,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 95,
+    "delay_s": 138,
     "description": "Slow traffic",
     "from": "Summit Ave/Exit 8 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25705880624073000",
-    "length_m": 1926.0203812889,
+    "length_m": 2406.449322522,
     "roads": [
      "NJ-24 W"
     ],
@@ -63,25 +77,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 81,
-    "description": "Slow traffic",
-    "from": "Vauxhall Rd/Exit 50 (I-78)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25734734744017001",
-    "length_m": 2070.116880462,
-    "roads": [
-     "I-78 W"
-    ],
-    "severity": 1,
-    "start": "2026-11-20T12:05:15Z",
-    "to": "NJ-24/Exit 48 (I-78)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 184,
+    "delay_s": 186,
     "description": "Slow traffic",
     "from": "Central Ave/Brant Ave/Exit 135 (Garden State Pkwy)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25760703028017000",
-    "length_m": 3509.131259245,
+    "length_m": 3744.2037331265,
     "roads": [
      "Garden State Pkwy N"
     ],
@@ -111,7 +111,20 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 102,
+    "description": "Backed up traffic",
+    "from": "exit [37]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599484033000",
+    "length_m": 1117.31,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-20T12:29:15Z",
+    "to": "State Route 24"
+   }
+  ],
   "label": "Near home"
  }
 }
