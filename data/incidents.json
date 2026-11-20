@@ -7,11 +7,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 223,
+    "delay_s": 272,
     "description": "Stopped traffic",
-    "from": "I-78/Mill Rd/Exit 142 (Garden State Pkwy)",
+    "from": "Lyons Ave/Exit 143 (Garden State Pkwy)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25752047416177000",
-    "length_m": 1983.9015590876,
+    "length_m": 2403.2833289436,
     "roads": [
      "Garden State Pkwy S"
     ],
@@ -21,25 +21,25 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 290,
-    "description": "Backed up traffic",
+    "delay_s": 137,
+    "description": "Slow traffic",
     "from": "I-287 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25674141080377001",
     "length_m": 3603.5336667876,
     "roads": [
      "NJ-24 E"
     ],
-    "severity": 2,
+    "severity": 1,
     "start": "2026-11-20T12:07:45Z",
     "to": "NJ-124/Exit 7 (NJ-24)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 134,
+    "delay_s": 158,
     "description": "Slow traffic",
     "from": "Summit Ave/Exit 8 (NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25705880624073000",
-    "length_m": 2293.6116780461,
+    "length_m": 2588.3946971684,
     "roads": [
      "NJ-24 W"
     ],
@@ -55,7 +55,20 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 311,
+    "description": "Stopped traffic",
+    "from": "Speedwell Ave",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713848014000",
+    "length_m": 109.761,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T13:41:45Z",
+    "to": "Martin Luther King Ave"
+   }
+  ],
   "label": "Near home"
  }
 }
