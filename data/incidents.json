@@ -19,7 +19,7 @@
     "description": "Closed",
     "from": "Jonathan Smith Rd",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286600037000",
-    "length_m": 389.8783152283,
+    "length_m": 389.878,
     "roads": [],
     "severity": 4,
     "start": "2026-11-20T17:50:45Z",
@@ -31,23 +31,26 @@
     "description": "Closed",
     "from": "Sussex Ave / Lake Rd",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286672037000",
-    "length_m": 389.8783152283,
+    "length_m": 893.1000412715,
     "roads": [],
     "severity": 4,
     "start": "2026-11-20T17:50:45Z",
     "to": "Jonathan Smith Rd"
    },
    {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "Sussex Ave / Lake Rd",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286684037000",
-    "length_m": 413.864,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-11-20T18:03:15Z",
-    "to": "Jonathan Smith Rd"
+    "category": "Traffic jam",
+    "delay_s": 122,
+    "description": "Backed up traffic",
+    "from": "Malapardis Rd (Littleton Rd/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444018001",
+    "length_m": 526.0610971187,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-20T19:02:46Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
    }
   ],
   "label": "Near home"
