@@ -15,7 +15,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 262,
+    "delay_s": 192,
     "description": "Stopped traffic",
     "from": "Hanover Ave (Speedwell Ave/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172356018000",
@@ -27,46 +27,6 @@
     "severity": 3,
     "start": "2026-11-20T16:21:15Z",
     "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 65,
-    "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011002",
-    "length_m": 52.4816098938,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T16:24:19Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 266,
-    "description": "Stopped traffic",
-    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713928020000",
-    "length_m": 822.6770594208,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T16:17:45Z",
-    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 135,
-    "description": "Stopped traffic",
-    "from": "I-287 (James St)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599152012004",
-    "length_m": 309.7664613629,
-    "roads": [
-     "County Hwy-663"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T16:20:15Z",
-    "to": "NJ-24/South St (James St)"
    }
   ],
   "label": "Near home"
