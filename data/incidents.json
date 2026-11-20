@@ -12,7 +12,36 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 139,
+    "description": "Stopped traffic",
+    "from": "Raynor Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25639515976012000",
+    "length_m": 421.438,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T16:12:15Z",
+    "to": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 146,
+    "description": "Stopped traffic",
+    "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599192011000",
+    "length_m": 358.003709598,
+    "roads": [
+     "NJ-124"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T16:15:15Z",
+    "to": "NJ-124/Madison Ave (South St/NJ-24)"
+   }
+  ],
   "label": "Near home"
  }
 }
