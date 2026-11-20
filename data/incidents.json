@@ -19,7 +19,7 @@
     "description": "Closed",
     "from": "Jonathan Smith Rd",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286600037000",
-    "length_m": 379.0930975415,
+    "length_m": 389.8783152283,
     "roads": [],
     "severity": 4,
     "start": "2026-11-20T17:50:45Z",
@@ -31,25 +31,37 @@
     "description": "Closed",
     "from": "Sussex Ave / Lake Rd",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286672037000",
-    "length_m": 379.093,
+    "length_m": 389.8783152283,
     "roads": [],
     "severity": 4,
     "start": "2026-11-20T17:50:45Z",
     "to": "Jonathan Smith Rd"
    },
    {
+    "category": "Road closed",
+    "delay_s": 0,
+    "description": "Closed",
+    "from": "Sussex Ave / Lake Rd",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25645286684037000",
+    "length_m": 413.864,
+    "roads": [],
+    "severity": 4,
+    "start": "2026-11-20T18:03:15Z",
+    "to": "Jonathan Smith Rd"
+   },
+   {
     "category": "Traffic jam",
-    "delay_s": 142,
-    "description": "Slow traffic",
-    "from": "NJ-124/Madison Ave (South St/NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599264019002",
-    "length_m": 891.8945569251,
+    "delay_s": 124,
+    "description": "Backed up traffic",
+    "from": "I-287 (James St)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599152012001",
+    "length_m": 309.7664613629,
     "roads": [
-     "NJ-124"
+     "County Hwy-663"
     ],
-    "severity": 1,
-    "start": "2026-11-20T17:55:49Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
+    "severity": 2,
+    "start": "2026-11-20T18:02:15Z",
+    "to": "NJ-24/South St (James St)"
    }
   ],
   "label": "Near home"
