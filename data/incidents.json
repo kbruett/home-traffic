@@ -7,94 +7,16 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 88,
-    "description": "Stopped traffic",
-    "from": "exit [136]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25763588300020002",
-    "length_m": 241.6609582822,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-20T23:35:58Z",
-    "to": "exit [136]"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 363,
-    "description": "Stopped traffic",
-    "from": "NJ-28/North Ave (Central Ave)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25772244408012000",
-    "length_m": 814.015846447,
-    "roads": [
-     "County Hwy-613"
-    ],
-    "severity": 3,
-    "start": "2026-11-20T22:59:10Z",
-    "to": "Garden State Pkwy/Valley Rd (Brant Ave/Central Ave)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 100,
-    "description": "Backed up traffic",
-    "from": "exit [135]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25766473480012002",
-    "length_m": 171.5560208638,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-21T00:10:15Z",
-    "to": "Garden State Pkwy S"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 241,
-    "description": "Backed up traffic",
-    "from": "Westfield Ave (Brant Ave)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25766473520068000",
-    "length_m": 675.1323401693,
-    "roads": [
-     "County Hwy-613"
-    ],
-    "severity": 2,
-    "start": "2026-11-21T00:23:15Z",
-    "to": "Raritan Rd (Central Ave)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 51,
-    "description": "Backed up traffic",
-    "from": "exit [135]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25769358964028000",
-    "length_m": 300.483624263,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-21T00:25:45Z",
-    "to": "Central Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 140,
-    "description": "Backed up traffic",
-    "from": "NJ-27/Lincoln Hwy (Oak Tree Rd)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25780899996012002",
-    "length_m": 477.0507267201,
-    "roads": [
-     "County Hwy-604"
-    ],
-    "severity": 2,
-    "start": "2026-11-21T00:23:15Z",
-    "to": "Wood Ave (Oak Tree Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 250,
-    "description": "Backed up traffic",
-    "from": "Garden State Pkwy/Exit 11 (I-95 Car Only/I-95)",
+    "delay_s": 410,
+    "description": "Slow traffic",
+    "from": "CR-602/Roosevelt Ave/Exit 12 (I-95 Car Only/I-95)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25801097568016000",
-    "length_m": 4092.6740982613,
+    "length_m": 7354.522456756,
     "roads": [
      "New Jersey Tpke S",
      "I-95 S"
     ],
-    "severity": 2,
+    "severity": 1,
     "start": "2026-11-21T00:15:15Z",
     "to": "NJ-18/Exit 9 (I-95 Car Only/I-95)"
    },
@@ -123,31 +45,17 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 202,
+    "delay_s": 165,
     "description": "Backed up traffic",
     "from": "NJ-124/Madison Ave (South St/NJ-24)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599264067000",
-    "length_m": 653.4920185481,
+    "length_m": 653.492,
     "roads": [
      "NJ-124"
     ],
     "severity": 2,
     "start": "2026-11-21T00:24:15Z",
     "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 105,
-    "description": "Slow traffic",
-    "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599192051000",
-    "length_m": 523.496,
-    "roads": [
-     "NJ-124"
-    ],
-    "severity": 1,
-    "start": "2026-11-21T00:33:45Z",
-    "to": "NJ-124/Madison Ave (South St/NJ-24)"
    }
   ],
   "label": "Near home"
