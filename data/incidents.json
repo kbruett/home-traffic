@@ -15,37 +15,38 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 61,
+    "delay_s": 66,
     "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25645287280003002",
-    "length_m": 43.6063,
+    "from": "Tabor Rd",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011001",
+    "length_m": 52.4816,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-21T19:06:48Z",
+    "start": "2026-11-21T19:15:45Z",
     "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 297,
+    "delay_s": 153,
     "description": "Stopped traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713860028001",
-    "length_m": 696.7552681389,
+    "from": "Malapardis Rd (Littleton Rd/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444026000",
+    "length_m": 506.425897583,
     "roads": [
-     "County Hwy-650"
+     "US-202 S",
+     "US-202 N"
     ],
     "severity": 3,
-    "start": "2026-11-21T18:55:47Z",
-    "to": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)"
+    "start": "2026-11-21T19:16:19Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 250,
+    "delay_s": 302,
     "description": "Stopped traffic",
     "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860020000",
-    "length_m": 755.3960459747,
+    "length_m": 633.156596983,
     "roads": [
      "County Hwy-650"
     ],
