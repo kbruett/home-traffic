@@ -27,16 +27,30 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 515,
+    "delay_s": 140,
     "description": "Stopped traffic",
-    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860028000",
-    "length_m": 760.835101945,
+    "from": "Ridgedale Ave (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484792020001",
+    "length_m": 501.8431913581,
     "roads": [
      "County Hwy-650"
     ],
     "severity": 3,
-    "start": "2026-11-21T16:04:45Z",
+    "start": "2026-11-21T16:11:45Z",
+    "to": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 146,
+    "description": "Stopped traffic",
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860028000",
+    "length_m": 674.0181838455,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-21T16:12:45Z",
     "to": "Ridgedale Ave (Hanover Ave/CR-650)"
    }
   ],
