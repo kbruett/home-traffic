@@ -12,7 +12,20 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 221,
+    "description": "Stopped traffic",
+    "from": "exit [37]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599484033000",
+    "length_m": 1117.31,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-21T23:10:15Z",
+    "to": "State Route 24"
+   }
+  ],
   "label": "Near home"
  }
 }
