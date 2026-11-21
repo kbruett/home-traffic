@@ -27,16 +27,16 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 156,
-    "description": "Stopped traffic",
+    "delay_s": 130,
+    "description": "Backed up traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713856020001",
-    "length_m": 652.0704865865,
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484792020000",
+    "length_m": 663.1250081142,
     "roads": [
      "County Hwy-650"
     ],
-    "severity": 3,
-    "start": "2026-11-21T14:46:15Z",
+    "severity": 2,
+    "start": "2026-11-21T14:52:45Z",
     "to": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)"
    }
   ],
