@@ -27,11 +27,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 170,
+    "delay_s": 287,
     "description": "Stopped traffic",
     "from": "Malapardis Rd (Littleton Rd/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444034000",
-    "length_m": 379.7616271503,
+    "length_m": 718.003,
     "roads": [
      "US-202 S",
      "US-202 N"
@@ -42,18 +42,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 129,
-    "description": "Backed up traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172360050000",
-    "length_m": 644.347,
+    "delay_s": 366,
+    "description": "Stopped traffic",
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860044000",
+    "length_m": 699.5404004051,
     "roads": [
-     "US-202 S",
-     "US-202 N"
+     "County Hwy-650"
     ],
-    "severity": 2,
-    "start": "2026-11-21T16:51:15Z",
-    "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
+    "severity": 3,
+    "start": "2026-11-21T17:01:45Z",
+    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
