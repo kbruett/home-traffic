@@ -27,26 +27,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 246,
-    "description": "Stopped traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172360050001",
-    "length_m": 723.961,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-21T17:21:45Z",
-    "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 248,
+    "delay_s": 307,
     "description": "Stopped traffic",
     "from": "Malapardis Rd (Littleton Rd/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444034000",
-    "length_m": 608.2708895659,
+    "length_m": 966.037,
     "roads": [
      "US-202 S",
      "US-202 N"
@@ -57,43 +42,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 144,
-    "description": "Stopped traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796020001",
-    "length_m": 390.7707452635,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-21T17:07:22Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 179,
-    "description": "Stopped traffic",
-    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860044000",
-    "length_m": 375.9677932249,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-21T17:26:47Z",
-    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 211,
+    "delay_s": 145,
     "description": "Backed up traffic",
-    "from": "E Hanover Ave (Ridgedale Ave)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599220028000",
-    "length_m": 510.5599401365,
-    "roads": [],
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484792020004",
+    "length_m": 765.7372910273,
+    "roads": [
+     "County Hwy-650"
+    ],
     "severity": 2,
-    "start": "2026-11-21T17:21:15Z",
-    "to": "Morris St (Ridgedale Ave)"
+    "start": "2026-11-21T17:32:45Z",
+    "to": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
