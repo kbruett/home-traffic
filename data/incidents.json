@@ -27,15 +27,29 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 47,
+    "delay_s": 210,
     "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011001",
-    "length_m": 52.4816,
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796028000",
+    "length_m": 482.534,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-21T18:19:22Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 142,
+    "description": "Stopped traffic",
+    "from": "CR-650/E Hanover Ave (Horse Hill Rd)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25656828520030000",
+    "length_m": 336.5580646071,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-21T18:05:15Z",
-    "to": "Littleton Rd"
+    "start": "2026-11-21T18:25:21Z",
+    "to": "Ridgedale Ave (Horse Hill Rd)"
    }
   ],
   "label": "Near home"
