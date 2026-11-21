@@ -27,46 +27,74 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 108,
+    "delay_s": 174,
     "description": "Stopped traffic",
-    "from": "NJ-124/Madison Ave (South St/NJ-24)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599264035000",
-    "length_m": 225.5940152687,
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172356042000",
+    "length_m": 493.8931562768,
     "roads": [
-     "NJ-124"
+     "US-202 S",
+     "US-202 N"
     ],
     "severity": 3,
-    "start": "2026-11-21T16:23:15Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
+    "start": "2026-11-21T16:30:45Z",
+    "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 154,
+    "delay_s": 176,
     "description": "Stopped traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484792020001",
-    "length_m": 687.8475513676,
+    "from": "NJ-10 (Tabor Rd/NJ-53)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172416027000",
+    "length_m": 296.054957736,
+    "roads": [
+     "Alex DeCroce Memorial Hwy",
+     "NJ-53"
+    ],
+    "severity": 3,
+    "start": "2026-11-21T16:32:15Z",
+    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 173,
+    "description": "Stopped traffic",
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860044000",
+    "length_m": 633.156596983,
     "roads": [
      "County Hwy-650"
     ],
     "severity": 3,
-    "start": "2026-11-21T16:11:45Z",
-    "to": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)"
+    "start": "2026-11-21T16:36:19Z",
+    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 139,
+    "delay_s": 136,
     "description": "Backed up traffic",
     "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172356042000",
-    "length_m": 546.451,
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713876018000",
+    "length_m": 511.732,
     "roads": [
      "US-202 S",
      "US-202 N"
     ],
     "severity": 2,
-    "start": "2026-11-21T16:25:45Z",
-    "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
+    "start": "2026-11-21T16:34:15Z",
+    "to": "Spring St (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 201,
+    "description": "Backed up traffic",
+    "from": "E Hanover Ave (Ridgedale Ave)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484688012001",
+    "length_m": 554.9937820269,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-21T16:34:15Z",
+    "to": "Morris St (Ridgedale Ave)"
    }
   ],
   "label": "Near home"
