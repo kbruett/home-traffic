@@ -19,7 +19,7 @@
     "description": "Closed",
     "from": "Ridgedale Ave",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25665484640028000",
-    "length_m": 257.7117555886,
+    "length_m": 257.712,
     "roads": [],
     "severity": 4,
     "start": "2026-11-21T13:29:45Z",
@@ -27,15 +27,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 137,
-    "description": "Backed up traffic",
-    "from": "E Hanover Ave (Ridgedale Ave)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484688012000",
-    "length_m": 328.659,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-21T15:44:15Z",
-    "to": "Morris St (Ridgedale Ave)"
+    "delay_s": 154,
+    "description": "Stopped traffic",
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713856020000",
+    "length_m": 737.9595101607,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-21T15:54:45Z",
+    "to": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
