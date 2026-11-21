@@ -15,17 +15,17 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 382,
+    "delay_s": 170,
     "description": "Stopped traffic",
     "from": "Malapardis Rd (Littleton Rd/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444026000",
-    "length_m": 767.04,
+    "length_m": 379.762,
     "roads": [
      "US-202 S",
      "US-202 N"
     ],
     "severity": 3,
-    "start": "2026-11-21T21:40:19Z",
+    "start": "2026-11-21T22:15:50Z",
     "to": "Hanover Ave (Speedwell Ave/US-202)"
    }
   ],
