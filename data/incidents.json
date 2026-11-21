@@ -27,11 +27,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 214,
+    "delay_s": 161,
     "description": "Stopped traffic",
     "from": "Hanover Ave (Speedwell Ave/US-202)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172360050001",
-    "length_m": 655.779,
+    "length_m": 529.1928420925,
     "roads": [
      "US-202 S",
      "US-202 N"
@@ -42,29 +42,57 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 81,
+    "delay_s": 65,
     "description": "Stopped traffic",
     "from": "Tabor Rd",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011000",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011001",
     "length_m": 52.4816098938,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-21T17:53:16Z",
+    "start": "2026-11-21T18:05:15Z",
     "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 158,
+    "delay_s": 150,
     "description": "Stopped traffic",
-    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860028002",
-    "length_m": 387.859753104,
+    "from": "Malapardis Rd (Littleton Rd/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172444026000",
+    "length_m": 506.425897583,
     "roads": [
-     "County Hwy-650"
+     "US-202 S",
+     "US-202 N"
     ],
     "severity": 3,
-    "start": "2026-11-21T17:56:45Z",
-    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
+    "start": "2026-11-21T17:57:15Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 124,
+    "description": "Backed up traffic",
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713876010000",
+    "length_m": 346.897,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-21T18:05:15Z",
+    "to": "Spring St (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 149,
+    "description": "Backed up traffic",
+    "from": "E Hanover Ave (Ridgedale Ave)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599220028000",
+    "length_m": 328.6593446528,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-21T17:57:49Z",
+    "to": "Morris St (Ridgedale Ave)"
    }
   ],
   "label": "Near home"
