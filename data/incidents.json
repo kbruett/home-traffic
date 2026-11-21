@@ -15,17 +15,32 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 123,
-    "description": "Backed up traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057796028000",
-    "length_m": 344.225,
+    "delay_s": 172,
+    "description": "Stopped traffic",
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713876026000",
+    "length_m": 346.897,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 3,
+    "start": "2026-11-21T18:42:15Z",
+    "to": "Spring St (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 261,
+    "description": "Stopped traffic",
+    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860020000",
+    "length_m": 764.6811467176,
     "roads": [
      "County Hwy-650"
     ],
-    "severity": 2,
-    "start": "2026-11-21T18:19:22Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+    "severity": 3,
+    "start": "2026-11-21T18:46:17Z",
+    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
