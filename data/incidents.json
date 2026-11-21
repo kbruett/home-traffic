@@ -15,11 +15,23 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 147,
+    "delay_s": 61,
+    "description": "Stopped traffic",
+    "from": "State Route 10",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25645287280003002",
+    "length_m": 43.6063,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-21T19:06:48Z",
+    "to": "Littleton Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 297,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713860028001",
-    "length_m": 701.853,
+    "length_m": 696.7552681389,
     "roads": [
      "County Hwy-650"
     ],
@@ -29,16 +41,16 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 264,
+    "delay_s": 250,
     "description": "Stopped traffic",
     "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860020000",
-    "length_m": 790.6453302952,
+    "length_m": 755.3960459747,
     "roads": [
      "County Hwy-650"
     ],
     "severity": 3,
-    "start": "2026-11-21T18:46:17Z",
+    "start": "2026-11-21T19:04:45Z",
     "to": "Ridgedale Ave (Hanover Ave/CR-650)"
    }
   ],
