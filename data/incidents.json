@@ -6,30 +6,6 @@
  "commute-old-bridge": {
   "items": [
    {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "Atlantic St",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25786672188021000",
-    "length_m": 159.4636280509,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-09-01T14:00:00Z",
-    "to": "Lt Glenn Zamorski Dr"
-   },
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "Delaware St",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25786672260021000",
-    "length_m": 238.5485176949,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-09-01T14:52:30Z",
-    "to": "Atlantic St"
-   },
-   {
     "category": "Traffic jam",
     "delay_s": 117,
     "description": "Stopped traffic",
@@ -45,29 +21,83 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 150,
+    "delay_s": 68,
     "description": "Stopped traffic",
-    "from": "Goethals Br exit [13]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25783787008009004",
-    "length_m": 655.1646337751,
+    "from": "exit [136]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25763588300020002",
+    "length_m": 241.6609582822,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-20T20:20:36Z",
-    "to": "New Jersey Tpke S"
+    "start": "2026-11-20T23:35:58Z",
+    "to": "exit [136]"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 72,
+    "delay_s": 503,
     "description": "Stopped traffic",
-    "from": "North Ave/Jersey Gardens Blvd (NJ-81)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25783787008009005",
-    "length_m": 164.4143453476,
+    "from": "Westfield Ave (Brant Ave)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25766473532028001",
+    "length_m": 1121.9706294162,
     "roads": [
-     "NJ-81 S"
+     "County Hwy-613"
     ],
     "severity": 3,
-    "start": "2026-11-20T19:34:11Z",
-    "to": "NJ-81 Toll (NJ-81)"
+    "start": "2026-11-20T22:59:49Z",
+    "to": "Raritan Rd (Central Ave)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 126,
+    "description": "Stopped traffic",
+    "from": "Raritan Rd (Walnut Ave)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25769358932021000",
+    "length_m": 234.7218735931,
+    "roads": [
+     "County Hwy-632"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T23:52:47Z",
+    "to": "Valley Rd (Walnut Ave)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 127,
+    "description": "Stopped traffic",
+    "from": "N Stiles St (Valley Rd)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25769358972012000",
+    "length_m": 195.0858354123,
+    "roads": [
+     "County Hwy-608"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T23:41:15Z",
+    "to": "Brant Ave/Garden State Pkwy (Valley Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 137,
+    "description": "Stopped traffic",
+    "from": "exit [135]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25772244352028000",
+    "length_m": 342.7273071588,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-20T23:53:45Z",
+    "to": "Garden State Pkwy N"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 592,
+    "description": "Stopped traffic",
+    "from": "NJ-28/North Ave (Central Ave)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25772244408012000",
+    "length_m": 1107.3449016791,
+    "roads": [
+     "County Hwy-613"
+    ],
+    "severity": 3,
+    "start": "2026-11-20T22:59:10Z",
+    "to": "Westfield Ave (Brant Ave)"
    },
    {
     "category": "Traffic jam",
@@ -109,72 +139,73 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 150,
+    "delay_s": 132,
     "description": "Backed up traffic",
-    "from": "Exit 57 (US-1&9 Exp)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25775130888041001",
-    "length_m": 635.7636912163,
+    "from": "NJ-27/Lincoln Hwy (Oak Tree Rd)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25780899996012002",
+    "length_m": 447.6499978382,
     "roads": [
-     "US-1 S",
-     "US-9 S"
+     "County Hwy-604"
     ],
     "severity": 2,
-    "start": "2026-11-20T21:01:21Z",
-    "to": "US-9/US-1/Meadow St (US-1&9 Exp)"
+    "start": "2026-11-20T23:57:50Z",
+    "to": "Wood Ave (Oak Tree Rd)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 55,
-    "description": "Backed up traffic",
-    "from": "Goethals Br exit [13]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25783786876025000",
-    "length_m": 587.2292971623,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-20T19:58:40Z",
-    "to": "New Jersey Tpke S"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 32,
-    "description": "Backed up traffic",
-    "from": "exit [3A]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25786671920032000",
-    "length_m": 398.1005751592,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-21T00:05:45Z",
-    "to": "New Jersey Tpke S"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 294,
+    "delay_s": 87,
     "description": "Slow traffic",
-    "from": "New Jersey Tpke (I-95)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25786672356648000",
-    "length_m": 5393.193394737,
+    "from": "NJ-28/Exit 137 (Garden State Pkwy)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25754932528025000",
+    "length_m": 2225.7499720886,
     "roads": [
-     "New Jersey Tpke S",
-     "I-95 S"
+     "Garden State Pkwy N"
     ],
     "severity": 1,
-    "start": "2026-11-20T22:28:07Z",
-    "to": "Roosevelt Ave/Exit 12 (I-95)"
+    "start": "2026-11-20T23:44:54Z",
+    "to": "Chestnut St/Exit 139 (Garden State Pkwy)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 502,
+    "delay_s": 26,
     "description": "Slow traffic",
-    "from": "I-78/New Jersey Tpke Ext (I-95 Car Only/I-95)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25792442720104000",
-    "length_m": 8272.0041607189,
+    "from": "NJ-28/Exit 137 (Garden State Pkwy)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25763588284001000",
+    "length_m": 877.8531291139,
     "roads": [
-     "New Jersey Tpke S",
-     "I-95 S"
+     "Garden State Pkwy S"
     ],
     "severity": 1,
-    "start": "2026-11-20T23:13:21Z",
-    "to": "CR-602/Roosevelt Ave/Exit 12 (I-95 Car Only/I-95)"
+    "start": "2026-11-20T23:05:13Z",
+    "to": "Centennial Ave/Exit 136 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 51,
+    "description": "Slow traffic",
+    "from": "Central Ave/Brant Ave/Exit 135 (Garden State Pkwy)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25763588352065000",
+    "length_m": 1644.7628372298,
+    "roads": [
+     "Garden State Pkwy N"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T22:10:03Z",
+    "to": "NJ-28/Exit 137 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 26,
+    "description": "Heavy traffic",
+    "from": "NJ-28/Exit 137 (Garden State Pkwy)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25769359096009001",
+    "length_m": 2059.6740005796,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 1,
+    "start": "2026-11-20T23:05:13Z",
+    "to": "Central Ave/Brant Ave/Exit 135 (Garden State Pkwy)"
    }
   ],
   "label": "Old Bridge commute"
