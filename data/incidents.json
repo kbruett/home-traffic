@@ -19,7 +19,7 @@
     "description": "Closed",
     "from": "Ridgedale Ave",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTR25665484640028000",
-    "length_m": 257.712,
+    "length_m": 257.7117555886,
     "roads": [],
     "severity": 4,
     "start": "2026-11-21T13:29:45Z",
@@ -27,11 +27,25 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 140,
+    "delay_s": 108,
     "description": "Stopped traffic",
-    "from": "Ridgedale Ave (Hanover Ave/CR-650)",
+    "from": "NJ-124/Madison Ave (South St/NJ-24)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599264035000",
+    "length_m": 225.5940152687,
+    "roads": [
+     "NJ-124"
+    ],
+    "severity": 3,
+    "start": "2026-11-21T16:23:15Z",
+    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 154,
+    "description": "Stopped traffic",
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484792020001",
-    "length_m": 501.8431913581,
+    "length_m": 687.8475513676,
     "roads": [
      "County Hwy-650"
     ],
@@ -41,17 +55,18 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 146,
-    "description": "Stopped traffic",
-    "from": "NJ-24/CR-511/Whippany Rd (Hanover Ave/CR-650)",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484860028000",
-    "length_m": 674.0181838455,
+    "delay_s": 139,
+    "description": "Backed up traffic",
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172356042000",
+    "length_m": 546.451,
     "roads": [
-     "County Hwy-650"
+     "US-202 S",
+     "US-202 N"
     ],
-    "severity": 3,
-    "start": "2026-11-21T16:12:45Z",
-    "to": "Ridgedale Ave (Hanover Ave/CR-650)"
+    "severity": 2,
+    "start": "2026-11-21T16:25:45Z",
+    "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
    }
   ],
   "label": "Near home"
