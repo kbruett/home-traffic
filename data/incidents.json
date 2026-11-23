@@ -37,25 +37,25 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 157,
-    "description": "Backed up traffic",
+    "delay_s": 232,
+    "description": "Stopped traffic",
     "from": "Hook Mountain Rd/Exit 48 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674142644008000",
-    "length_m": 1862.8019639346,
+    "length_m": 2238.6315954549,
     "roads": [
      "I-80 E"
     ],
-    "severity": 2,
+    "severity": 3,
     "start": "2026-11-23T15:03:45Z",
     "to": "US-46/NJ-23/Exit 53 (I-80)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 275,
+    "delay_s": 135,
     "description": "Backed up traffic",
     "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764028003",
-    "length_m": 1078.021390781,
+    "length_m": 767.6460351586,
     "roads": [
      "County Hwy-640"
     ],
@@ -95,22 +95,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 276,
-    "description": "Stopped traffic",
-    "from": "James St (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599304016001",
-    "length_m": 2146.9515577996,
-    "roads": [
-     "I-287 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T14:52:45Z",
-    "to": "NJ-24/Exit 37 (I-287)"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
