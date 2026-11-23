@@ -37,15 +37,45 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 101,
-    "description": "Backed up traffic",
-    "from": "exit [163]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883656027000",
-    "length_m": 771.6017668683,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-23T14:21:45Z",
-    "to": "State Route 17"
+    "delay_s": 145,
+    "description": "Stopped traffic",
+    "from": "Hook Mountain Rd/Exit 48 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674142644008000",
+    "length_m": 1455.4152042447,
+    "roads": [
+     "I-80 E"
+    ],
+    "severity": 3,
+    "start": "2026-11-23T15:03:45Z",
+    "to": "US-46/NJ-23/Exit 53 (I-80)"
+   },
+   {
+    "category": "Lane closed",
+    "delay_s": 0,
+    "description": "Right lane closed",
+    "from": "Two Bridges Rd/Exit 52 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25677028108008000",
+    "length_m": 134.547635169,
+    "roads": [
+     "I-80 E"
+    ],
+    "severity": 0,
+    "start": "2026-11-23T15:00:15Z",
+    "to": "US-46/NJ-23/Exit 53 (I-80)"
+   },
+   {
+    "category": "Lane closed",
+    "delay_s": 0,
+    "description": "Right lane closed",
+    "from": "Two Bridges Rd/Exit 52 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25677028112008000",
+    "length_m": 144.2205224126,
+    "roads": [
+     "I-80 E"
+    ],
+    "severity": 0,
+    "start": "2026-11-23T15:00:15Z",
+    "to": "US-46/NJ-23/Exit 53 (I-80)"
    }
   ],
   "label": "Paramus commute"
@@ -54,15 +84,15 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 131,
-    "description": "Backed up traffic",
+    "delay_s": 179,
+    "description": "Stopped traffic",
     "from": "South St/Exit 35 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599304016001",
     "length_m": 1522.16,
     "roads": [
      "I-287 N"
     ],
-    "severity": 2,
+    "severity": 3,
     "start": "2026-11-23T14:52:45Z",
     "to": "NJ-24/Exit 37 (I-287)"
    }
