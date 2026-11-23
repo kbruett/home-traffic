@@ -37,11 +37,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 214,
+    "delay_s": 228,
     "description": "Stopped traffic",
     "from": "Hook Mountain Rd/Exit 48 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674142644008000",
-    "length_m": 2110.3226313689,
+    "length_m": 2204.7446978546,
     "roads": [
      "I-80 E"
     ],
@@ -50,38 +50,12 @@
     "to": "US-46/NJ-23/Exit 53 (I-80)"
    },
    {
-    "category": "Traffic jam",
-    "delay_s": 86,
-    "description": "Backed up traffic",
-    "from": "exit [163]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883520035000",
-    "length_m": 771.6017668683,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-23T15:43:15Z",
-    "to": "State Route 17"
-   },
-   {
     "category": "Lane closed",
     "delay_s": 0,
     "description": "Right lane closed",
-    "from": "Two Bridges Rd/Exit 52 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25677028108008000",
-    "length_m": 134.547635169,
-    "roads": [
-     "I-80 E"
-    ],
-    "severity": 0,
-    "start": "2026-11-23T15:00:15Z",
-    "to": "US-46/NJ-23/Exit 53 (I-80)"
-   },
-   {
-    "category": "Lane closed",
-    "delay_s": 0,
-    "description": "Right lane closed",
-    "from": "Two Bridges Rd/Exit 52 (I-80)",
+    "from": "Hook Mountain Rd/Exit 48 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25677028112008000",
-    "length_m": 144.2205224126,
+    "length_m": 582.2069123611,
     "roads": [
      "I-80 E"
     ],
