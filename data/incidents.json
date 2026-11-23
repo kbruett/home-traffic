@@ -37,19 +37,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 150,
-    "description": "Stopped traffic",
-    "from": "Granniss Ave / Mayfair Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172428028000",
-    "length_m": 251.3473963786,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-23T13:27:15Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 135,
+    "delay_s": 207,
     "description": "Stopped traffic",
     "from": "US Highway 46",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
@@ -61,7 +49,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 233,
+    "delay_s": 171,
     "description": "Stopped traffic",
     "from": "I-280 W",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485736008001",
@@ -73,11 +61,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 252,
+    "delay_s": 246,
     "description": "Stopped traffic",
     "from": "Two Bridges Rd (CR-613)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674142676013000",
-    "length_m": 712.2067704801,
+    "length_m": 828.9215242838,
     "roads": [
      "County Hwy-613"
     ],
@@ -87,21 +75,19 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 246,
-    "description": "Stopped traffic",
-    "from": "New St / Reservoir Ave",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455756037000",
-    "length_m": 391.4020104707,
-    "roads": [
-     "County Hwy-638"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T12:42:45Z",
-    "to": "Marshall St"
+    "delay_s": 120,
+    "description": "Backed up traffic",
+    "from": "Granniss Ave / Mayfair Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172428028000",
+    "length_m": 251.3473963786,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-23T13:27:15Z",
+    "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 200,
+    "delay_s": 230,
     "description": "Backed up traffic",
     "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724012002",
@@ -115,7 +101,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 97,
+    "delay_s": 100,
     "description": "Backed up traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252019000",
@@ -127,37 +113,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 163,
-    "description": "Backed up traffic",
-    "from": "Grand St / Spruce St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455728022000",
-    "length_m": 262.398956095,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-23T13:09:45Z",
-    "to": "Spruce St"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 143,
-    "description": "Backed up traffic",
-    "from": "Paramus Rd/Exit 160 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883376057000",
-    "length_m": 2050.0757373421,
-    "roads": [
-     "Garden State Pkwy N"
-    ],
-    "severity": 2,
-    "start": "2026-11-23T12:51:20Z",
-    "to": "NJ-17/Exit 163 (Garden State Pkwy)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 76,
+    "delay_s": 88,
     "description": "Slow traffic",
     "from": "NJ-24/Exit 37 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943452008000",
-    "length_m": 1700.9291583782,
+    "length_m": 2083.9548734117,
     "roads": [
      "I-287 N"
     ],
@@ -167,11 +127,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 89,
+    "delay_s": 123,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308016001",
-    "length_m": 2591.3698951493,
+    "length_m": 2475.3982256814,
     "roads": [
      "I-80 W"
     ],
@@ -181,25 +141,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 108,
+    "delay_s": 381,
     "description": "Slow traffic",
-    "from": "Parsippany Rd/Exit 40 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714172056001",
-    "length_m": 2936.1797838581,
-    "roads": [
-     "I-287 S"
-    ],
-    "severity": 1,
-    "start": "2026-11-23T13:09:45Z",
-    "to": "NJ-24/Exit 37 (I-287)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 584,
-    "description": "Slow traffic",
-    "from": "Hook Mountain Rd/Exit 48 (I-80)",
+    "from": "US-46/NJ-23/Exit 53 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570136032000",
-    "length_m": 10106.7483659698,
+    "length_m": 6863.0776082835,
     "roads": [
      "Bergen Passaic Expy E",
      "I-80 E"
@@ -210,11 +156,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 166,
+    "delay_s": 133,
     "description": "Slow traffic",
     "from": "Garden State Pkwy/Exit 62 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570352040000",
-    "length_m": 2657.1375845726,
+    "length_m": 2301.8001473475,
     "roads": [
      "I-80 W",
      "Bergen Passaic Expy W"
@@ -225,14 +171,14 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 52,
+    "delay_s": 63,
     "description": "Slow traffic",
     "from": "exit [163]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883528067000",
     "length_m": 771.6017668683,
     "roads": [],
     "severity": 1,
-    "start": "2026-11-23T12:45:47Z",
+    "start": "2026-11-23T13:35:15Z",
     "to": "State Route 17"
    }
   ],
@@ -242,19 +188,19 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 150,
-    "description": "Stopped traffic",
+    "delay_s": 120,
+    "description": "Backed up traffic",
     "from": "Granniss Ave / Mayfair Rd",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172428028000",
     "length_m": 251.3473963786,
     "roads": [],
-    "severity": 3,
+    "severity": 2,
     "start": "2026-11-23T13:27:15Z",
     "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 200,
+    "delay_s": 230,
     "description": "Backed up traffic",
     "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724012002",
@@ -268,14 +214,26 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 73,
-    "description": "Slow traffic",
+    "delay_s": 113,
+    "description": "Backed up traffic",
+    "from": "Ridgedale Ave (Abbett Ave)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599408022000",
+    "length_m": 575.4107576653,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-23T13:36:45Z",
+    "to": "Martin Luther King Ave (Abbett Ave)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 111,
+    "description": "Backed up traffic",
     "from": "exit [37]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599484033002",
     "length_m": 1117.3077206131,
     "roads": [],
-    "severity": 1,
-    "start": "2026-11-23T12:19:15Z",
+    "severity": 2,
+    "start": "2026-11-23T13:34:15Z",
     "to": "State Route 24"
    }
   ],
