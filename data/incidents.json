@@ -12,7 +12,22 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 160,
+    "description": "Backed up traffic",
+    "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599192019000",
+    "length_m": 577.596,
+    "roads": [
+     "NJ-124"
+    ],
+    "severity": 2,
+    "start": "2026-11-23T02:36:45Z",
+    "to": "NJ-124/Madison Ave (South St/NJ-24)"
+   }
+  ],
   "label": "Near home"
  }
 }
