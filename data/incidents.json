@@ -37,11 +37,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 221,
+    "delay_s": 198,
     "description": "Stopped traffic",
     "from": "NJ-10 (Tabor Rd/NJ-53)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
-    "length_m": 341.535504116,
+    "length_m": 296.054957736,
     "roads": [
      "Alex DeCroce Memorial Hwy",
      "NJ-53"
@@ -52,73 +52,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 53,
+    "delay_s": 64,
     "description": "Stopped traffic",
     "from": "Tabor Rd",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
     "length_m": 52.4816098938,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-23T13:47:15Z",
+    "start": "2026-11-23T14:07:15Z",
     "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 289,
-    "description": "Stopped traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724012002",
-    "length_m": 997.4234865026,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T13:24:15Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 183,
-    "description": "Stopped traffic",
-    "from": "exit [39A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714264011000",
-    "length_m": 399.6694018554,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-23T13:56:15Z",
-    "to": "State Route 10"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 104,
-    "description": "Stopped traffic",
-    "from": "NJ-10 exit [39]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714276027000",
-    "length_m": 377.0387245434,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-23T13:53:15Z",
-    "to": "State Route 10"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 209,
-    "description": "Stopped traffic",
-    "from": "US Highway 46",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
-    "length_m": 755.5528175233,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-23T12:24:45Z",
-    "to": "I-80 W"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 341,
+    "delay_s": 124,
     "description": "Stopped traffic",
     "from": "I-280 W",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485736008001",
-    "length_m": 538.1848020099,
+    "length_m": 400.4685254741,
     "roads": [],
     "severity": 3,
     "start": "2026-11-23T13:03:45Z",
@@ -126,69 +76,63 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 189,
+    "delay_s": 130,
     "description": "Stopped traffic",
+    "from": "Midland Ave exit [62]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768428025000",
+    "length_m": 704.0911869655,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-23T14:06:45Z",
+    "to": "Garden State Pkwy N"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 102,
+    "description": "Backed up traffic",
+    "from": "US Highway 46",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
+    "length_m": 755.5528175233,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-23T12:24:45Z",
+    "to": "I-80 W"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 152,
+    "description": "Backed up traffic",
     "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764028002",
-    "length_m": 575.6016216437,
+    "length_m": 713.9154761083,
     "roads": [
      "County Hwy-640"
     ],
-    "severity": 3,
+    "severity": 2,
     "start": "2026-11-23T13:54:45Z",
     "to": "US-46 (Riverview Dr/CR-640)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 196,
-    "description": "Stopped traffic",
-    "from": "US-46/NJ-23/Exit 53 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25682799068016000",
-    "length_m": 1474.8729747065,
-    "roads": [
-     "Bergen Passaic Expy E",
-     "I-80 E"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T12:24:45Z",
-    "to": "Squirrelwood Rd/Exit 56 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 149,
-    "description": "Backed up traffic",
-    "from": "Spring St (Speedwell Ave/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057684050000",
-    "length_m": 568.761890078,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-23T13:54:15Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 157,
+    "delay_s": 47,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308016001",
-    "length_m": 2536.4444023876,
+    "length_m": 1211.1224081908,
     "roads": [
      "I-80 W"
     ],
     "severity": 1,
     "start": "2026-11-23T12:23:15Z",
-    "to": "I-287/Exit 43 (I-80)"
+    "to": "Beverwyck Rd/Exit 45 (I-80)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 105,
+    "delay_s": 114,
     "description": "Slow traffic",
     "from": "Squirrelwood Rd/Exit 56 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570136032000",
-    "length_m": 1934.3459409192,
+    "length_m": 2481.3705210288,
     "roads": [
      "Bergen Passaic Expy E",
      "I-80 E"
@@ -199,31 +143,16 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 44,
-    "description": "Slow traffic",
-    "from": "Exit 61 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570352040000",
-    "length_m": 1211.0063610251,
-    "roads": [
-     "I-80 W",
-     "Bergen Passaic Expy W"
-    ],
-    "severity": 1,
-    "start": "2026-11-23T13:00:45Z",
-    "to": "Madison Ave/Exit 58 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 91,
+    "delay_s": 125,
     "description": "Slow traffic",
     "from": "US-46/Exit 157 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768724001001",
-    "length_m": 2083.5768830163,
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768728009001",
+    "length_m": 2189.884169274,
     "roads": [
      "Garden State Pkwy N"
     ],
     "severity": 1,
-    "start": "2026-11-23T13:48:15Z",
+    "start": "2026-11-23T14:05:18Z",
     "to": "NJ-4/Exit 161 (Garden State Pkwy)"
    }
   ],
@@ -233,11 +162,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 221,
+    "delay_s": 198,
     "description": "Stopped traffic",
     "from": "NJ-10 (Tabor Rd/NJ-53)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
-    "length_m": 341.535504116,
+    "length_m": 296.054957736,
     "roads": [
      "Alex DeCroce Memorial Hwy",
      "NJ-53"
@@ -248,33 +177,19 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 53,
+    "delay_s": 64,
     "description": "Stopped traffic",
     "from": "Tabor Rd",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
     "length_m": 52.4816098938,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-23T13:47:15Z",
+    "start": "2026-11-23T14:07:15Z",
     "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 289,
-    "description": "Stopped traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724012002",
-    "length_m": 997.4234865026,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T13:24:15Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 209,
+    "delay_s": 221,
     "description": "Stopped traffic",
     "from": "NJ-24/Washington St/Morris St/Park Pl (Market St/US-202)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713752018000",
@@ -289,30 +204,15 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 148,
-    "description": "Stopped traffic",
+    "delay_s": 83,
+    "description": "Slow traffic",
     "from": "exit [37]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599484033002",
     "length_m": 1117.3077206131,
     "roads": [],
-    "severity": 3,
+    "severity": 1,
     "start": "2026-11-23T13:34:15Z",
     "to": "State Route 24"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 149,
-    "description": "Backed up traffic",
-    "from": "Spring St (Speedwell Ave/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057684050000",
-    "length_m": 568.761890078,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-23T13:54:15Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
    }
   ],
   "label": "Near home"
