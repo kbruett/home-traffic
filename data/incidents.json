@@ -37,151 +37,49 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 166,
-    "description": "Stopped traffic",
-    "from": "NJ-10 (Tabor Rd/NJ-53)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
-    "length_m": 341.535504116,
-    "roads": [
-     "Alex DeCroce Memorial Hwy",
-     "NJ-53"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T13:51:15Z",
-    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 88,
-    "description": "Stopped traffic",
-    "from": "Union Blvd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25685684584012002",
-    "length_m": 167.8573302536,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-23T14:17:15Z",
-    "to": "Lackawanna Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 161,
+    "delay_s": 91,
     "description": "Backed up traffic",
-    "from": "Vreeland Ave (Riverview Dr/CR-640)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764028002",
-    "length_m": 624.3561062847,
-    "roads": [
-     "County Hwy-640"
-    ],
-    "severity": 2,
-    "start": "2026-11-23T14:18:15Z",
-    "to": "US-46 (Riverview Dr/CR-640)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 45,
-    "description": "Slow traffic",
-    "from": "US-46/Exit 47 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308016001",
-    "length_m": 771.8823505588,
-    "roads": [
-     "I-80 W"
-    ],
-    "severity": 1,
-    "start": "2026-11-23T12:23:15Z",
-    "to": "Beverwyck Rd/Exit 45 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 63,
-    "description": "Slow traffic",
-    "from": "Squirrelwood Rd/Exit 56 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570136032000",
-    "length_m": 1794.800568441,
-    "roads": [
-     "Bergen Passaic Expy E",
-     "I-80 E"
-    ],
-    "severity": 1,
-    "start": "2026-11-23T12:24:45Z",
-    "to": "Madison Ave/Exit 58 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 69,
-    "description": "Slow traffic",
     "from": "exit [163]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883656027000",
     "length_m": 771.6017668683,
     "roads": [],
-    "severity": 1,
-    "start": "2026-11-23T14:14:45Z",
+    "severity": 2,
+    "start": "2026-11-23T14:21:45Z",
     "to": "State Route 17"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 72,
+    "delay_s": 22,
     "description": "Slow traffic",
-    "from": "US-46/Exit 157 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768728009001",
-    "length_m": 1966.981445669,
+    "from": "I-280/Exit 47A (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308000000",
+    "length_m": 732.8428566873,
     "roads": [
-     "Garden State Pkwy N"
+     "I-80 W"
     ],
     "severity": 1,
-    "start": "2026-11-23T14:05:18Z",
-    "to": "NJ-4/Exit 161 (Garden State Pkwy)"
+    "start": "2026-11-23T14:25:45Z",
+    "to": "I-287/Exit 43 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 135,
+    "description": "Slow traffic",
+    "from": "NJ-4 (NJ-17)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702998048011001",
+    "length_m": 2008.563184407,
+    "roads": [
+     "NJ-17"
+    ],
+    "severity": 1,
+    "start": "2026-11-23T14:26:45Z",
+    "to": "Midland Ave (NJ-17)"
    }
   ],
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 166,
-    "description": "Stopped traffic",
-    "from": "NJ-10 (Tabor Rd/NJ-53)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
-    "length_m": 341.535504116,
-    "roads": [
-     "Alex DeCroce Memorial Hwy",
-     "NJ-53"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T13:51:15Z",
-    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 159,
-    "description": "Stopped traffic",
-    "from": "Old Harter Rd (Mount Kemble Ave/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713536018000",
-    "length_m": 290.142,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T14:16:45Z",
-    "to": "NJ-24/Washington St/Morris St/Park Pl (Market St/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 129,
-    "description": "Stopped traffic",
-    "from": "NJ-24/Washington St/Morris St/Park Pl (Market St/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713752018000",
-    "length_m": 228.1830431667,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T13:57:15Z",
-    "to": "Old Harter Rd (Mount Kemble Ave/US-202)"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
