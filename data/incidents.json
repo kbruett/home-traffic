@@ -12,7 +12,20 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 60,
+    "description": "Stopped traffic",
+    "from": "Tabor Rd",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25648172424011000",
+    "length_m": 52.4816,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-23T00:06:45Z",
+    "to": "Littleton Rd"
+   }
+  ],
   "label": "Near home"
  }
 }
