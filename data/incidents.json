@@ -37,7 +37,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 91,
+    "delay_s": 89,
     "description": "Backed up traffic",
     "from": "exit [163]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883656027000",
@@ -46,34 +46,6 @@
     "severity": 2,
     "start": "2026-11-23T14:21:45Z",
     "to": "State Route 17"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 22,
-    "description": "Slow traffic",
-    "from": "I-280/Exit 47A (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308000000",
-    "length_m": 732.8428566873,
-    "roads": [
-     "I-80 W"
-    ],
-    "severity": 1,
-    "start": "2026-11-23T14:25:45Z",
-    "to": "I-287/Exit 43 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 135,
-    "description": "Slow traffic",
-    "from": "NJ-4 (NJ-17)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702998048011001",
-    "length_m": 2008.563184407,
-    "roads": [
-     "NJ-17"
-    ],
-    "severity": 1,
-    "start": "2026-11-23T14:26:45Z",
-    "to": "Midland Ave (NJ-17)"
    }
   ],
   "label": "Paramus commute"
