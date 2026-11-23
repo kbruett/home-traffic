@@ -12,7 +12,20 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Road closed",
+    "delay_s": 0,
+    "description": "Closed",
+    "from": "Jonathan Smith Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25645286600037000",
+    "length_m": 379.093,
+    "roads": [],
+    "severity": 4,
+    "start": "2026-11-23T17:49:45Z",
+    "to": "Sussex Ave / Lake Rd"
+   }
+  ],
   "label": "Near home"
  }
 }
