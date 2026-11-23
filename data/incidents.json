@@ -533,7 +533,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 538,
+    "delay_s": 534,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943264012001",
@@ -571,7 +571,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 166,
+    "delay_s": 160,
     "description": "Backed up traffic",
     "from": "Ridgedale Ave (Cedar Knolls) (NJ-10)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287144011001",
@@ -585,7 +585,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 159,
+    "delay_s": 158,
     "description": "Backed up traffic",
     "from": "Malapardis Rd (Littleton Rd/US-202)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172444026000",
@@ -600,11 +600,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 343,
+    "delay_s": 339,
     "description": "Backed up traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828924056000",
-    "length_m": 4844.2910939811,
+    "length_m": 4672.0902284415,
     "roads": [
      "I-287 N"
     ],
@@ -614,7 +614,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 172,
+    "delay_s": 156,
     "description": "Backed up traffic",
     "from": "Morris Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25671255348048000",
