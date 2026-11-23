@@ -34,6 +34,166 @@
     "severity": 4,
     "start": "2026-07-20T13:15:32Z",
     "to": "I-80 (Squirrelwood Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 132,
+    "description": "Stopped traffic",
+    "from": "US Highway 46",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662600240008000",
+    "length_m": 755.5528175233,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-23T12:24:45Z",
+    "to": "I-80 W"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 109,
+    "description": "Stopped traffic",
+    "from": "exit [47A]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665485664016000",
+    "length_m": 924.4839808827,
+    "roads": [
+     "I-280 E"
+    ],
+    "severity": 3,
+    "start": "2026-11-23T12:30:24Z",
+    "to": "Edwards Rd exit [1]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 267,
+    "description": "Stopped traffic",
+    "from": "I-280 W",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665485736016000",
+    "length_m": 538.1848020099,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-23T12:27:19Z",
+    "to": "I-80 W"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 402,
+    "description": "Stopped traffic",
+    "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25679913764020001",
+    "length_m": 1177.3151680009,
+    "roads": [
+     "County Hwy-640"
+    ],
+    "severity": 3,
+    "start": "2026-11-23T12:20:45Z",
+    "to": "US-46 (Riverview Dr/CR-640)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 155,
+    "description": "Stopped traffic",
+    "from": "State Route 19",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25691455748020000",
+    "length_m": 411.6978189557,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-23T12:31:45Z",
+    "to": "Paterson"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 138,
+    "description": "Stopped traffic",
+    "from": "Madison Ave",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25694341164020000",
+    "length_m": 234.5131550853,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-23T12:37:50Z",
+    "to": "I-80 W"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 54,
+    "description": "Backed up traffic",
+    "from": "I-280 exit [47A]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665485648056000",
+    "length_m": 702.3609650381,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-23T12:37:50Z",
+    "to": "Essex Fwy"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 249,
+    "description": "Backed up traffic",
+    "from": "Union Blvd/Exit 55 (I-80)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25691455768096000",
+    "length_m": 3858.1627259303,
+    "roads": [
+     "Bergen Passaic Expy E",
+     "I-80 E"
+    ],
+    "severity": 2,
+    "start": "2026-11-23T12:25:15Z",
+    "to": "Madison Ave/Exit 58 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 71,
+    "description": "Slow traffic",
+    "from": "US-46/Exit 47 (I-80)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25656829308016000",
+    "length_m": 1936.7459346657,
+    "roads": [
+     "I-80 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-23T12:22:45Z",
+    "to": "I-287/Exit 43 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 66,
+    "description": "Slow traffic",
+    "from": "Parsippany Rd/Exit 40 (I-287)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659714172064000",
+    "length_m": 1969.9905300988,
+    "roads": [
+     "I-287 S"
+    ],
+    "severity": 1,
+    "start": "2026-11-23T12:33:46Z",
+    "to": "NJ-24/Exit 37 (I-287)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 213,
+    "description": "Slow traffic",
+    "from": "Hook Mountain Rd/Exit 48 (I-80)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25674142644032000",
+    "length_m": 4249.7036931642,
+    "roads": [
+     "I-80 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-23T12:15:15Z",
+    "to": "US-46/NJ-23/Exit 53 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 143,
+    "description": "Slow traffic",
+    "from": "Garden State Pkwy/Exit 62 (I-80)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25702997580056000",
+    "length_m": 2743.0784998808,
+    "roads": [
+     "I-80 W",
+     "Bergen Passaic Expy W"
+    ],
+    "severity": 1,
+    "start": "2026-11-23T12:23:22Z",
+    "to": "Madison Ave/Exit 58 (I-80)"
    }
   ],
   "label": "Paramus commute"
@@ -42,15 +202,42 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 175,
+    "delay_s": 168,
     "description": "Stopped traffic",
-    "from": "exit [37]",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599484033002",
-    "length_m": 1117.31,
+    "from": "Sussex Ave",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25651057460046000",
+    "length_m": 452.802,
     "roads": [],
     "severity": 3,
+    "start": "2026-11-23T12:32:45Z",
+    "to": "Deborah Dr"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 111,
+    "description": "Backed up traffic",
+    "from": "exit [37]",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25662599484033002",
+    "length_m": 1117.3077206131,
+    "roads": [],
+    "severity": 2,
     "start": "2026-11-23T12:19:15Z",
     "to": "State Route 24"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 164,
+    "description": "Slow traffic",
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25659713876026000",
+    "length_m": 840.4317686533,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 1,
+    "start": "2026-11-23T12:37:20Z",
+    "to": "Spring St (Speedwell Ave/US-202)"
    }
   ],
   "label": "Near home"
