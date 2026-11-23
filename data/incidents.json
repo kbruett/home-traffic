@@ -61,39 +61,35 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 169,
+    "delay_s": 136,
     "description": "Stopped traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943264012001",
-    "length_m": 430.967839576,
-    "roads": [
-     "County Hwy-650"
-    ],
+    "from": "NJ-20 exit [60]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997504017002",
+    "length_m": 396.4865656341,
+    "roads": [],
     "severity": 3,
-    "start": "2026-11-23T20:11:37Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+    "start": "2026-11-23T23:46:45Z",
+    "to": "McLean Blvd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 88,
+    "delay_s": 221,
     "description": "Stopped traffic",
-    "from": "Crooks Ave (Lakeview Ave)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997612001000",
-    "length_m": 37.1225795614,
-    "roads": [
-     "County Hwy-648"
-    ],
+    "from": "Lakeview Ave",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997532009000",
+    "length_m": 636.1331645581,
+    "roads": [],
     "severity": 3,
-    "start": "2026-11-23T23:06:45Z",
-    "to": "I-80/Market St (Lakeview Ave)"
+    "start": "2026-11-23T23:39:15Z",
+    "to": "McLean Blvd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 232,
+    "delay_s": 193,
     "description": "Stopped traffic",
     "from": "Broadway/Martin Luther King Way (McLean Blvd/NJ-20)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768336009000",
-    "length_m": 1272.368978459,
+    "length_m": 946.4026670152,
     "roads": [
      "NJ-20 S"
     ],
@@ -103,51 +99,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 613,
+    "delay_s": 379,
     "description": "Stopped traffic",
-    "from": "NJ-17/Exit 163 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768360017002",
-    "length_m": 5673.7502399722,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T20:10:04Z",
-    "to": "US-46/Exit 157 (Garden State Pkwy)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 204,
-    "description": "Stopped traffic",
-    "from": "NJ-4/Broadway (Midland Ave)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711653956051000",
-    "length_m": 497.8717771791,
-    "roads": [
-     "County Hwy-67"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T23:23:15Z",
-    "to": "Outwater Ln (Midland Ave)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 164,
-    "description": "Stopped traffic",
-    "from": "E State Route 4",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654292009000",
-    "length_m": 578.3152196331,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-23T20:55:05Z",
-    "to": "Garden State Pkwy S"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 672,
-    "description": "Stopped traffic",
-    "from": "Ridgewood Ave (NJ-17)",
+    "from": "Garden State Pkwy (NJ-17)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25717424908011002",
-    "length_m": 4854.4401559768,
+    "length_m": 3093.5051765774,
     "roads": [
      "NJ-17"
     ],
@@ -157,61 +113,31 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 187,
+    "delay_s": 103,
     "description": "Backed up traffic",
-    "from": "NJ-4/Broadway (River Dr)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883012012001",
-    "length_m": 688.6109396904,
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943264012001",
+    "length_m": 261.0264591768,
     "roads": [
-     "County Hwy-507"
+     "County Hwy-650"
     ],
     "severity": 2,
-    "start": "2026-11-23T23:26:45Z",
-    "to": "I-80 (River Dr)"
+    "start": "2026-11-23T20:11:37Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 157,
+    "delay_s": 362,
     "description": "Backed up traffic",
-    "from": "Outwater Ln (Midland Ave)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654028012000",
-    "length_m": 740.2803265523,
+    "from": "NJ-17/Exit 163 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768360017002",
+    "length_m": 5014.820689408,
     "roads": [
-     "County Hwy-67"
+     "Garden State Pkwy S"
     ],
     "severity": 2,
-    "start": "2026-11-23T23:37:45Z",
-    "to": "I-80/Garden State Pkwy (Midland Ave)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 215,
-    "description": "Slow traffic",
-    "from": "Exit 61 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570352072007",
-    "length_m": 4731.1889832278,
-    "roads": [
-     "I-80 W",
-     "Bergen Passaic Expy W"
-    ],
-    "severity": 1,
-    "start": "2026-11-23T23:20:15Z",
-    "to": "Squirrelwood Rd/Exit 56 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 161,
-    "description": "Slow traffic",
-    "from": "Union Blvd/Exit 55 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997500008000",
-    "length_m": 3736.4909474154,
-    "roads": [
-     "Bergen Passaic Expy E",
-     "I-80 E"
-    ],
-    "severity": 1,
-    "start": "2026-11-23T21:58:27Z",
-    "to": "NJ-19/Main St/Exit 57 (I-80)"
+    "start": "2026-11-23T20:10:04Z",
+    "to": "US-46/Exit 157 (Garden State Pkwy)"
    }
   ],
   "label": "Paramus commute"
@@ -220,15 +146,15 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 169,
-    "description": "Stopped traffic",
+    "delay_s": 103,
+    "description": "Backed up traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943264012001",
-    "length_m": 430.968,
+    "length_m": 261.026,
     "roads": [
      "County Hwy-650"
     ],
-    "severity": 3,
+    "severity": 2,
     "start": "2026-11-23T20:11:37Z",
     "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    }
