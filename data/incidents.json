@@ -37,7 +37,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 95,
+    "delay_s": 101,
     "description": "Backed up traffic",
     "from": "exit [163]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883656027000",
@@ -51,7 +51,22 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 131,
+    "description": "Backed up traffic",
+    "from": "South St/Exit 35 (I-287)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599304016001",
+    "length_m": 1522.16,
+    "roads": [
+     "I-287 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-23T14:52:45Z",
+    "to": "NJ-24/Exit 37 (I-287)"
+   }
+  ],
   "label": "Near home"
  }
 }
