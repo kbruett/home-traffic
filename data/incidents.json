@@ -36,6 +36,20 @@
     "severity": 4,
     "start": "2026-11-23T18:06:15Z",
     "to": "Jonathan Smith Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 131,
+    "description": "Stopped traffic",
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943268044001",
+    "length_m": 261.0264591768,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-23T18:47:15Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
