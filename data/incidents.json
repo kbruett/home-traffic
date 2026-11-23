@@ -39,20 +39,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 291,
-    "description": "Stopped traffic",
-    "from": "Revere Rd",
-    "id": "TTI-a8c65410-616d-408c-b078-13c6dce29f63-TTL25665484648022000",
-    "length_m": 214.67,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-23T11:41:45Z",
-    "to": "De Kalb Pl"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
