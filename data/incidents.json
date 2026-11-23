@@ -533,11 +533,25 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 534,
+    "delay_s": 223,
+    "description": "Stopped traffic",
+    "from": "Ridgedale Ave (Cedar Knolls) (NJ-10)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287144011001",
+    "length_m": 1646.3465309473,
+    "roads": [
+     "NJ-10"
+    ],
+    "severity": 3,
+    "start": "2026-11-23T21:27:13Z",
+    "to": "NJ-53/Tabor Rd (NJ-10)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 427,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943264012001",
-    "length_m": 983.1792381598,
+    "length_m": 1164.4828797068,
     "roads": [
      "County Hwy-650"
     ],
@@ -547,11 +561,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 171,
+    "delay_s": 114,
     "description": "Stopped traffic",
     "from": "Morris St (Spring St)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713932012004",
-    "length_m": 287.583,
+    "length_m": 180.475149086,
     "roads": [],
     "severity": 3,
     "start": "2026-11-23T21:04:33Z",
@@ -559,72 +573,32 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 155,
-    "description": "Stopped traffic",
-    "from": "South St / Pine St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599260014000",
-    "length_m": 170.629607309,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-23T21:27:13Z",
-    "to": "E Park Pl / S Park Pl"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 160,
-    "description": "Backed up traffic",
-    "from": "Ridgedale Ave (Cedar Knolls) (NJ-10)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287144011001",
-    "length_m": 1571.0297190273,
-    "roads": [
-     "NJ-10"
-    ],
-    "severity": 2,
-    "start": "2026-11-23T21:27:13Z",
-    "to": "NJ-53/Tabor Rd (NJ-10)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 158,
-    "description": "Backed up traffic",
-    "from": "Malapardis Rd (Littleton Rd/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172444026000",
-    "length_m": 720.9921839357,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-23T21:12:05Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 339,
-    "description": "Backed up traffic",
+    "delay_s": 281,
+    "description": "Slow traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828924056000",
-    "length_m": 4672.0902284415,
+    "length_m": 4795.0115639565,
     "roads": [
      "I-287 N"
     ],
-    "severity": 2,
+    "severity": 1,
     "start": "2026-11-23T20:08:57Z",
     "to": "Parsippany Rd/Exit 40 (I-287)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 156,
-    "description": "Backed up traffic",
-    "from": "Morris Ave/Exit 36 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25671255348048000",
-    "length_m": 2613.2939200109,
+    "delay_s": 124,
+    "description": "Slow traffic",
+    "from": "NJ-24/Washington St/Morris St/Park Pl (Market St/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713948026002",
+    "length_m": 444.209,
     "roads": [
-     "I-287 S"
+     "US-202 S",
+     "US-202 N"
     ],
-    "severity": 2,
-    "start": "2026-11-23T21:15:06Z",
-    "to": "Harter Rd/Exit 33 (I-287)"
+    "severity": 1,
+    "start": "2026-11-23T21:38:26Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
    }
   ],
   "label": "Near home"
