@@ -31,7 +31,7 @@
     "description": "Closed",
     "from": "Sussex Ave / Lake Rd",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25645286672037000",
-    "length_m": 403.4565163239,
+    "length_m": 479.235767007,
     "roads": [],
     "severity": 4,
     "start": "2026-11-23T18:06:15Z",
@@ -39,29 +39,60 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 62,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
-    "length_m": 43.6063153467,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-23T19:17:15Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 179,
+    "delay_s": 164,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943264012000",
-    "length_m": 464.6808272346,
+    "length_m": 430.967839576,
     "roads": [
      "County Hwy-650"
     ],
     "severity": 3,
     "start": "2026-11-23T18:54:15Z",
     "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 120,
+    "description": "Stopped traffic",
+    "from": "I-287 (James St)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599152012000",
+    "length_m": 127.2467942159,
+    "roads": [
+     "County Hwy-663"
+    ],
+    "severity": 3,
+    "start": "2026-11-23T19:18:49Z",
+    "to": "NJ-24/South St (James St)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 129,
+    "description": "Backed up traffic",
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876018001",
+    "length_m": 473.8429625433,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-23T19:27:48Z",
+    "to": "Spring St (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 74,
+    "description": "Slow traffic",
+    "from": "Lafayette Ave/Exit 36 (I-287)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599432016001",
+    "length_m": 1583.2881970716,
+    "roads": [
+     "I-287 N"
+    ],
+    "severity": 1,
+    "start": "2026-11-23T19:26:15Z",
+    "to": "NJ-10/Exit 39 (I-287)"
    }
   ],
   "label": "Near home"
