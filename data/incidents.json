@@ -8,7 +8,154 @@
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
-  "items": [],
+  "items": [
+   {
+    "category": "Road closed",
+    "delay_s": 0,
+    "description": "Closed",
+    "from": "McBride Ave",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25688570000022000",
+    "length_m": 295.4104974863,
+    "roads": [],
+    "severity": 4,
+    "start": "2026-11-23T18:36:45Z",
+    "to": "Mount Pleasant Ave"
+   },
+   {
+    "category": "Road closed",
+    "delay_s": 0,
+    "description": "Closed",
+    "from": "Mount Pleasant Ave",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25688570072022000",
+    "length_m": 295.4104974863,
+    "roads": [],
+    "severity": 4,
+    "start": "2026-11-23T18:40:15Z",
+    "to": "McBride Ave"
+   },
+   {
+    "category": "Road closed",
+    "delay_s": 0,
+    "description": "Closed",
+    "from": "Squirrelwood Rd exit [56B]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25691455640029000",
+    "length_m": 309.2803004376,
+    "roads": [],
+    "severity": 4,
+    "start": "2026-07-20T13:15:32Z",
+    "to": "Squirrelwood Rd"
+   },
+   {
+    "category": "Road closed",
+    "delay_s": 0,
+    "description": "Closed",
+    "from": "New St (Squirrelwood Rd)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25691455724021000",
+    "length_m": 220.1732184319,
+    "roads": [
+     "County Hwy-636"
+    ],
+    "severity": 4,
+    "start": "2026-07-20T13:15:32Z",
+    "to": "I-80 (Squirrelwood Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 369,
+    "description": "Stopped traffic",
+    "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764020000",
+    "length_m": 1125.6159532791,
+    "roads": [
+     "County Hwy-640"
+    ],
+    "severity": 3,
+    "start": "2026-11-23T19:39:17Z",
+    "to": "US-46 (Riverview Dr/CR-640)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 239,
+    "description": "Stopped traffic",
+    "from": "US-46/Crooks Ave (McLean Blvd/NJ-20)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25700112148035001",
+    "length_m": 1464.0776838154,
+    "roads": [
+     "NJ-20",
+     "NJ-20 N"
+    ],
+    "severity": 3,
+    "start": "2026-11-23T19:43:19Z",
+    "to": "Broadway/Martin Luther King Way (McLean Blvd/NJ-20)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 145,
+    "description": "Backed up traffic",
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796028003",
+    "length_m": 464.6808272346,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 2,
+    "start": "2026-11-23T18:54:15Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 55,
+    "description": "Backed up traffic",
+    "from": "Squirrelwood Rd exit [56]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570224013000",
+    "length_m": 197.754900859,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-23T19:55:21Z",
+    "to": "Squirrelwood Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 189,
+    "description": "Backed up traffic",
+    "from": "Ridgewood Ave (NJ-17)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694342128011001",
+    "length_m": 2189.2198085649,
+    "roads": [
+     "NJ-17"
+    ],
+    "severity": 2,
+    "start": "2026-11-23T18:10:45Z",
+    "to": "Garden State Pkwy (NJ-17)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 252,
+    "description": "Backed up traffic",
+    "from": "Garden State Pkwy/Exit 62 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883048000000",
+    "length_m": 3503.9913315927,
+    "roads": [
+     "I-80 W",
+     "Bergen Passaic Expy W"
+    ],
+    "severity": 2,
+    "start": "2026-11-23T17:34:15Z",
+    "to": "Madison Ave/Exit 58 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 90,
+    "description": "Backed up traffic",
+    "from": "exit [163]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883656027000",
+    "length_m": 771.6017668683,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-23T19:58:22Z",
+    "to": "State Route 17"
+   }
+  ],
   "label": "Paramus commute"
  },
  "home": {
@@ -27,21 +174,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 174,
-    "description": "Stopped traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796028003",
-    "length_m": 482.53360516,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T18:54:15Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 297,
+    "delay_s": 229,
     "description": "Stopped traffic",
     "from": "Early St",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828408022000",
@@ -53,32 +186,32 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 273,
-    "description": "Stopped traffic",
+    "delay_s": 145,
+    "description": "Backed up traffic",
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796028003",
+    "length_m": 464.6808272346,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 2,
+    "start": "2026-11-23T18:54:15Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 125,
+    "description": "Backed up traffic",
     "from": "Hanover Ave (Speedwell Ave/US-202)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876018001",
-    "length_m": 432.0894806735,
+    "length_m": 407.9292672782,
     "roads": [
      "US-202 S",
      "US-202 N"
     ],
-    "severity": 3,
+    "severity": 2,
     "start": "2026-11-23T19:27:48Z",
     "to": "Spring St (Speedwell Ave/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 192,
-    "description": "Backed up traffic",
-    "from": "Washington Valley Rd (NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828244028001",
-    "length_m": 654.9198069833,
-    "roads": [
-     "County Hwy-510"
-    ],
-    "severity": 2,
-    "start": "2026-11-23T19:41:15Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
    }
   ],
   "label": "Near home"
