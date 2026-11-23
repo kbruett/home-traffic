@@ -37,17 +37,29 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 270,
+    "delay_s": 214,
     "description": "Stopped traffic",
     "from": "Hook Mountain Rd/Exit 48 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674142644008000",
-    "length_m": 2226.6661437204,
+    "length_m": 2110.3226313689,
     "roads": [
      "I-80 E"
     ],
     "severity": 3,
     "start": "2026-11-23T15:03:45Z",
     "to": "US-46/NJ-23/Exit 53 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 86,
+    "description": "Backed up traffic",
+    "from": "exit [163]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883520035000",
+    "length_m": 771.6017668683,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-23T15:43:15Z",
+    "to": "State Route 17"
    },
    {
     "category": "Lane closed",
