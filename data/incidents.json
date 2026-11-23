@@ -37,17 +37,31 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 145,
-    "description": "Stopped traffic",
+    "delay_s": 157,
+    "description": "Backed up traffic",
     "from": "Hook Mountain Rd/Exit 48 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674142644008000",
-    "length_m": 1455.4152042447,
+    "length_m": 1862.8019639346,
     "roads": [
      "I-80 E"
     ],
-    "severity": 3,
+    "severity": 2,
     "start": "2026-11-23T15:03:45Z",
     "to": "US-46/NJ-23/Exit 53 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 275,
+    "description": "Backed up traffic",
+    "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764028003",
+    "length_m": 1078.021390781,
+    "roads": [
+     "County Hwy-640"
+    ],
+    "severity": 2,
+    "start": "2026-11-23T15:15:45Z",
+    "to": "US-46 (Riverview Dr/CR-640)"
    },
    {
     "category": "Lane closed",
@@ -84,11 +98,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 179,
+    "delay_s": 276,
     "description": "Stopped traffic",
-    "from": "South St/Exit 35 (I-287)",
+    "from": "James St (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599304016001",
-    "length_m": 1522.16,
+    "length_m": 2146.9515577996,
     "roads": [
      "I-287 N"
     ],
