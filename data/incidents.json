@@ -8,62 +8,7 @@
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
-  "items": [
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "Squirrelwood Rd exit [56B]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25691455640029000",
-    "length_m": 309.2803004376,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-07-20T13:15:32Z",
-    "to": "Squirrelwood Rd"
-   },
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "New St (Squirrelwood Rd)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25691455724021000",
-    "length_m": 220.1732184319,
-    "roads": [
-     "County Hwy-636"
-    ],
-    "severity": 4,
-    "start": "2026-07-20T13:15:32Z",
-    "to": "I-80 (Squirrelwood Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 228,
-    "description": "Stopped traffic",
-    "from": "Hook Mountain Rd/Exit 48 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674142644008000",
-    "length_m": 2204.7446978546,
-    "roads": [
-     "I-80 E"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T15:03:45Z",
-    "to": "US-46/NJ-23/Exit 53 (I-80)"
-   },
-   {
-    "category": "Lane closed",
-    "delay_s": 0,
-    "description": "Right lane closed",
-    "from": "Hook Mountain Rd/Exit 48 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25677028112008000",
-    "length_m": 582.2069123611,
-    "roads": [
-     "I-80 E"
-    ],
-    "severity": 0,
-    "start": "2026-11-23T15:00:15Z",
-    "to": "US-46/NJ-23/Exit 53 (I-80)"
-   }
-  ],
+  "items": [],
   "label": "Paramus commute"
  },
  "home": {
