@@ -15,19 +15,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 130,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287028019000",
-    "length_m": 246.7933563756,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T19:13:45Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 84,
+    "delay_s": 65,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
@@ -39,23 +27,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 275,
+    "delay_s": 55,
     "description": "Stopped traffic",
-    "from": "Washington St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828336014002",
-    "length_m": 245.634,
+    "from": "Tabor Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
+    "length_m": 52.4816098938,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-24T19:22:45Z",
-    "to": "Early St"
+    "start": "2026-11-24T19:44:52Z",
+    "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 264,
+    "delay_s": 248,
     "description": "Stopped traffic",
     "from": "Early St",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828408014000",
-    "length_m": 325.2025739075,
+    "length_m": 184.409,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T19:22:45Z",
@@ -63,46 +51,58 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 154,
-    "description": "Backed up traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876026000",
-    "length_m": 346.8974702714,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-24T19:34:18Z",
-    "to": "Spring St (Speedwell Ave/US-202)"
+    "delay_s": 115,
+    "description": "Stopped traffic",
+    "from": "Morris St (Spring St)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713932012002",
+    "length_m": 287.5833313161,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T19:45:53Z",
+    "to": "US-202/Speedwell Ave (Spring St)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 263,
-    "description": "Slow traffic",
+    "delay_s": 115,
+    "description": "Backed up traffic",
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796020000",
+    "length_m": 344.2250973834,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T19:43:43Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 292,
+    "description": "Backed up traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828924016000",
-    "length_m": 4303.3005779955,
+    "length_m": 3977.0115627111,
     "roads": [
      "I-287 N"
     ],
-    "severity": 1,
+    "severity": 2,
     "start": "2026-11-24T19:05:45Z",
     "to": "Parsippany Rd/Exit 40 (I-287)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 71,
+    "delay_s": 101,
     "description": "Slow traffic",
-    "from": "NJ-10/Exit 39 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599372008000",
-    "length_m": 1520.6382771132,
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876026000",
+    "length_m": 432.0894806735,
     "roads": [
-     "I-287 S"
+     "US-202 S",
+     "US-202 N"
     ],
     "severity": 1,
     "start": "2026-11-24T19:34:18Z",
-    "to": "Lafayette Ave/Exit 36 (I-287)"
+    "to": "Spring St (Speedwell Ave/US-202)"
    },
    {
     "category": "Lane closed",
