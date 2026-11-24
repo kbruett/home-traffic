@@ -15,11 +15,23 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 126,
+    "delay_s": 51,
+    "description": "Stopped traffic",
+    "from": "Tabor Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
+    "length_m": 52.4816,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T17:30:45Z",
+    "to": "Littleton Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 120,
     "description": "Backed up traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796020001",
-    "length_m": 344.225,
+    "length_m": 390.7707452635,
     "roads": [
      "County Hwy-650"
     ],
