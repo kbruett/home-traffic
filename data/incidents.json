@@ -8,70 +8,7 @@
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
-  "items": [
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "Squirrelwood Rd exit [56B]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25691455640029000",
-    "length_m": 309.2803004376,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-07-20T13:15:32Z",
-    "to": "Squirrelwood Rd"
-   },
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "New St (Squirrelwood Rd)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25691455724021000",
-    "length_m": 220.1732184319,
-    "roads": [
-     "County Hwy-636"
-    ],
-    "severity": 4,
-    "start": "2026-07-20T13:15:32Z",
-    "to": "I-80 (Squirrelwood Rd)"
-   },
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "Jan Ct",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25705883012013000",
-    "length_m": 266.5492564696,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-11-23T18:03:15Z",
-    "to": "Molnar Dr"
-   },
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "Molnar Dr",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25705883084013000",
-    "length_m": 500.3589859197,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-11-23T18:02:45Z",
-    "to": "Main Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 145,
-    "description": "Stopped traffic",
-    "from": "Madison Ave",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341168020000",
-    "length_m": 234.5131550853,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T00:45:15Z",
-    "to": "I-80 W"
-   }
-  ],
+  "items": [],
   "label": "Paramus commute"
  },
  "home": {
