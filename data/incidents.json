@@ -15,7 +15,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 211,
+    "delay_s": 130,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287028019000",
@@ -27,7 +27,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 88,
+    "delay_s": 84,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
@@ -39,7 +39,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 203,
+    "delay_s": 275,
     "description": "Stopped traffic",
     "from": "Washington St",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828336014002",
@@ -51,27 +51,58 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 242,
-    "description": "Stopped traffic",
-    "from": "Harrison St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828372006000",
-    "length_m": 364.8078828627,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T19:27:45Z",
-    "to": "Speedwell Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 193,
+    "delay_s": 264,
     "description": "Stopped traffic",
     "from": "Early St",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828408014000",
-    "length_m": 350.5541733559,
+    "length_m": 325.2025739075,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T19:22:45Z",
     "to": "Washington St"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 154,
+    "description": "Backed up traffic",
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876026000",
+    "length_m": 346.8974702714,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T19:34:18Z",
+    "to": "Spring St (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 263,
+    "description": "Slow traffic",
+    "from": "Lafayette Ave/Exit 36 (I-287)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828924016000",
+    "length_m": 4303.3005779955,
+    "roads": [
+     "I-287 N"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T19:05:45Z",
+    "to": "Parsippany Rd/Exit 40 (I-287)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 71,
+    "description": "Slow traffic",
+    "from": "NJ-10/Exit 39 (I-287)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599372008000",
+    "length_m": 1520.6382771132,
+    "roads": [
+     "I-287 S"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T19:34:18Z",
+    "to": "Lafayette Ave/Exit 36 (I-287)"
    },
    {
     "category": "Lane closed",
