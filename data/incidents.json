@@ -1,31 +1,6 @@
 {
  "commute-montclair": {
-  "items": [
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "exit [4A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25685683424044000",
-    "length_m": 471.7280852362,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-08-11T16:01:30Z",
-    "to": "exit [4A]"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 71,
-    "description": "Backed up traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287024027000",
-    "length_m": 299.67,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-24T15:48:45Z",
-    "to": "Littleton Rd"
-   }
-  ],
+  "items": [],
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
@@ -39,29 +14,17 @@
  "home": {
   "items": [
    {
-    "category": "Traffic jam",
-    "delay_s": 71,
-    "description": "Backed up traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287024027000",
-    "length_m": 299.67,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-24T15:48:45Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 42,
-    "description": "Slow traffic",
+    "category": "Lane closed",
+    "delay_s": 0,
+    "description": "Right lane closed",
     "from": "NJ-24/Exit 37 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484844016001",
-    "length_m": 1180.0195366438,
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25662599372040000",
+    "length_m": 486.125,
     "roads": [
      "I-287 S"
     ],
-    "severity": 1,
-    "start": "2026-11-24T15:41:45Z",
+    "severity": 0,
+    "start": "2026-11-24T15:56:15Z",
     "to": "Lafayette Ave/Exit 36 (I-287)"
    }
   ],
