@@ -61,48 +61,21 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 64,
+    "delay_s": 52,
     "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
-    "length_m": 43.6063153467,
+    "from": "Madison Ave",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341180012000",
+    "length_m": 73.2280956682,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-23T23:57:45Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 113,
-    "description": "Slow traffic",
-    "from": "Paramus Rd/Exit 160 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768360017002",
-    "length_m": 2128.2222974755,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 1,
-    "start": "2026-11-23T20:10:04Z",
-    "to": "US-46/Exit 157 (Garden State Pkwy)"
+    "start": "2026-11-24T00:05:45Z",
+    "to": "I-80 W"
    }
   ],
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 64,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
-    "length_m": 43.6063,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-23T23:57:45Z",
-    "to": "Littleton Rd"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
