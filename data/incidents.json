@@ -58,24 +58,25 @@
     "severity": 4,
     "start": "2026-11-23T18:02:45Z",
     "to": "Main Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 52,
-    "description": "Stopped traffic",
-    "from": "Madison Ave",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341180012000",
-    "length_m": 73.2280956682,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T00:05:45Z",
-    "to": "I-80 W"
    }
   ],
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 126,
+    "description": "Slow traffic",
+    "from": "Washington St",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713684022000",
+    "length_m": 170.586,
+    "roads": [],
+    "severity": 1,
+    "start": "2026-11-24T00:09:45Z",
+    "to": "Speedwell Ave"
+   }
+  ],
   "label": "Near home"
  }
 }
