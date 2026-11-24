@@ -61,81 +61,27 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 136,
+    "delay_s": 64,
     "description": "Stopped traffic",
-    "from": "NJ-20 exit [60]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997504017002",
-    "length_m": 396.4865656341,
+    "from": "State Route 10",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
+    "length_m": 43.6063153467,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-23T23:46:45Z",
-    "to": "McLean Blvd"
+    "start": "2026-11-23T23:57:45Z",
+    "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 221,
-    "description": "Stopped traffic",
-    "from": "Lakeview Ave",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997532009000",
-    "length_m": 636.1331645581,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-23T23:39:15Z",
-    "to": "McLean Blvd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 193,
-    "description": "Stopped traffic",
-    "from": "Broadway/Martin Luther King Way (McLean Blvd/NJ-20)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768336009000",
-    "length_m": 946.4026670152,
-    "roads": [
-     "NJ-20 S"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T20:38:22Z",
-    "to": "US-46/Crooks Ave (McLean Blvd/NJ-20)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 379,
-    "description": "Stopped traffic",
-    "from": "Garden State Pkwy (NJ-17)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25717424908011002",
-    "length_m": 3093.5051765774,
-    "roads": [
-     "NJ-17"
-    ],
-    "severity": 3,
-    "start": "2026-11-23T18:42:45Z",
-    "to": "Essex St (NJ-17)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 103,
-    "description": "Backed up traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943264012001",
-    "length_m": 261.0264591768,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 2,
-    "start": "2026-11-23T20:11:37Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 362,
-    "description": "Backed up traffic",
-    "from": "NJ-17/Exit 163 (Garden State Pkwy)",
+    "delay_s": 113,
+    "description": "Slow traffic",
+    "from": "Paramus Rd/Exit 160 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768360017002",
-    "length_m": 5014.820689408,
+    "length_m": 2128.2222974755,
     "roads": [
      "Garden State Pkwy S"
     ],
-    "severity": 2,
+    "severity": 1,
     "start": "2026-11-23T20:10:04Z",
     "to": "US-46/Exit 157 (Garden State Pkwy)"
    }
@@ -146,17 +92,15 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 103,
-    "description": "Backed up traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943264012001",
-    "length_m": 261.026,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 2,
-    "start": "2026-11-23T20:11:37Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+    "delay_s": 64,
+    "description": "Stopped traffic",
+    "from": "State Route 10",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
+    "length_m": 43.6063,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-23T23:57:45Z",
+    "to": "Littleton Rd"
    }
   ],
   "label": "Near home"
