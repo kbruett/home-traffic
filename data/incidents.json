@@ -15,7 +15,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 149,
+    "delay_s": 136,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287060003000",
@@ -27,11 +27,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 379,
+    "delay_s": 495,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 873.610875646,
+    "length_m": 1164.4828797068,
     "roads": [
      "County Hwy-650"
     ],
@@ -41,11 +41,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 1835,
+    "delay_s": 2009,
     "description": "Stopped traffic",
     "from": "James St (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058536008000",
-    "length_m": 12629.1869646945,
+    "length_m": 12353.9238724563,
     "roads": [
      "I-287 N"
     ],
@@ -55,19 +55,19 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 108,
+    "delay_s": 115,
     "description": "Stopped traffic",
-    "from": "exit [45]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829240020000",
-    "length_m": 248.6750352825,
+    "from": "Jefferson Rd (E Halsey Rd)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943688014000",
+    "length_m": 377.5923643753,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-24T22:05:34Z",
-    "to": "S Beverwyck Rd"
+    "start": "2026-11-24T22:14:38Z",
+    "to": "I-287/Parsippany Rd (E Halsey Rd)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 164,
+    "delay_s": 180,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252019002",
@@ -79,7 +79,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 232,
+    "delay_s": 267,
     "description": "Stopped traffic",
     "from": "US Highway 46",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714776024000",
@@ -91,21 +91,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 273,
-    "description": "Stopped traffic",
-    "from": "Beverwyck Rd/Exit 45 (I-80 Exp)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600184008000",
-    "length_m": 1256.3515125837,
-    "roads": [
-     "I-80 E"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T21:35:18Z",
-    "to": "I-280/US-46 (I-80 Exp)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 207,
+    "delay_s": 242,
     "description": "Stopped traffic",
     "from": "I-280 W",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600264000001",
@@ -117,7 +103,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 190,
+    "delay_s": 183,
     "description": "Stopped traffic",
     "from": "I-280 exit [47A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485648056001",
@@ -129,7 +115,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 174,
+    "delay_s": 274,
     "description": "Stopped traffic",
     "from": "exit [47A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485664008003",
@@ -143,21 +129,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 246,
-    "description": "Stopped traffic",
-    "from": "CR-655/Watchung Ave (Valley Rd/CR-621)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25714538136020000",
-    "length_m": 576.4808301012,
-    "roads": [
-     "County Hwy-621"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T22:00:16Z",
-    "to": "CR-506/Bloomfield Ave (Valley Rd/CR-621)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 244,
+    "delay_s": 267,
     "description": "Stopped traffic",
     "from": "Grove St (Claremont Ave)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25714538188013000",
@@ -169,22 +141,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 125,
-    "description": "Backed up traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172360050000",
-    "length_m": 531.5243971923,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-24T21:37:50Z",
-    "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 147,
+    "delay_s": 132,
     "description": "Backed up traffic",
     "from": "Malapardis Rd (Littleton Rd/US-202)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172444042000",
@@ -194,56 +151,30 @@
      "US-202 N"
     ],
     "severity": 2,
-    "start": "2026-11-24T21:43:02Z",
+    "start": "2026-11-24T22:14:38Z",
     "to": "Hanover Ave (Speedwell Ave/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 37,
-    "description": "Backed up traffic",
-    "from": "I-287 exit [43]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058404032000",
-    "length_m": 350.9356032176,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-24T21:51:22Z",
-    "to": "I-287 N"
    },
    {
     "category": "Traffic jam",
     "delay_s": 144,
     "description": "Backed up traffic",
-    "from": "Reynolds Ave (S Beverwyck Rd)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829348012001",
-    "length_m": 543.3266095785,
+    "from": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485736008001",
+    "length_m": 2001.1836017541,
     "roads": [
-     "County Hwy-637"
+     "I-280 W"
     ],
     "severity": 2,
-    "start": "2026-11-24T21:33:53Z",
-    "to": "US-46 (S Beverwyck Rd)"
+    "start": "2026-11-24T22:13:09Z",
+    "to": "I-80 (I-280)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 476,
-    "description": "Backed up traffic",
-    "from": "I-287/Exit 43 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665486060016000",
-    "length_m": 6403.7857855033,
-    "roads": [
-     "I-80 E"
-    ],
-    "severity": 2,
-    "start": "2026-11-24T20:14:29Z",
-    "to": "Two Bridges Rd/Exit 52 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 369,
+    "delay_s": 380,
     "description": "Backed up traffic",
     "from": "I-80 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679912744072000",
-    "length_m": 4442.3155147016,
+    "length_m": 4705.761638646,
     "roads": [
      "I-280 E"
     ],
@@ -253,45 +184,99 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 131,
+    "delay_s": 119,
     "description": "Backed up traffic",
-    "from": "NJ-10/Mount Pleasant Ave (Mount Pleasant Ave)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25714537792035000",
-    "length_m": 623.0400119555,
+    "from": "Bloomfield Ave (Prospect Ave)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25714537856019003",
+    "length_m": 506.5559037496,
     "roads": [
      "County Hwy-577"
     ],
     "severity": 2,
-    "start": "2026-11-24T22:01:35Z",
-    "to": "Bloomfield Ave (Prospect Ave)"
+    "start": "2026-11-24T22:18:40Z",
+    "to": "I-280 (Prospect Ave)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 195,
+    "delay_s": 138,
     "description": "Backed up traffic",
-    "from": "NJ-23/Pompton Ave (Bloomfield Ave)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25720308920012000",
-    "length_m": 749.8761110429,
+    "from": "Main St/Harrison Ave (Eagle Rock Ave)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25714537896020000",
+    "length_m": 356.507882415,
     "roads": [
-     "County Hwy-506"
+     "County Hwy-611"
     ],
     "severity": 2,
-    "start": "2026-11-24T22:00:56Z",
-    "to": "CR-623/Elm St (Bloomfield Ave)"
+    "start": "2026-11-24T22:18:03Z",
+    "to": "Pleasant Valley Way (Eagle Rock Ave)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 118,
+    "delay_s": 133,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308064000",
-    "length_m": 2338.3629389212,
+    "length_m": 2674.3977819704,
     "roads": [
      "I-80 W"
     ],
     "severity": 1,
     "start": "2026-11-24T18:58:45Z",
     "to": "I-287/Exit 43 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 117,
+    "description": "Slow traffic",
+    "from": "Reynolds Ave (S Beverwyck Rd)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714680076000",
+    "length_m": 482.8193044121,
+    "roads": [
+     "County Hwy-637"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T22:15:19Z",
+    "to": "US-46 (S Beverwyck Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 48,
+    "description": "Slow traffic",
+    "from": "US-46 exit [47B]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485656049002",
+    "length_m": 567.7921919922,
+    "roads": [],
+    "severity": 1,
+    "start": "2026-11-24T22:13:51Z",
+    "to": "US-46 exit [47B]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 102,
+    "description": "Slow traffic",
+    "from": "Livingston Ave/Exit 5B (I-280)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688568936008000",
+    "length_m": 1939.5701029687,
+    "roads": [
+     "I-280 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T22:11:43Z",
+    "to": "New Rd/Exit 1 (I-280)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 105,
+    "description": "Slow traffic",
+    "from": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708766880016002",
+    "length_m": 3411.7012732022,
+    "roads": [
+     "I-280 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T22:09:33Z",
+    "to": "Pleasant Valley Way/Exit 7 (I-280)"
    }
   ],
   "label": "Montclair commute"
@@ -308,7 +293,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 149,
+    "delay_s": 136,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287060003000",
@@ -320,23 +305,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 153,
-    "description": "Stopped traffic",
-    "from": "Littleton Rd / Campus Dr",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287264014000",
-    "length_m": 416.2927871963,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T22:08:55Z",
-    "to": "State Route 10"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 379,
+    "delay_s": 495,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 873.610875646,
+    "length_m": 1164.4828797068,
     "roads": [
      "County Hwy-650"
     ],
@@ -346,11 +319,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 1835,
+    "delay_s": 2009,
     "description": "Stopped traffic",
     "from": "James St (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058536008000",
-    "length_m": 12629.1869646945,
+    "length_m": 12353.9238724563,
     "roads": [
      "I-287 N"
     ],
@@ -360,11 +333,47 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 294,
+    "delay_s": 134,
+    "description": "Stopped traffic",
+    "from": "Sherman Pl",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653942872014000",
+    "length_m": 312.51,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T22:18:03Z",
+    "to": "Sussex Ave"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 370,
+    "description": "Stopped traffic",
+    "from": "Spring St (Martin Luther King Ave)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828348021002",
+    "length_m": 780.3843982251,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T22:13:09Z",
+    "to": "CR-650/E Hanover Ave (Martin Luther King Ave)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 128,
+    "description": "Stopped traffic",
+    "from": "CR-650/E Hanover Ave (Horse Hill Rd)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828520030000",
+    "length_m": 336.5580646071,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T22:13:09Z",
+    "to": "Ridgedale Ave (Horse Hill Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 452,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828600046001",
-    "length_m": 770.0912218857,
+    "length_m": 902.3496517569,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T21:56:46Z",
@@ -372,11 +381,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 288,
+    "delay_s": 205,
     "description": "Stopped traffic",
     "from": "Spring St / Center St",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713756014000",
-    "length_m": 195.5611998545,
+    "length_m": 219.8320268524,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T21:47:02Z",
@@ -384,11 +393,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 217,
+    "delay_s": 190,
+    "description": "Stopped traffic",
+    "from": "I-287/Lafayette Ave (Ridgedale Ave)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713824028000",
+    "length_m": 421.728266381,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T22:17:19Z",
+    "to": "E Hanover Ave (Ridgedale Ave)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 164,
     "description": "Stopped traffic",
     "from": "Atno Ave",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713840022000",
-    "length_m": 202.123,
+    "length_m": 165.9685821232,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T22:04:19Z",
@@ -396,7 +417,19 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 258,
+    "delay_s": 131,
+    "description": "Stopped traffic",
+    "from": "Martin Luther King Ave",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713928013001",
+    "length_m": 60.5409678161,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T22:11:43Z",
+    "to": "Spring St"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 293,
     "description": "Stopped traffic",
     "from": "Morris St (Spring St)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713932012000",
@@ -408,34 +441,19 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 304,
+    "delay_s": 341,
     "description": "Stopped traffic",
-    "from": "NJ-24/Washington St/Morris St/Park Pl (Market St/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713948010000",
-    "length_m": 605.0636931207,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T21:41:41Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 159,
-    "description": "Stopped traffic",
-    "from": "South St / Pine St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599260014004",
-    "length_m": 170.629607309,
+    "from": "E Hanover Ave (Ridgedale Ave)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714104020000",
+    "length_m": 1014.3661026856,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-24T22:08:15Z",
-    "to": "E Park Pl / S Park Pl"
+    "start": "2026-11-24T22:11:05Z",
+    "to": "NJ-10 (Ridgedale Ave)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 135,
+    "delay_s": 126,
     "description": "Stopped traffic",
     "from": "Morris Ave exit [36A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484612020000",
@@ -447,22 +465,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 125,
-    "description": "Backed up traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172360050000",
-    "length_m": 531.5243971923,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-24T21:37:50Z",
-    "to": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 147,
+    "delay_s": 132,
     "description": "Backed up traffic",
     "from": "Malapardis Rd (Littleton Rd/US-202)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172444042000",
@@ -472,16 +475,57 @@
      "US-202 N"
     ],
     "severity": 2,
-    "start": "2026-11-24T21:43:02Z",
+    "start": "2026-11-24T22:14:38Z",
     "to": "Hanover Ave (Speedwell Ave/US-202)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 330,
+    "delay_s": 194,
+    "description": "Backed up traffic",
+    "from": "Ridgedale Ave (Morristown) (Lafayette Ave/Morris St)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713772052000",
+    "length_m": 581.6613190198,
+    "roads": [
+     "County Hwy-510"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T22:15:19Z",
+    "to": "US-202/NJ-24/Dumont Pl/E Park Pl (Morris St)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 314,
+    "description": "Backed up traffic",
+    "from": "NJ-24/Washington St/Morris St/Park Pl (Market St/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713948010000",
+    "length_m": 762.7123232733,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T21:41:41Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 131,
+    "description": "Backed up traffic",
+    "from": "Miller Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599260014000",
+    "length_m": 404.0878908898,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-24T22:15:19Z",
+    "to": "Mount Kemble Ave"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 373,
     "description": "Backed up traffic",
     "from": "NJ-24/Exit 37 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25668369596032000",
-    "length_m": 4365.9713813399,
+    "length_m": 4451.5284793217,
     "roads": [
      "I-287 S"
     ],
