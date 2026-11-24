@@ -15,31 +15,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 26,
-    "description": "Heavy traffic",
-    "from": "I-280/Exit 47A (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308008000",
-    "length_m": 1206.4866957914,
+    "delay_s": 208,
+    "description": "Stopped traffic",
+    "from": "CR-611/Eagle Rock Ave (Pleasant Valley Way/CR-636)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711652244012000",
+    "length_m": 282.1487090689,
     "roads": [
-     "I-80 W"
+     "County Hwy-636"
     ],
-    "severity": 1,
-    "start": "2026-11-24T14:38:45Z",
-    "to": "I-287/Exit 43 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 32,
-    "description": "Slow traffic",
-    "from": "US-46/Exit 47 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
-    "length_m": 884.8405846549,
-    "roads": [
-     "I-80 W"
-    ],
-    "severity": 1,
-    "start": "2026-11-24T12:18:15Z",
-    "to": "Beverwyck Rd/Exit 45 (I-80)"
+    "severity": 3,
+    "start": "2026-11-24T14:42:45Z",
+    "to": "I-280 (Pleasant Valley Way/CR-636)"
    }
   ],
   "label": "Montclair commute"
