@@ -15,15 +15,17 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 62,
-    "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
-    "length_m": 52.4816,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T16:00:15Z",
-    "to": "Littleton Rd"
+    "delay_s": 39,
+    "description": "Slow traffic",
+    "from": "NJ-10/Exit 39 (I-287)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599372032000",
+    "length_m": 1187.5076550229,
+    "roads": [
+     "I-287 S"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T16:28:45Z",
+    "to": "Lafayette Ave/Exit 36 (I-287)"
    },
    {
     "category": "Lane closed",
@@ -31,7 +33,7 @@
     "description": "Right lane closed",
     "from": "NJ-24/Exit 37 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25662599372040000",
-    "length_m": 486.1251630044,
+    "length_m": 486.125,
     "roads": [
      "I-287 S"
     ],
