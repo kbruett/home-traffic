@@ -14,20 +14,6 @@
  "home": {
   "items": [
    {
-    "category": "Traffic jam",
-    "delay_s": 41,
-    "description": "Slow traffic",
-    "from": "NJ-10/Exit 39 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599372032000",
-    "length_m": 1227.6095267271,
-    "roads": [
-     "I-287 S"
-    ],
-    "severity": 1,
-    "start": "2026-11-24T16:28:45Z",
-    "to": "Lafayette Ave/Exit 36 (I-287)"
-   },
-   {
     "category": "Lane closed",
     "delay_s": 0,
     "description": "Right lane closed",
