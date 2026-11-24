@@ -26,20 +26,6 @@
     "to": "Littleton Rd"
    },
    {
-    "category": "Traffic jam",
-    "delay_s": 120,
-    "description": "Backed up traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796020001",
-    "length_m": 390.7707452635,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 2,
-    "start": "2026-11-24T17:17:15Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
     "category": "Lane closed",
     "delay_s": 0,
     "description": "Right lane closed",
