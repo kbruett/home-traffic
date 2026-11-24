@@ -15,19 +15,19 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 67,
+    "delay_s": 61,
     "description": "Stopped traffic",
-    "from": "Morris St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599200014000",
-    "length_m": 78.6901293789,
+    "from": "Tabor Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
+    "length_m": 52.4816098938,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-24T18:41:15Z",
-    "to": "Hill St"
+    "start": "2026-11-24T18:58:45Z",
+    "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 130,
+    "delay_s": 125,
     "description": "Backed up traffic",
     "from": "Hanover Ave (Speedwell Ave/US-202)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876026000",
@@ -42,16 +42,30 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 41,
+    "delay_s": 30,
     "description": "Slow traffic",
-    "from": "NJ-10/Exit 39 (I-287)",
+    "from": "NJ-24/Exit 37 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484844016001",
-    "length_m": 1227.6095267271,
+    "length_m": 976.2091474122,
     "roads": [
      "I-287 S"
     ],
     "severity": 1,
     "start": "2026-11-24T18:35:15Z",
+    "to": "Lafayette Ave/Exit 36 (I-287)"
+   },
+   {
+    "category": "Lane closed",
+    "delay_s": 0,
+    "description": "Right lane closed",
+    "from": "NJ-24/Exit 37 (I-287)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25665484844016000",
+    "length_m": 180.3597368399,
+    "roads": [
+     "I-287 S"
+    ],
+    "severity": 0,
+    "start": "2026-11-24T15:56:15Z",
     "to": "Lafayette Ave/Exit 36 (I-287)"
    }
   ],
