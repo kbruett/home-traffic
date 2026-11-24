@@ -15,7 +15,55 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 117,
+    "delay_s": 157,
+    "description": "Stopped traffic",
+    "from": "exit [39A]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714260027000",
+    "length_m": 399.6694018554,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T12:32:15Z",
+    "to": "State Route 10"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 80,
+    "description": "Stopped traffic",
+    "from": "NJ-10 exit [39]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714276027000",
+    "length_m": 377.0387245434,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T12:37:45Z",
+    "to": "State Route 10"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 145,
+    "description": "Stopped traffic",
+    "from": "US Highway 46",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
+    "length_m": 532.6818875581,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T12:22:45Z",
+    "to": "I-80 W"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 89,
+    "description": "Stopped traffic",
+    "from": "I-280 W",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600252016000",
+    "length_m": 400.4685254741,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T12:26:15Z",
+    "to": "I-80 W"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 118,
     "description": "Stopped traffic",
     "from": "exit [47A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485664032000",
@@ -29,57 +77,87 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 86,
+    "delay_s": 139,
     "description": "Backed up traffic",
-    "from": "US Highway 46",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
-    "length_m": 755.5528175233,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-24T12:22:45Z",
-    "to": "I-80 W"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 136,
-    "description": "Backed up traffic",
-    "from": "I-80 (I-280)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674141936008000",
-    "length_m": 2051.8876990282,
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 530.092,
     "roads": [
-     "I-280 E"
+     "County Hwy-650"
     ],
     "severity": 2,
-    "start": "2026-11-24T12:12:45Z",
-    "to": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)"
+    "start": "2026-11-24T12:31:45Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 182,
-    "description": "Backed up traffic",
-    "from": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708766880016000",
-    "length_m": 2670.666600046,
+    "delay_s": 95,
+    "description": "Slow traffic",
+    "from": "I-80/Smith Rd (I-80 Exp)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829240016001",
+    "length_m": 1826.3339084001,
     "roads": [
-     "I-280 E"
+     "I-80 E"
     ],
-    "severity": 2,
-    "start": "2026-11-24T12:11:45Z",
-    "to": "Pleasant Valley Way/Exit 7 (I-280)"
+    "severity": 1,
+    "start": "2026-11-24T12:34:18Z",
+    "to": "I-280/US-46 (I-80 Exp)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 55,
+    "delay_s": 78,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
-    "length_m": 1465.2022066768,
+    "length_m": 2140.2910867179,
     "roads": [
      "I-80 W"
     ],
     "severity": 1,
     "start": "2026-11-24T12:18:15Z",
-    "to": "Beverwyck Rd/Exit 45 (I-80)"
+    "to": "I-287/Exit 43 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 44,
+    "description": "Slow traffic",
+    "from": "I-287/Exit 43 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714712016001",
+    "length_m": 1644.4808410854,
+    "roads": [
+     "I-80 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T12:36:15Z",
+    "to": "I-280/Exit 47A (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 200,
+    "description": "Slow traffic",
+    "from": "I-80 (I-280)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25685683540008001",
+    "length_m": 4190.1086201533,
+    "roads": [
+     "I-280 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T12:34:18Z",
+    "to": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 97,
+    "description": "Slow traffic",
+    "from": "Livingston Ave/Exit 5B (I-280)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708766880016000",
+    "length_m": 1844.9872834775,
+    "roads": [
+     "I-280 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T12:11:45Z",
+    "to": "Pleasant Valley Way/Exit 7 (I-280)"
    }
   ],
   "label": "Montclair commute"
@@ -96,15 +174,29 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 227,
+    "delay_s": 147,
     "description": "Stopped traffic",
     "from": "exit [37]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599488081000",
-    "length_m": 1117.31,
+    "length_m": 1117.3077206131,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T12:16:45Z",
     "to": "State Route 24"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 139,
+    "description": "Backed up traffic",
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 530.092,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T12:31:45Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
