@@ -12,6 +12,18 @@
     "severity": 4,
     "start": "2026-08-11T16:01:30Z",
     "to": "exit [4A]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 39,
+    "description": "Slow traffic",
+    "from": "Smith Road (US-46) exit [41A]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058440016000",
+    "length_m": 888.0803366,
+    "roads": [],
+    "severity": 1,
+    "start": "2026-11-24T12:07:15Z",
+    "to": "I-80 E"
    }
   ],
   "label": "Montclair commute"
@@ -25,20 +37,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 344,
-    "description": "Stopped traffic",
-    "from": "Ford Ave",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484648014000",
-    "length_m": 341.019,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T11:47:45Z",
-    "to": "De Kalb Pl"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
