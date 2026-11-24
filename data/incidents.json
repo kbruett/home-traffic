@@ -15,11 +15,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 327,
+    "delay_s": 222,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 754.3852829757,
+    "length_m": 464.681,
     "roads": [
      "County Hwy-650"
     ],
@@ -29,11 +29,37 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 153,
+    "delay_s": 175,
+    "description": "Stopped traffic",
+    "from": "State Route 10",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252019000",
+    "length_m": 565.7005573198,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T23:47:45Z",
+    "to": "I-287 N"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 605,
+    "description": "Stopped traffic",
+    "from": "Lafayette Ave/Exit 36 (I-287)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
+    "length_m": 4581.5365104512,
+    "roads": [
+     "I-287 N"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T21:08:34Z",
+    "to": "Parsippany Rd/Exit 40 (I-287)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 139,
     "description": "Stopped traffic",
     "from": "US Highway 46",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714776024000",
-    "length_m": 755.5528175233,
+    "length_m": 532.6818875581,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T21:29:44Z",
@@ -41,7 +67,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 256,
+    "delay_s": 292,
     "description": "Stopped traffic",
     "from": "I-280 W",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600264000001",
@@ -53,59 +79,45 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 813,
-    "description": "Backed up traffic",
-    "from": "Lafayette Ave/Exit 36 (I-287)",
+    "delay_s": 110,
+    "description": "Stopped traffic",
+    "from": "New Rd/Exit 1 (I-280)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679912744072000",
+    "length_m": 840.8641832614,
+    "roads": [
+     "I-280 E"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T20:52:55Z",
+    "to": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 26,
+    "description": "Heavy traffic",
+    "from": "Parsippany Rd/Exit 40 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287600080000",
-    "length_m": 9590.13503646,
+    "length_m": 1472.826708728,
     "roads": [
      "I-287 N"
     ],
-    "severity": 2,
+    "severity": 1,
     "start": "2026-11-24T21:08:34Z",
-    "to": "US-202/Waterview Blvd/Exit 42 (I-287)"
+    "to": "US-46 (I-287)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 124,
-    "description": "Backed up traffic",
-    "from": "Bloomfield Ave (Prospect Ave)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25714537856043000",
-    "length_m": 506.5559037496,
-    "roads": [
-     "County Hwy-577"
-    ],
-    "severity": 2,
-    "start": "2026-11-24T22:51:06Z",
-    "to": "I-280 (Prospect Ave)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 115,
+    "delay_s": 103,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058512008000",
-    "length_m": 1936.7459346657,
+    "length_m": 2338.3629389212,
     "roads": [
      "I-80 W"
     ],
     "severity": 1,
     "start": "2026-11-24T22:56:27Z",
     "to": "I-287/Exit 43 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 77,
-    "description": "Slow traffic",
-    "from": "New Rd/Exit 1 (I-280)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679912744072000",
-    "length_m": 1820.7828010933,
-    "roads": [
-     "I-280 E"
-    ],
-    "severity": 1,
-    "start": "2026-11-24T20:52:55Z",
-    "to": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)"
    }
   ],
   "label": "Montclair commute"
@@ -122,11 +134,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 327,
+    "delay_s": 222,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 754.3852829757,
+    "length_m": 464.681,
     "roads": [
      "County Hwy-650"
     ],
@@ -148,29 +160,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 131,
+    "delay_s": 605,
     "description": "Stopped traffic",
-    "from": "Morris St (Spring St)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713932012000",
-    "length_m": 312.556,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T20:41:21Z",
-    "to": "US-202/Speedwell Ave (Spring St)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 813,
-    "description": "Backed up traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287600080000",
-    "length_m": 9590.13503646,
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
+    "length_m": 4581.5365104512,
     "roads": [
      "I-287 N"
     ],
-    "severity": 2,
+    "severity": 3,
     "start": "2026-11-24T21:08:34Z",
-    "to": "US-202/Waterview Blvd/Exit 42 (I-287)"
+    "to": "Parsippany Rd/Exit 40 (I-287)"
    }
   ],
   "label": "Near home"
