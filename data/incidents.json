@@ -15,43 +15,31 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 50,
-    "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
-    "length_m": 52.4816,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T14:27:15Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 44,
-    "description": "Slow traffic",
-    "from": "NJ-24/Exit 37 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828924016001",
-    "length_m": 1630.6134721154,
+    "delay_s": 26,
+    "description": "Heavy traffic",
+    "from": "I-280/Exit 47A (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308008000",
+    "length_m": 1206.4866957914,
     "roads": [
-     "I-287 N"
+     "I-80 W"
     ],
     "severity": 1,
-    "start": "2026-11-24T13:53:47Z",
-    "to": "Parsippany Rd/Exit 40 (I-287)"
+    "start": "2026-11-24T14:38:45Z",
+    "to": "I-287/Exit 43 (I-80)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 80,
+    "delay_s": 32,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
-    "length_m": 1881.7176328643,
+    "length_m": 884.8405846549,
     "roads": [
      "I-80 W"
     ],
     "severity": 1,
     "start": "2026-11-24T12:18:15Z",
-    "to": "I-287/Exit 43 (I-80)"
+    "to": "Beverwyck Rd/Exit 45 (I-80)"
    }
   ],
   "label": "Montclair commute"
@@ -65,32 +53,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 128,
-    "description": "Stopped traffic",
-    "from": "Granniss Ave",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25642401484022000",
-    "length_m": 166.728,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T14:03:45Z",
-    "to": "Watnong Dr"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 50,
-    "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
-    "length_m": 52.4816098938,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T14:27:15Z",
-    "to": "Littleton Rd"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
