@@ -15,7 +15,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 158,
+    "delay_s": 211,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287028019000",
@@ -27,7 +27,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 108,
+    "delay_s": 88,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
@@ -39,15 +39,39 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 60,
+    "delay_s": 203,
     "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011001",
-    "length_m": 52.4816,
+    "from": "Washington St",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828336014002",
+    "length_m": 245.634,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-24T19:14:15Z",
-    "to": "Littleton Rd"
+    "start": "2026-11-24T19:22:45Z",
+    "to": "Early St"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 242,
+    "description": "Stopped traffic",
+    "from": "Harrison St",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828372006000",
+    "length_m": 364.8078828627,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T19:27:45Z",
+    "to": "Speedwell Ave"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 193,
+    "description": "Stopped traffic",
+    "from": "Early St",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828408014000",
+    "length_m": 350.5541733559,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T19:22:45Z",
+    "to": "Washington St"
    },
    {
     "category": "Lane closed",
