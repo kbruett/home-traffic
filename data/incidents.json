@@ -14,12 +14,24 @@
  "home": {
   "items": [
    {
+    "category": "Traffic jam",
+    "delay_s": 65,
+    "description": "Stopped traffic",
+    "from": "Tabor Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
+    "length_m": 52.4816,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T16:00:15Z",
+    "to": "Littleton Rd"
+   },
+   {
     "category": "Lane closed",
     "delay_s": 0,
     "description": "Right lane closed",
     "from": "NJ-24/Exit 37 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25662599372040000",
-    "length_m": 486.125,
+    "length_m": 486.1251630044,
     "roads": [
      "I-287 S"
     ],
