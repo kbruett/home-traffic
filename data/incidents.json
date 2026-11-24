@@ -15,15 +15,57 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 39,
+    "delay_s": 43,
     "description": "Slow traffic",
     "from": "Smith Road (US-46) exit [41A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058440016000",
-    "length_m": 888.0803366,
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058440088000",
+    "length_m": 1111.393739958,
     "roads": [],
     "severity": 1,
-    "start": "2026-11-24T12:07:15Z",
+    "start": "2026-11-24T12:19:15Z",
     "to": "I-80 E"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 64,
+    "description": "Slow traffic",
+    "from": "US-46/Exit 47 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
+    "length_m": 1881.7176328643,
+    "roads": [
+     "I-80 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T12:18:15Z",
+    "to": "I-287/Exit 43 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 119,
+    "description": "Slow traffic",
+    "from": "I-80 (I-280)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674141936008000",
+    "length_m": 2051.8876990282,
+    "roads": [
+     "I-280 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T12:12:45Z",
+    "to": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 118,
+    "description": "Slow traffic",
+    "from": "Livingston Ave/Exit 5B (I-280)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708766880016000",
+    "length_m": 1919.3206712577,
+    "roads": [
+     "I-280 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T12:11:45Z",
+    "to": "Pleasant Valley Way/Exit 7 (I-280)"
    }
   ],
   "label": "Montclair commute"
@@ -37,7 +79,20 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 165,
+    "description": "Stopped traffic",
+    "from": "exit [37]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599488081000",
+    "length_m": 1117.31,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T12:16:45Z",
+    "to": "State Route 24"
+   }
+  ],
   "label": "Near home"
  }
 }
