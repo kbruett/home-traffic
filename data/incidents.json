@@ -15,49 +15,35 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 232,
+    "delay_s": 78,
     "description": "Stopped traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 796.329,
-    "roads": [
-     "County Hwy-650"
-    ],
+    "from": "State Route 10",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
+    "length_m": 43.6063,
+    "roads": [],
     "severity": 3,
-    "start": "2026-11-24T12:31:45Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+    "start": "2026-11-24T14:15:15Z",
+    "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 63,
-    "description": "Backed up traffic",
-    "from": "NJ-10 exit [39]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714276027000",
-    "length_m": 377.0387245434,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-24T14:06:15Z",
-    "to": "State Route 10"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 58,
-    "description": "Backed up traffic",
-    "from": "US Highway 46",
+    "delay_s": 47,
+    "description": "Stopped traffic",
+    "from": "I-280 W",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
-    "length_m": 532.6818875581,
+    "length_m": 346.2465565746,
     "roads": [],
-    "severity": 2,
-    "start": "2026-11-24T12:22:45Z",
+    "severity": 3,
+    "start": "2026-11-24T14:17:15Z",
     "to": "I-80 W"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 31,
+    "delay_s": 78,
     "description": "Slow traffic",
     "from": "NJ-24/Exit 37 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828924016001",
-    "length_m": 885.7521566317,
+    "length_m": 1942.566976761,
     "roads": [
      "I-287 N"
     ],
@@ -67,31 +53,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 95,
+    "delay_s": 64,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
-    "length_m": 2338.3629389212,
+    "length_m": 1881.7176328643,
     "roads": [
      "I-80 W"
     ],
     "severity": 1,
     "start": "2026-11-24T12:18:15Z",
     "to": "I-287/Exit 43 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 55,
-    "description": "Slow traffic",
-    "from": "New Rd/Exit 1 (I-280)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25685683540008001",
-    "length_m": 1958.1346563846,
-    "roads": [
-     "I-280 E"
-    ],
-    "severity": 1,
-    "start": "2026-11-24T12:34:18Z",
-    "to": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)"
    }
   ],
   "label": "Montclair commute"
@@ -108,7 +80,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 119,
+    "delay_s": 118,
     "description": "Stopped traffic",
     "from": "Granniss Ave",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25642401484022000",
@@ -120,29 +92,15 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 232,
+    "delay_s": 78,
     "description": "Stopped traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 796.3288437065,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T12:31:45Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 79,
-    "description": "Slow traffic",
-    "from": "exit [37]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599488081000",
-    "length_m": 1117.3077206131,
+    "from": "State Route 10",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
+    "length_m": 43.6063153467,
     "roads": [],
-    "severity": 1,
-    "start": "2026-11-24T12:16:45Z",
-    "to": "State Route 24"
+    "severity": 3,
+    "start": "2026-11-24T14:15:15Z",
+    "to": "Littleton Rd"
    }
   ],
   "label": "Near home"
