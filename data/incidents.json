@@ -15,7 +15,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 202,
+    "delay_s": 159,
     "description": "Stopped traffic",
     "from": "NJ-10 (Tabor Rd/NJ-53)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
@@ -30,23 +30,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 82,
+    "delay_s": 278,
     "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011002",
-    "length_m": 52.4816098938,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T12:50:18Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 167,
-    "description": "Stopped traffic",
-    "from": "Granniss Ave / Mayfair Rd",
+    "from": "Park Way",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172428012000",
-    "length_m": 251.3473963786,
+    "length_m": 449.4702533984,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T13:03:20Z",
@@ -54,37 +42,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 214,
-    "description": "Stopped traffic",
-    "from": "Burch Dr",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057720014000",
-    "length_m": 330.1749379382,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T13:00:48Z",
-    "to": "Speedwell Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 396,
-    "description": "Stopped traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 1052.9004467399,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T12:31:45Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 531,
+    "delay_s": 366,
     "description": "Stopped traffic",
     "from": "Hook Mountain Rd/Exit 48 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
-    "length_m": 2186.1305730869,
+    "length_m": 2660.6310220185,
     "roads": [
      "I-80 W"
     ],
@@ -94,7 +56,45 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 701,
+    "delay_s": 172,
+    "description": "Stopped traffic",
+    "from": "exit [39A]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714260027000",
+    "length_m": 399.6694018554,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T13:16:15Z",
+    "to": "State Route 10"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 122,
+    "description": "Stopped traffic",
+    "from": "NJ-10 exit [39]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714276027000",
+    "length_m": 377.0387245434,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T13:14:15Z",
+    "to": "State Route 10"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 115,
+    "description": "Stopped traffic",
+    "from": "Ridgedale Ave (Cedar Knolls) (NJ-10)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714288019001",
+    "length_m": 396.0471061515,
+    "roads": [
+     "NJ-10"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T13:13:45Z",
+    "to": "Jefferson Rd (NJ-10)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 453,
     "description": "Stopped traffic",
     "from": "US Highway 46",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
@@ -106,7 +106,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 660,
+    "delay_s": 593,
     "description": "Stopped traffic",
     "from": "I-280 W",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600252016000",
@@ -118,11 +118,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 148,
+    "delay_s": 83,
     "description": "Stopped traffic",
     "from": "exit [47A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485664032000",
-    "length_m": 1124.3708402846,
+    "length_m": 735.704950661,
     "roads": [
      "I-280 E"
     ],
@@ -132,11 +132,25 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 280,
+    "delay_s": 267,
+    "description": "Backed up traffic",
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 1105.6304502051,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T12:31:45Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 296,
     "description": "Backed up traffic",
     "from": "I-80 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25685683540008001",
-    "length_m": 4353.8718136189,
+    "length_m": 4172.8308265799,
     "roads": [
      "I-280 E"
     ],
@@ -146,29 +160,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 29,
-    "description": "Slow traffic",
-    "from": "Beverwyck Rd/Exit 45 (I-80 Exp)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600184040000",
-    "length_m": 770.3134707903,
+    "delay_s": 134,
+    "description": "Backed up traffic",
+    "from": "Orange Rd/Bell St (Bloomfield Ave)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708767232012000",
+    "length_m": 415.0447995677,
     "roads": [
-     "I-80 E"
+     "County Hwy-506"
     ],
-    "severity": 1,
-    "start": "2026-11-24T13:08:15Z",
-    "to": "I-280/US-46 (I-80 Exp)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 45,
-    "description": "Slow traffic",
-    "from": "I-280 exit [47A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485648056001",
-    "length_m": 702.3609650381,
-    "roads": [],
-    "severity": 1,
-    "start": "2026-11-24T12:46:15Z",
-    "to": "Essex Fwy"
+    "severity": 2,
+    "start": "2026-11-24T13:14:49Z",
+    "to": "CR-636/Lakeside Ave (Bloomfield Ave)"
    }
   ],
   "label": "Montclair commute"
@@ -185,21 +187,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 791,
-    "description": "Stopped traffic",
-    "from": "Hill Rd (NJ-10)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25642401748011000",
-    "length_m": 4711.130277313,
-    "roads": [
-     "NJ-10"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T12:32:45Z",
-    "to": "US-202/Littleton Rd (NJ-10)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 202,
+    "delay_s": 159,
     "description": "Stopped traffic",
     "from": "NJ-10 (Tabor Rd/NJ-53)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
@@ -214,67 +202,15 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 82,
+    "delay_s": 278,
     "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011002",
-    "length_m": 52.4816098938,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T12:50:18Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 167,
-    "description": "Stopped traffic",
-    "from": "Granniss Ave / Mayfair Rd",
+    "from": "Park Way",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172428012000",
-    "length_m": 251.3473963786,
+    "length_m": 449.4702533984,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T13:03:20Z",
     "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 214,
-    "description": "Stopped traffic",
-    "from": "Burch Dr",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057720014000",
-    "length_m": 330.1749379382,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T13:00:48Z",
-    "to": "Speedwell Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 396,
-    "description": "Stopped traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 1052.9004467399,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T12:31:45Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 240,
-    "description": "Stopped traffic",
-    "from": "Mills St (Sussex/CR-617)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828392020000",
-    "length_m": 370.9093733671,
-    "roads": [
-     "County Hwy-617"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T12:45:18Z",
-    "to": "US-202/Speedwell Ave (Sussex/CR-617)"
    },
    {
     "category": "Traffic jam",
@@ -290,22 +226,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 277,
-    "description": "Stopped traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876034000",
-    "length_m": 620.9894906941,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T12:41:15Z",
-    "to": "Spring St (Speedwell Ave/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 252,
+    "delay_s": 162,
     "description": "Stopped traffic",
     "from": "exit [37]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599488081000",
@@ -317,7 +238,36 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 153,
+    "delay_s": 267,
+    "description": "Backed up traffic",
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 1105.6304502051,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T12:31:45Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 264,
+    "description": "Backed up traffic",
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876034000",
+    "length_m": 1058.7363340632,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T12:41:15Z",
+    "to": "NJ-24/Washington St/Morris St/Park Pl (Market St/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 137,
     "description": "Slow traffic",
     "from": "Washington Valley Rd (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713716020001",
