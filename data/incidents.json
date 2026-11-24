@@ -15,7 +15,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 447,
+    "delay_s": 456,
     "description": "Stopped traffic",
     "from": "Park Way",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172428012000",
@@ -27,7 +27,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 293,
+    "delay_s": 289,
     "description": "Stopped traffic",
     "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
@@ -41,7 +41,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 192,
+    "delay_s": 191,
     "description": "Stopped traffic",
     "from": "exit [39A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714260027000",
@@ -53,7 +53,19 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 428,
+    "delay_s": 94,
+    "description": "Stopped traffic",
+    "from": "NJ-10 exit [39]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714276027000",
+    "length_m": 377.0387245434,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T13:14:15Z",
+    "to": "State Route 10"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 438,
     "description": "Stopped traffic",
     "from": "US Highway 46",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
@@ -65,7 +77,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 372,
+    "delay_s": 362,
     "description": "Stopped traffic",
     "from": "I-280 W",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600252016000",
@@ -77,7 +89,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 190,
+    "delay_s": 196,
     "description": "Stopped traffic",
     "from": "I-280 exit [47A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485648056001",
@@ -101,21 +113,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 20,
-    "description": "Stopped traffic",
-    "from": "exit [47A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485664008000",
-    "length_m": 53.949288829,
-    "roads": [
-     "I-280 E"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T13:28:15Z",
-    "to": "Edwards Rd exit [1]"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 51,
+    "delay_s": 64,
     "description": "Stopped traffic",
     "from": "exit [47A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485664032000",
@@ -141,11 +139,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 432,
+    "delay_s": 269,
     "description": "Backed up traffic",
-    "from": "Two Bridges Rd/Exit 52 (I-80)",
+    "from": "Hook Mountain Rd/Exit 48 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
-    "length_m": 5527.6962882585,
+    "length_m": 2863.9220812512,
     "roads": [
      "I-80 W"
     ],
@@ -155,19 +153,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 45,
-    "description": "Backed up traffic",
-    "from": "NJ-10 exit [39]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714276027000",
-    "length_m": 377.0387245434,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-24T13:14:15Z",
-    "to": "State Route 10"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 224,
+    "delay_s": 217,
     "description": "Slow traffic",
     "from": "I-80 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25685683540008001",
@@ -194,7 +180,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 447,
+    "delay_s": 456,
     "description": "Stopped traffic",
     "from": "Park Way",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172428012000",
@@ -206,7 +192,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 293,
+    "delay_s": 289,
     "description": "Stopped traffic",
     "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
@@ -232,7 +218,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 183,
+    "delay_s": 175,
     "description": "Stopped traffic",
     "from": "exit [37]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599488081000",
@@ -260,7 +246,7 @@
     "description": "Slow traffic",
     "from": "Washington Valley Rd (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713716020001",
-    "length_m": 597.4035232648,
+    "length_m": 689.1458823571,
     "roads": [
      "County Hwy-510"
     ],
@@ -270,7 +256,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 126,
+    "delay_s": 115,
     "description": "Slow traffic",
     "from": "Hanover Ave (Speedwell Ave/US-202)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876034000",
