@@ -15,11 +15,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 208,
+    "delay_s": 245,
     "description": "Stopped traffic",
     "from": "CR-611/Eagle Rock Ave (Pleasant Valley Way/CR-636)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711652244012000",
-    "length_m": 282.1487090689,
+    "length_m": 431.6913219538,
     "roads": [
      "County Hwy-636"
     ],
