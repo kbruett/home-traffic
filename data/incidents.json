@@ -15,30 +15,29 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 174,
-    "description": "Stopped traffic",
-    "from": "NJ-10 (Tabor Rd/NJ-53)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
-    "length_m": 341.535504116,
-    "roads": [
-     "Alex DeCroce Memorial Hwy",
-     "NJ-53"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T17:06:45Z",
-    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 59,
+    "delay_s": 108,
     "description": "Stopped traffic",
     "from": "Tabor Rd",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
     "length_m": 52.4816,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-24T16:56:45Z",
+    "start": "2026-11-24T17:12:45Z",
     "to": "Littleton Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 152,
+    "description": "Stopped traffic",
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796020001",
+    "length_m": 390.7707452635,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T17:17:15Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    },
    {
     "category": "Lane closed",
