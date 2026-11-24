@@ -15,11 +15,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 456,
+    "delay_s": 145,
     "description": "Stopped traffic",
-    "from": "Park Way",
+    "from": "Granniss Ave / Mayfair Rd",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172428012000",
-    "length_m": 449.4702533984,
+    "length_m": 251.3473963786,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T13:03:20Z",
@@ -27,11 +27,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 289,
+    "delay_s": 309,
     "description": "Stopped traffic",
     "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 997.4234865026,
+    "length_m": 1042.6064554375,
     "roads": [
      "County Hwy-650"
     ],
@@ -41,11 +41,26 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 191,
+    "delay_s": 111,
+    "description": "Stopped traffic",
+    "from": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057756010007",
+    "length_m": 336.1687814237,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T13:38:15Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 218,
     "description": "Stopped traffic",
     "from": "exit [39A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714260027000",
-    "length_m": 399.6694018554,
+    "length_m": 619.4493397486,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T13:16:15Z",
@@ -53,19 +68,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 94,
-    "description": "Stopped traffic",
-    "from": "NJ-10 exit [39]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714276027000",
-    "length_m": 377.0387245434,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T13:14:15Z",
-    "to": "State Route 10"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 438,
+    "delay_s": 446,
     "description": "Stopped traffic",
     "from": "US Highway 46",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
@@ -77,7 +80,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 362,
+    "delay_s": 415,
     "description": "Stopped traffic",
     "from": "I-280 W",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600252016000",
@@ -89,45 +92,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 196,
-    "description": "Stopped traffic",
-    "from": "I-280 exit [47A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485648056001",
-    "length_m": 948.8023765619,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T13:20:15Z",
-    "to": "Essex Fwy"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 85,
-    "description": "Stopped traffic",
-    "from": "US-46 exit [47B]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485656049000",
-    "length_m": 567.7921919922,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T13:25:45Z",
-    "to": "US-46 exit [47B]"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 64,
-    "description": "Stopped traffic",
-    "from": "exit [47A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485664032000",
-    "length_m": 357.909089717,
-    "roads": [
-     "I-280 E"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T13:28:45Z",
-    "to": "Edwards Rd exit [1]"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 144,
+    "delay_s": 124,
     "description": "Backed up traffic",
     "from": "Keenan Pl",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172392022000",
@@ -139,11 +104,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 269,
+    "delay_s": 231,
     "description": "Backed up traffic",
     "from": "Hook Mountain Rd/Exit 48 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
-    "length_m": 2863.9220812512,
+    "length_m": 2821.6144215097,
     "roads": [
      "I-80 W"
     ],
@@ -153,11 +118,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 217,
+    "delay_s": 61,
+    "description": "Backed up traffic",
+    "from": "US-46 exit [47B]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485656049000",
+    "length_m": 567.7921919922,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-24T13:25:45Z",
+    "to": "US-46 exit [47B]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 234,
     "description": "Slow traffic",
     "from": "I-80 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25685683540008001",
-    "length_m": 4353.8718136189,
+    "length_m": 4121.1485390501,
     "roads": [
      "I-280 E"
     ],
@@ -180,11 +157,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 456,
+    "delay_s": 145,
     "description": "Stopped traffic",
-    "from": "Park Way",
+    "from": "Granniss Ave / Mayfair Rd",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172428012000",
-    "length_m": 449.4702533984,
+    "length_m": 251.3473963786,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T13:03:20Z",
@@ -192,11 +169,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 289,
+    "delay_s": 309,
     "description": "Stopped traffic",
     "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 997.4234865026,
+    "length_m": 1042.6064554375,
     "roads": [
      "County Hwy-650"
     ],
@@ -206,19 +183,36 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 64,
+    "delay_s": 111,
     "description": "Stopped traffic",
-    "from": "Burnham Pkwy",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653942720014000",
-    "length_m": 100.959,
-    "roads": [],
+    "from": "NJ-53/Tabor Rd/Elizabeth Ct (Littleton Rd/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057756010007",
+    "length_m": 336.1687814237,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
     "severity": 3,
-    "start": "2026-11-24T13:24:45Z",
-    "to": "Mendham Ave"
+    "start": "2026-11-24T13:38:15Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 175,
+    "delay_s": 357,
+    "description": "Stopped traffic",
+    "from": "Washington Valley Rd (NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713716020001",
+    "length_m": 855.914,
+    "roads": [
+     "County Hwy-510"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T12:55:22Z",
+    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 191,
     "description": "Stopped traffic",
     "from": "exit [37]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599488081000",
@@ -230,7 +224,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 144,
+    "delay_s": 124,
     "description": "Backed up traffic",
     "from": "Keenan Pl",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172392022000",
@@ -242,32 +236,15 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 133,
+    "delay_s": 58,
     "description": "Slow traffic",
-    "from": "Washington Valley Rd (NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713716020001",
-    "length_m": 689.1458823571,
-    "roads": [
-     "County Hwy-510"
-    ],
+    "from": "Malapardis Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943308015000",
+    "length_m": 354.5165201814,
+    "roads": [],
     "severity": 1,
-    "start": "2026-11-24T12:55:22Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 115,
-    "description": "Slow traffic",
-    "from": "Hanover Ave (Speedwell Ave/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876034000",
-    "length_m": 620.9894906941,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 1,
-    "start": "2026-11-24T12:41:15Z",
-    "to": "Spring St (Speedwell Ave/US-202)"
+    "start": "2026-11-24T13:34:45Z",
+    "to": "Malapardis Rd"
    }
   ],
   "label": "Near home"
