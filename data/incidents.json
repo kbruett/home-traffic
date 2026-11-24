@@ -15,57 +15,71 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 43,
-    "description": "Slow traffic",
-    "from": "Smith Road (US-46) exit [41A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058440088000",
-    "length_m": 1111.393739958,
-    "roads": [],
-    "severity": 1,
-    "start": "2026-11-24T12:19:15Z",
-    "to": "I-80 E"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 64,
-    "description": "Slow traffic",
-    "from": "US-46/Exit 47 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
-    "length_m": 1881.7176328643,
+    "delay_s": 117,
+    "description": "Stopped traffic",
+    "from": "exit [47A]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485664032000",
+    "length_m": 1124.3708402846,
     "roads": [
-     "I-80 W"
+     "I-280 E"
     ],
-    "severity": 1,
-    "start": "2026-11-24T12:18:15Z",
-    "to": "I-287/Exit 43 (I-80)"
+    "severity": 3,
+    "start": "2026-11-24T12:24:45Z",
+    "to": "Edwards Rd exit [1]"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 119,
-    "description": "Slow traffic",
+    "delay_s": 86,
+    "description": "Backed up traffic",
+    "from": "US Highway 46",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
+    "length_m": 755.5528175233,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-24T12:22:45Z",
+    "to": "I-80 W"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 136,
+    "description": "Backed up traffic",
     "from": "I-80 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674141936008000",
     "length_m": 2051.8876990282,
     "roads": [
      "I-280 E"
     ],
-    "severity": 1,
+    "severity": 2,
     "start": "2026-11-24T12:12:45Z",
     "to": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 118,
-    "description": "Slow traffic",
-    "from": "Livingston Ave/Exit 5B (I-280)",
+    "delay_s": 182,
+    "description": "Backed up traffic",
+    "from": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708766880016000",
-    "length_m": 1919.3206712577,
+    "length_m": 2670.666600046,
     "roads": [
      "I-280 E"
     ],
-    "severity": 1,
+    "severity": 2,
     "start": "2026-11-24T12:11:45Z",
     "to": "Pleasant Valley Way/Exit 7 (I-280)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 55,
+    "description": "Slow traffic",
+    "from": "US-46/Exit 47 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
+    "length_m": 1465.2022066768,
+    "roads": [
+     "I-80 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-24T12:18:15Z",
+    "to": "Beverwyck Rd/Exit 45 (I-80)"
    }
   ],
   "label": "Montclair commute"
@@ -82,7 +96,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 165,
+    "delay_s": 227,
     "description": "Stopped traffic",
     "from": "exit [37]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599488081000",
