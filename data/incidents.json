@@ -15,89 +15,49 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 143,
+    "delay_s": 232,
     "description": "Stopped traffic",
-    "from": "exit [39A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714260027000",
-    "length_m": 619.4493397486,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T13:16:15Z",
-    "to": "State Route 10"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 340,
-    "description": "Stopped traffic",
-    "from": "US Highway 46",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
-    "length_m": 755.5528175233,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T12:22:45Z",
-    "to": "I-80 W"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 301,
-    "description": "Stopped traffic",
-    "from": "I-280 W",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600252016000",
-    "length_m": 538.1848020099,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T12:26:15Z",
-    "to": "I-80 W"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 207,
-    "description": "Backed up traffic",
     "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 882.5409769485,
+    "length_m": 796.329,
     "roads": [
      "County Hwy-650"
     ],
-    "severity": 2,
+    "severity": 3,
     "start": "2026-11-24T12:31:45Z",
     "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 116,
+    "delay_s": 63,
     "description": "Backed up traffic",
-    "from": "Bloomfield Ave (Prospect Ave)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25714537860011000",
-    "length_m": 506.5559037496,
-    "roads": [
-     "County Hwy-577"
-    ],
+    "from": "NJ-10 exit [39]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714276027000",
+    "length_m": 377.0387245434,
+    "roads": [],
     "severity": 2,
-    "start": "2026-11-24T13:52:15Z",
-    "to": "I-280 (Prospect Ave)"
+    "start": "2026-11-24T14:06:15Z",
+    "to": "State Route 10"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 249,
-    "description": "Slow traffic",
-    "from": "Miller Rd/Cooper Rd (NJ-10)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25642401748011000",
-    "length_m": 3134.3525381627,
-    "roads": [
-     "NJ-10"
-    ],
-    "severity": 1,
-    "start": "2026-11-24T12:32:45Z",
-    "to": "Dryden Way (NJ-10)"
+    "delay_s": 58,
+    "description": "Backed up traffic",
+    "from": "US Highway 46",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
+    "length_m": 532.6818875581,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-24T12:22:45Z",
+    "to": "I-80 W"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 30,
+    "delay_s": 31,
     "description": "Slow traffic",
     "from": "NJ-24/Exit 37 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828924016001",
-    "length_m": 996.5233756158,
+    "length_m": 885.7521566317,
     "roads": [
      "I-287 N"
     ],
@@ -107,11 +67,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 171,
+    "delay_s": 95,
     "description": "Slow traffic",
-    "from": "Hook Mountain Rd/Exit 48 (I-80)",
+    "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
-    "length_m": 2612.289342896,
+    "length_m": 2338.3629389212,
     "roads": [
      "I-80 W"
     ],
@@ -121,11 +81,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 117,
+    "delay_s": 55,
     "description": "Slow traffic",
-    "from": "I-80 (I-280)",
+    "from": "New Rd/Exit 1 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25685683540008001",
-    "length_m": 3346.6497847648,
+    "length_m": 1958.1346563846,
     "roads": [
      "I-280 E"
     ],
@@ -148,83 +108,41 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 149,
+    "delay_s": 119,
     "description": "Stopped traffic",
-    "from": "Prospect St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713840022000",
-    "length_m": 152.4020036888,
+    "from": "Granniss Ave",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25642401484022000",
+    "length_m": 166.728,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-24T13:58:45Z",
-    "to": "Speedwell Ave"
+    "start": "2026-11-24T14:03:45Z",
+    "to": "Watnong Dr"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 157,
+    "delay_s": 232,
     "description": "Stopped traffic",
-    "from": "exit [37]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599488081000",
-    "length_m": 1117.3077206131,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T12:16:45Z",
-    "to": "State Route 24"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 207,
-    "description": "Backed up traffic",
     "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 882.5409769485,
+    "length_m": 796.3288437065,
     "roads": [
      "County Hwy-650"
     ],
-    "severity": 2,
+    "severity": 3,
     "start": "2026-11-24T12:31:45Z",
     "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 128,
-    "description": "Backed up traffic",
-    "from": "Mills St (Sussex/CR-617)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713864012000",
-    "length_m": 269.016,
-    "roads": [
-     "County Hwy-617"
-    ],
-    "severity": 2,
-    "start": "2026-11-24T13:46:15Z",
-    "to": "US-202/Speedwell Ave (Sussex/CR-617)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 249,
+    "delay_s": 79,
     "description": "Slow traffic",
-    "from": "Miller Rd/Cooper Rd (NJ-10)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25642401748011000",
-    "length_m": 3134.3525381627,
-    "roads": [
-     "NJ-10"
-    ],
+    "from": "exit [37]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599488081000",
+    "length_m": 1117.3077206131,
+    "roads": [],
     "severity": 1,
-    "start": "2026-11-24T12:32:45Z",
-    "to": "Dryden Way (NJ-10)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 144,
-    "description": "Slow traffic",
-    "from": "Washington Valley Rd (NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713716020001",
-    "length_m": 461.5689148609,
-    "roads": [
-     "County Hwy-510"
-    ],
-    "severity": 1,
-    "start": "2026-11-24T12:55:22Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
+    "start": "2026-11-24T12:16:45Z",
+    "to": "State Route 24"
    }
   ],
   "label": "Near home"
