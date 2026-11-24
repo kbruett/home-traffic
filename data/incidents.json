@@ -15,11 +15,23 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 129,
+    "delay_s": 67,
+    "description": "Stopped traffic",
+    "from": "Morris St",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599200014000",
+    "length_m": 78.6901293789,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T18:41:15Z",
+    "to": "Hill St"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 130,
     "description": "Backed up traffic",
     "from": "Hanover Ave (Speedwell Ave/US-202)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876026000",
-    "length_m": 407.929,
+    "length_m": 346.897,
     "roads": [
      "US-202 S",
      "US-202 N"
@@ -30,25 +42,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 156,
-    "description": "Backed up traffic",
-    "from": "Morris Ave/Exit 36 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25671255348048000",
-    "length_m": 2016.5878980352,
-    "roads": [
-     "I-287 S"
-    ],
-    "severity": 2,
-    "start": "2026-11-24T18:02:15Z",
-    "to": "James St (I-287)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 42,
+    "delay_s": 41,
     "description": "Slow traffic",
-    "from": "NJ-24/Exit 37 (I-287)",
+    "from": "NJ-10/Exit 39 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484844016001",
-    "length_m": 1136.9697038486,
+    "length_m": 1227.6095267271,
     "roads": [
      "I-287 S"
     ],
