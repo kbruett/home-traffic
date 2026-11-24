@@ -28,11 +28,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 287,
+    "delay_s": 344,
     "description": "Stopped traffic",
-    "from": "Revere Rd",
+    "from": "Ford Ave",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484648014000",
-    "length_m": 181.533,
+    "length_m": 341.019,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T11:47:45Z",
