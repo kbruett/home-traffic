@@ -15,35 +15,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 78,
+    "delay_s": 50,
     "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
-    "length_m": 43.6063,
+    "from": "Tabor Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
+    "length_m": 52.4816,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-24T14:15:15Z",
+    "start": "2026-11-24T14:27:15Z",
     "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 47,
-    "description": "Stopped traffic",
-    "from": "I-280 W",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
-    "length_m": 346.2465565746,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T14:17:15Z",
-    "to": "I-80 W"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 78,
+    "delay_s": 44,
     "description": "Slow traffic",
     "from": "NJ-24/Exit 37 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828924016001",
-    "length_m": 1942.566976761,
+    "length_m": 1630.6134721154,
     "roads": [
      "I-287 N"
     ],
@@ -53,7 +41,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 64,
+    "delay_s": 80,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
@@ -80,7 +68,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 118,
+    "delay_s": 128,
     "description": "Stopped traffic",
     "from": "Granniss Ave",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25642401484022000",
@@ -92,14 +80,14 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 78,
+    "delay_s": 50,
     "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
-    "length_m": 43.6063153467,
+    "from": "Tabor Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
+    "length_m": 52.4816098938,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-24T14:15:15Z",
+    "start": "2026-11-24T14:27:15Z",
     "to": "Littleton Rd"
    }
   ],
