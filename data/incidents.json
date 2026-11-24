@@ -12,20 +12,6 @@
     "severity": 4,
     "start": "2026-08-11T16:01:30Z",
     "to": "exit [4A]"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 159,
-    "description": "Stopped traffic",
-    "from": "CR-611/Eagle Rock Ave (Pleasant Valley Way/CR-636)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711652244012000",
-    "length_m": 431.6913219538,
-    "roads": [
-     "County Hwy-636"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T14:42:45Z",
-    "to": "I-280 (Pleasant Valley Way/CR-636)"
    }
   ],
   "label": "Montclair commute"
@@ -42,11 +28,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 37,
+    "delay_s": 48,
     "description": "Slow traffic",
     "from": "NJ-10/Exit 39 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599512048000",
-    "length_m": 915.754,
+    "length_m": 1046.45,
     "roads": [
      "I-287 S"
     ],
