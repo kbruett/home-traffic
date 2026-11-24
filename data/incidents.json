@@ -15,38 +15,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 124,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003001",
-    "length_m": 43.6063153467,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T20:30:27Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 280,
-    "description": "Stopped traffic",
-    "from": "NJ-10 (Tabor Rd/NJ-53)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
-    "length_m": 296.054957736,
-    "roads": [
-     "Alex DeCroce Memorial Hwy",
-     "NJ-53"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T20:25:12Z",
-    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 62,
+    "delay_s": 54,
     "description": "Stopped traffic",
     "from": "Tabor Rd",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011001",
-    "length_m": 52.4816,
+    "length_m": 52.4816098938,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T20:23:21Z",
@@ -54,7 +27,22 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 347,
+    "delay_s": 301,
+    "description": "Stopped traffic",
+    "from": "Malapardis Rd (Littleton Rd/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172444026000",
+    "length_m": 826.6232761103,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T20:26:34Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 314,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
@@ -68,7 +56,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 177,
+    "delay_s": 190,
     "description": "Stopped traffic",
     "from": "US Highway 46",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714776024000",
@@ -80,7 +68,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 219,
+    "delay_s": 224,
     "description": "Stopped traffic",
     "from": "I-280 W",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600264000001",
@@ -92,26 +80,52 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 247,
-    "description": "Backed up traffic",
-    "from": "NJ-10 (Littleton Rd/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172444026000",
-    "length_m": 1174.1723030293,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-24T20:26:34Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
+    "delay_s": 105,
+    "description": "Stopped traffic",
+    "from": "I-280 exit [47A]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485648056000",
+    "length_m": 702.3609650381,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T20:46:14Z",
+    "to": "Essex Fwy"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 604,
+    "delay_s": 120,
+    "description": "Stopped traffic",
+    "from": "exit [47A]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485664008003",
+    "length_m": 735.704950661,
+    "roads": [
+     "I-280 E"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T20:44:47Z",
+    "to": "Edwards Rd exit [1]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 151,
     "description": "Backed up traffic",
-    "from": "NJ-124/Madison Ave/Exit 35 (I-287)",
+    "from": "NJ-10 (Tabor Rd/NJ-53)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
+    "length_m": 341.535504116,
+    "roads": [
+     "Alex DeCroce Memorial Hwy",
+     "NJ-53"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T20:25:12Z",
+    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 539,
+    "description": "Backed up traffic",
+    "from": "James St (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828924016000",
-    "length_m": 6104.6697713427,
+    "length_m": 7263.8687481376,
     "roads": [
      "I-287 N"
     ],
@@ -121,23 +135,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 101,
+    "delay_s": 88,
     "description": "Backed up traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252019002",
     "length_m": 636.8702561539,
     "roads": [],
     "severity": 2,
-    "start": "2026-11-24T20:06:50Z",
+    "start": "2026-11-24T20:48:55Z",
     "to": "I-287 N"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 209,
+    "delay_s": 137,
     "description": "Backed up traffic",
     "from": "Laurel Ave/Exit 6 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691454420016000",
-    "length_m": 2990.81254162,
+    "length_m": 2256.8743399847,
     "roads": [
      "I-280 W"
     ],
@@ -147,25 +161,25 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 136,
+    "delay_s": 114,
     "description": "Backed up traffic",
-    "from": "Main St/Harrison Ave (Eagle Rock Ave)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25714537896012000",
-    "length_m": 356.507882415,
+    "from": "NJ-10/Mount Pleasant Ave (Mount Pleasant Ave)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25714537792035001",
+    "length_m": 479.8224847353,
     "roads": [
-     "County Hwy-611"
+     "County Hwy-577"
     ],
     "severity": 2,
-    "start": "2026-11-24T19:55:46Z",
-    "to": "Pleasant Valley Way (Eagle Rock Ave)"
+    "start": "2026-11-24T20:46:14Z",
+    "to": "Bloomfield Ave (Prospect Ave)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 83,
+    "delay_s": 125,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308064000",
-    "length_m": 2079.7894850677,
+    "length_m": 2338.3629389212,
     "roads": [
      "I-80 W"
     ],
@@ -175,25 +189,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 45,
-    "description": "Slow traffic",
-    "from": "New Rd/Exit 1 (I-280)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485736024002",
-    "length_m": 1019.3046824421,
-    "roads": [
-     "I-280 W"
-    ],
-    "severity": 1,
-    "start": "2026-11-24T20:35:24Z",
-    "to": "I-80 (I-280)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 252,
+    "delay_s": 207,
     "description": "Slow traffic",
     "from": "I-80 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25685683540008002",
-    "length_m": 4442.3155147016,
+    "length_m": 3379.6517539268,
     "roads": [
      "I-280 E"
     ],
@@ -216,38 +216,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 124,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003001",
-    "length_m": 43.6063153467,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T20:30:27Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 280,
-    "description": "Stopped traffic",
-    "from": "NJ-10 (Tabor Rd/NJ-53)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
-    "length_m": 296.054957736,
-    "roads": [
-     "Alex DeCroce Memorial Hwy",
-     "NJ-53"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T20:25:12Z",
-    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 62,
+    "delay_s": 54,
     "description": "Stopped traffic",
     "from": "Tabor Rd",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011001",
-    "length_m": 52.4816,
+    "length_m": 52.4816098938,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T20:23:21Z",
@@ -255,7 +228,22 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 347,
+    "delay_s": 301,
+    "description": "Stopped traffic",
+    "from": "Malapardis Rd (Littleton Rd/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172444026000",
+    "length_m": 826.6232761103,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T20:26:34Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 314,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
@@ -269,26 +257,50 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 247,
-    "description": "Backed up traffic",
-    "from": "NJ-10 (Littleton Rd/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172444026000",
-    "length_m": 1174.1723030293,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-24T20:26:34Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
+    "delay_s": 115,
+    "description": "Stopped traffic",
+    "from": "Martin Luther King Ave",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713928013000",
+    "length_m": 60.5409678161,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T20:43:17Z",
+    "to": "Spring St"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 604,
+    "delay_s": 185,
+    "description": "Stopped traffic",
+    "from": "Morris St (Spring St)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713932012000",
+    "length_m": 258.735219864,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T20:41:21Z",
+    "to": "US-202/Speedwell Ave (Spring St)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 151,
     "description": "Backed up traffic",
-    "from": "NJ-124/Madison Ave/Exit 35 (I-287)",
+    "from": "NJ-10 (Tabor Rd/NJ-53)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
+    "length_m": 341.535504116,
+    "roads": [
+     "Alex DeCroce Memorial Hwy",
+     "NJ-53"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T20:25:12Z",
+    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 539,
+    "description": "Backed up traffic",
+    "from": "James St (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828924016000",
-    "length_m": 6104.6697713427,
+    "length_m": 7263.8687481376,
     "roads": [
      "I-287 N"
     ],
@@ -298,11 +310,26 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 214,
+    "delay_s": 168,
     "description": "Backed up traffic",
-    "from": "Lafayette Ave/Exit 36 (I-287)",
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876026000",
+    "length_m": 473.843,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T20:42:05Z",
+    "to": "Spring St (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 284,
+    "description": "Backed up traffic",
+    "from": "NJ-24/Exit 37 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25668369596032000",
-    "length_m": 3413.4390928245,
+    "length_m": 3278.6072941871,
     "roads": [
      "I-287 S"
     ],
