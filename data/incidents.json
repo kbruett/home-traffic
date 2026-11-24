@@ -15,27 +15,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 157,
+    "delay_s": 386,
     "description": "Stopped traffic",
-    "from": "exit [39A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714260027000",
-    "length_m": 399.6694018554,
-    "roads": [],
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 1105.6304502051,
+    "roads": [
+     "County Hwy-650"
+    ],
     "severity": 3,
-    "start": "2026-11-24T12:32:15Z",
-    "to": "State Route 10"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 80,
-    "description": "Stopped traffic",
-    "from": "NJ-10 exit [39]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714276027000",
-    "length_m": 377.0387245434,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T12:37:45Z",
-    "to": "State Route 10"
+    "start": "2026-11-24T12:31:45Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    },
    {
     "category": "Traffic jam",
@@ -43,7 +33,7 @@
     "description": "Stopped traffic",
     "from": "US Highway 46",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600244024000",
-    "length_m": 532.6818875581,
+    "length_m": 755.5528175233,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T12:22:45Z",
@@ -51,11 +41,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 89,
+    "delay_s": 231,
     "description": "Stopped traffic",
     "from": "I-280 W",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600252016000",
-    "length_m": 400.4685254741,
+    "length_m": 538.1848020099,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T12:26:15Z",
@@ -63,11 +53,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 118,
+    "delay_s": 86,
+    "description": "Stopped traffic",
+    "from": "I-280 exit [47A]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485648056001",
+    "length_m": 702.3609650381,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-24T12:46:15Z",
+    "to": "Essex Fwy"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 194,
     "description": "Stopped traffic",
     "from": "exit [47A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485664032000",
-    "length_m": 1124.3708402846,
+    "length_m": 924.4839808827,
     "roads": [
      "I-280 E"
     ],
@@ -77,25 +79,51 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 139,
+    "delay_s": 241,
     "description": "Backed up traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 530.092,
+    "from": "Miller Rd/Cooper Rd (NJ-10)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25642401748011000",
+    "length_m": 2662.0535056459,
     "roads": [
-     "County Hwy-650"
+     "NJ-10"
     ],
     "severity": 2,
-    "start": "2026-11-24T12:31:45Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+    "start": "2026-11-24T12:32:45Z",
+    "to": "Dryden Way (NJ-10)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 95,
+    "delay_s": 294,
+    "description": "Backed up traffic",
+    "from": "I-280 (Prospect Ave)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708767144051000",
+    "length_m": 1209.4923342857,
+    "roads": [
+     "County Hwy-577"
+    ],
+    "severity": 2,
+    "start": "2026-11-24T12:45:18Z",
+    "to": "Bloomfield Ave (Prospect Ave)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 55,
+    "description": "Slow traffic",
+    "from": "Smith Road (US-46) exit [41A]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943772008000",
+    "length_m": 862.6889349532,
+    "roads": [],
+    "severity": 1,
+    "start": "2026-11-24T12:47:15Z",
+    "to": "I-80 E"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 45,
     "description": "Slow traffic",
     "from": "I-80/Smith Rd (I-80 Exp)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829240016001",
-    "length_m": 1826.3339084001,
+    "length_m": 2155.7933770861,
     "roads": [
      "I-80 E"
     ],
@@ -105,11 +133,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 78,
+    "delay_s": 109,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308032000",
-    "length_m": 2140.2910867179,
+    "length_m": 2425.6537750754,
     "roads": [
      "I-80 W"
     ],
@@ -119,11 +147,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 44,
+    "delay_s": 76,
     "description": "Slow traffic",
-    "from": "I-287/Exit 43 (I-80)",
+    "from": "US-202/Exit 42 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714712016001",
-    "length_m": 1644.4808410854,
+    "length_m": 2202.1230386303,
     "roads": [
      "I-80 E"
     ],
@@ -133,31 +161,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 200,
+    "delay_s": 263,
     "description": "Slow traffic",
     "from": "I-80 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25685683540008001",
-    "length_m": 4190.1086201533,
+    "length_m": 4353.8718136189,
     "roads": [
      "I-280 E"
     ],
     "severity": 1,
     "start": "2026-11-24T12:34:18Z",
     "to": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 97,
-    "description": "Slow traffic",
-    "from": "Livingston Ave/Exit 5B (I-280)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708766880016000",
-    "length_m": 1844.9872834775,
-    "roads": [
-     "I-280 E"
-    ],
-    "severity": 1,
-    "start": "2026-11-24T12:11:45Z",
-    "to": "Pleasant Valley Way/Exit 7 (I-280)"
    }
   ],
   "label": "Montclair commute"
@@ -176,6 +190,63 @@
     "category": "Traffic jam",
     "delay_s": 147,
     "description": "Stopped traffic",
+    "from": "US-202/Speedwell Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645286848020000",
+    "length_m": 232.332,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T12:45:45Z",
+    "to": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 386,
+    "description": "Stopped traffic",
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 1105.6304502051,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T12:31:45Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 199,
+    "description": "Stopped traffic",
+    "from": "Mills St (Sussex/CR-617)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656828392020000",
+    "length_m": 370.9093733671,
+    "roads": [
+     "County Hwy-617"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T12:45:18Z",
+    "to": "US-202/Speedwell Ave (Sussex/CR-617)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 225,
+    "description": "Stopped traffic",
+    "from": "Hanover Ave (Speedwell Ave/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713876034000",
+    "length_m": 511.7319702105,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 3,
+    "start": "2026-11-24T12:41:15Z",
+    "to": "Spring St (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 357,
+    "description": "Stopped traffic",
     "from": "exit [37]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599488081000",
     "length_m": 1117.3077206131,
@@ -186,17 +257,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 139,
+    "delay_s": 241,
     "description": "Backed up traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 530.092,
+    "from": "Miller Rd/Cooper Rd (NJ-10)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25642401748011000",
+    "length_m": 2662.0535056459,
     "roads": [
-     "County Hwy-650"
+     "NJ-10"
     ],
     "severity": 2,
-    "start": "2026-11-24T12:31:45Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+    "start": "2026-11-24T12:32:45Z",
+    "to": "Dryden Way (NJ-10)"
    }
   ],
   "label": "Near home"
