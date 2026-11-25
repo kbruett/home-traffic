@@ -1,22 +1,6 @@
 {
  "commute-montclair": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 225,
-    "description": "Stopped traffic",
-    "from": "NJ-10 (Littleton Rd/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25642402008018002",
-    "length_m": 883.713,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-25T00:38:15Z",
-    "to": "I-80 (Littleton Rd/US-202)"
-   }
-  ],
+  "items": [],
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
@@ -28,22 +12,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 181,
-    "description": "Slow traffic",
-    "from": "Lafayette Ave/Exit 36 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
-    "length_m": 3533.0219699041,
-    "roads": [
-     "I-287 N"
-    ],
-    "severity": 1,
-    "start": "2026-11-24T21:08:34Z",
-    "to": "Parsippany Rd/Exit 40 (I-287)"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
