@@ -37,19 +37,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 69,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
-    "length_m": 43.6063153467,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T22:57:45Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 69,
+    "delay_s": 70,
     "description": "Stopped traffic",
     "from": "Crooks Ave (Lakeview Ave)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997612001002",
@@ -63,11 +51,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 171,
+    "delay_s": 149,
     "description": "Slow traffic",
     "from": "Garden State Pkwy/Exit 62 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997580024000",
-    "length_m": 2920.052596587,
+    "length_m": 2585.7905953622,
     "roads": [
      "I-80 W",
      "Bergen Passaic Expy W"
@@ -78,11 +66,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 219,
+    "delay_s": 148,
     "description": "Slow traffic",
-    "from": "NJ-4/Exit 161 (Garden State Pkwy)",
+    "from": "Bergen Toll Plaza (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768376017000",
-    "length_m": 3856.8814842697,
+    "length_m": 2269.6540963181,
     "roads": [
      "Garden State Pkwy S"
     ],
@@ -94,32 +82,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 69,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
-    "length_m": 43.6063153467,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T22:57:45Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 114,
-    "description": "Stopped traffic",
-    "from": "Morris St (Spring St)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713936020000",
-    "length_m": 312.556,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T23:08:45Z",
-    "to": "US-202/Speedwell Ave (Spring St)"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
