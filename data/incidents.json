@@ -37,88 +37,43 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 239,
-    "description": "Stopped traffic",
-    "from": "NJ-10 (Tabor Rd/NJ-53)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
-    "length_m": 296.054957736,
-    "roads": [
-     "Alex DeCroce Memorial Hwy",
-     "NJ-53"
-    ],
-    "severity": 3,
-    "start": "2026-11-25T12:58:45Z",
-    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 62,
+    "delay_s": 65,
     "description": "Stopped traffic",
     "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011001",
     "length_m": 52.4816098938,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-25T13:00:45Z",
+    "start": "2026-11-25T13:19:45Z",
     "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 148,
+    "delay_s": 72,
     "description": "Stopped traffic",
-    "from": "Minnisink Rd exit [54]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913740021000",
-    "length_m": 259.0294574185,
+    "from": "W Hanover Ave",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057740012000",
+    "length_m": 58.3478583305,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-25T13:06:15Z",
-    "to": "Minnisink Rd"
+    "start": "2026-11-25T13:15:45Z",
+    "to": "Speedwell Ave"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 124,
+    "delay_s": 259,
     "description": "Stopped traffic",
-    "from": "New St / Reservoir Ave",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455760029000",
-    "length_m": 261.9224139272,
-    "roads": [
-     "County Hwy-638"
-    ],
+    "from": "Paramus Rd (Century Rd)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654364012002",
+    "length_m": 521.0334161214,
+    "roads": [],
     "severity": 3,
-    "start": "2026-11-25T12:48:45Z",
-    "to": "Spruce St"
+    "start": "2026-11-25T12:59:15Z",
+    "to": "N Farview Ave (E Century Rd)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 125,
-    "description": "Backed up traffic",
-    "from": "I-80 (Two Bridges Rd/CR-613)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674142676013000",
-    "length_m": 559.6434463235,
-    "roads": [
-     "County Hwy-613"
-    ],
-    "severity": 2,
-    "start": "2026-11-25T13:03:15Z",
-    "to": "New Dutch Ln/Sherwood Ln (Passaic Ave/CR-613)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 115,
-    "description": "Backed up traffic",
-    "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764012000",
-    "length_m": 732.7635240353,
-    "roads": [
-     "County Hwy-640"
-    ],
-    "severity": 2,
-    "start": "2026-11-25T12:59:45Z",
-    "to": "US-46 (Riverview Dr/CR-640)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 97,
+    "delay_s": 90,
     "description": "Backed up traffic",
     "from": "exit [163]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883528051000",
@@ -130,39 +85,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 164,
-    "description": "Backed up traffic",
-    "from": "NJ-4/Broadway (Saddle River Rd)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654096028000",
-    "length_m": 693.2810376134,
-    "roads": [
-     "County Hwy-79"
-    ],
-    "severity": 2,
-    "start": "2026-11-25T12:52:15Z",
-    "to": "I-80 (Saddle River Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 116,
+    "delay_s": 138,
     "description": "Slow traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 796.3288437065,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 1,
-    "start": "2026-11-25T13:07:15Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 182,
-    "description": "Slow traffic",
-    "from": "Union Blvd/Exit 55 (I-80)",
+    "from": "Squirrelwood Rd/Exit 56 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341240032000",
-    "length_m": 3690.6708155329,
+    "length_m": 2774.7451771154,
     "roads": [
      "Bergen Passaic Expy E",
      "I-80 E"
@@ -173,11 +100,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 134,
+    "delay_s": 115,
     "description": "Slow traffic",
-    "from": "Garden State Pkwy/Exit 62 (I-80)",
+    "from": "Exit 61 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341312024000",
-    "length_m": 2117.6914056408,
+    "length_m": 1830.2047855986,
     "roads": [
      "I-80 W",
      "Bergen Passaic Expy W"
@@ -188,11 +115,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 56,
+    "delay_s": 81,
     "description": "Slow traffic",
     "from": "NJ-4/Exit 161 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883376057001",
-    "length_m": 1201.5135965432,
+    "length_m": 1346.39809945,
     "roads": [
      "Garden State Pkwy N"
     ],
@@ -207,56 +134,27 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 178,
-    "description": "Stopped traffic",
-    "from": "Idlewild Dr",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645286880006000",
-    "length_m": 349.427,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T13:09:15Z",
-    "to": "Grove Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 239,
-    "description": "Stopped traffic",
-    "from": "NJ-10 (Tabor Rd/NJ-53)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
-    "length_m": 296.054957736,
-    "roads": [
-     "Alex DeCroce Memorial Hwy",
-     "NJ-53"
-    ],
-    "severity": 3,
-    "start": "2026-11-25T12:58:45Z",
-    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 62,
+    "delay_s": 65,
     "description": "Stopped traffic",
     "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011001",
     "length_m": 52.4816098938,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-25T13:00:45Z",
+    "start": "2026-11-25T13:19:45Z",
     "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 116,
-    "description": "Slow traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 796.3288437065,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 1,
-    "start": "2026-11-25T13:07:15Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+    "delay_s": 72,
+    "description": "Stopped traffic",
+    "from": "W Hanover Ave",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057740012000",
+    "length_m": 58.3479,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T13:15:45Z",
+    "to": "Speedwell Ave"
    }
   ],
   "label": "Near home"
