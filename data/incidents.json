@@ -8,50 +8,131 @@
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
-  "items": [
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "Squirrelwood Rd exit [56B]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25691455640029000",
-    "length_m": 309.2803004376,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-07-20T13:15:32Z",
-    "to": "Squirrelwood Rd"
-   },
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "New St (Squirrelwood Rd)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25691455724021000",
-    "length_m": 220.1732184319,
-    "roads": [
-     "County Hwy-636"
-    ],
-    "severity": 4,
-    "start": "2026-07-20T13:15:32Z",
-    "to": "I-80 (Squirrelwood Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 103,
-    "description": "Backed up traffic",
-    "from": "exit [163]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883660035000",
-    "length_m": 771.6017668683,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-25T15:33:15Z",
-    "to": "State Route 17"
-   }
-  ],
+  "items": [],
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 312,
+    "description": "Stopped traffic",
+    "from": "State Route 10",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287028019000",
+    "length_m": 246.7933563756,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T19:19:45Z",
+    "to": "Littleton Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 104,
+    "description": "Stopped traffic",
+    "from": "State Route 10",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
+    "length_m": 43.6063153467,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T19:09:45Z",
+    "to": "Littleton Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 214,
+    "description": "Stopped traffic",
+    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943268012000",
+    "length_m": 482.53360516,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-25T17:27:45Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 87,
+    "description": "Stopped traffic",
+    "from": "Martin Luther King Ave",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713928013000",
+    "length_m": 60.5409678161,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T19:10:45Z",
+    "to": "Spring St"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 222,
+    "description": "Stopped traffic",
+    "from": "Morris St (Spring St)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713932012002",
+    "length_m": 312.5556444289,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T19:01:15Z",
+    "to": "US-202/Speedwell Ave (Spring St)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 147,
+    "description": "Backed up traffic",
+    "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599192019001",
+    "length_m": 517.1125821966,
+    "roads": [
+     "NJ-124"
+    ],
+    "severity": 2,
+    "start": "2026-11-25T18:57:45Z",
+    "to": "NJ-124/Madison Ave (South St/NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 262,
+    "description": "Backed up traffic",
+    "from": "South St/Exit 35 (I-287)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599444008000",
+    "length_m": 4186.3888478385,
+    "roads": [
+     "I-287 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-25T18:23:45Z",
+    "to": "NJ-10/Exit 39 (I-287)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 119,
+    "description": "Slow traffic",
+    "from": "NJ-24/Washington St/Morris St/Park Pl (Market St/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713948010001",
+    "length_m": 444.209,
+    "roads": [
+     "US-202 S",
+     "US-202 N"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T19:07:15Z",
+    "to": "Hanover Ave (Speedwell Ave/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 113,
+    "description": "Slow traffic",
+    "from": "NJ-124/Madison Ave (South St/NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599264019000",
+    "length_m": 605.8275671285,
+    "roads": [
+     "NJ-124"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T19:18:45Z",
+    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
+   }
+  ],
   "label": "Near home"
  }
 }
