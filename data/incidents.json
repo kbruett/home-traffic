@@ -37,108 +37,67 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 85,
+    "delay_s": 82,
     "description": "Stopped traffic",
+    "from": "US-46 exit [47B]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485656049000",
+    "length_m": 567.7921919922,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T13:59:45Z",
+    "to": "US-46 exit [47B]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 61,
+    "description": "Backed up traffic",
     "from": "US Highway 46",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600240008001",
     "length_m": 532.6818875581,
     "roads": [],
-    "severity": 3,
+    "severity": 2,
     "start": "2026-11-25T13:43:15Z",
     "to": "I-80 W"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 111,
-    "description": "Stopped traffic",
-    "from": "I-280 W",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600252016002",
-    "length_m": 538.1848020099,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T13:45:45Z",
-    "to": "I-80 W"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 230,
-    "description": "Stopped traffic",
-    "from": "NJ-4/Broadway (Saddle River Rd)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654092012000",
-    "length_m": 699.6873723385,
-    "roads": [
-     "County Hwy-79"
-    ],
-    "severity": 3,
-    "start": "2026-11-25T13:48:15Z",
-    "to": "Pehle Ave (Saddle River Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 139,
+    "delay_s": 145,
     "description": "Backed up traffic",
-    "from": "Cedar St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341272014000",
-    "length_m": 291.8244528949,
+    "from": "exit [161]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654220017000",
+    "length_m": 1063.4493516211,
     "roads": [],
     "severity": 2,
-    "start": "2026-11-25T13:40:15Z",
-    "to": "21st Ave / Beckwith Ave"
+    "start": "2026-11-25T13:55:45Z",
+    "to": "E State Route 4"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 163,
-    "description": "Backed up traffic",
-    "from": "Paramus Rd/Exit 160 (Garden State Pkwy)",
+    "delay_s": 53,
+    "description": "Slow traffic",
+    "from": "NJ-4/Exit 161 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883376057001",
-    "length_m": 2303.1487592936,
+    "length_m": 1201.5135965432,
     "roads": [
      "Garden State Pkwy N"
     ],
-    "severity": 2,
+    "severity": 1,
     "start": "2026-11-25T13:05:45Z",
     "to": "NJ-17/Exit 163 (Garden State Pkwy)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 111,
-    "description": "Backed up traffic",
-    "from": "exit [163]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883528051000",
-    "length_m": 771.6017668683,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-25T13:07:15Z",
-    "to": "State Route 17"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 66,
+    "delay_s": 41,
     "description": "Slow traffic",
-    "from": "US-46/Exit 47 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308008000",
-    "length_m": 2079.7894850677,
+    "from": "Bergen Toll Plaza (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768712017000",
+    "length_m": 1027.3904098628,
     "roads": [
-     "I-80 W"
+     "Garden State Pkwy N"
     ],
     "severity": 1,
-    "start": "2026-11-25T13:36:45Z",
-    "to": "I-287/Exit 43 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 43,
-    "description": "Slow traffic",
-    "from": "Exit 61 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341312024000",
-    "length_m": 1211.0063610251,
-    "roads": [
-     "I-80 W",
-     "Bergen Passaic Expy W"
-    ],
-    "severity": 1,
-    "start": "2026-11-25T12:42:15Z",
-    "to": "Madison Ave/Exit 58 (I-80)"
+    "start": "2026-11-25T13:05:45Z",
+    "to": "NJ-4/Exit 161 (Garden State Pkwy)"
    }
   ],
   "label": "Paramus commute"
