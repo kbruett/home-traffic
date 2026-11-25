@@ -37,7 +37,19 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 133,
+    "delay_s": 53,
+    "description": "Stopped traffic",
+    "from": "State Route 10",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
+    "length_m": 43.6063153467,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T14:59:15Z",
+    "to": "Littleton Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 121,
     "description": "Stopped traffic",
     "from": "exit [163]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883660035000",
@@ -46,12 +58,39 @@
     "severity": 3,
     "start": "2026-11-25T14:22:15Z",
     "to": "State Route 17"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 144,
+    "description": "Slow traffic",
+    "from": "NJ-4 (NJ-17)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702998192019000",
+    "length_m": 2139.5185088649,
+    "roads": [
+     "NJ-17"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T14:58:15Z",
+    "to": "Midland Ave (NJ-17)"
    }
   ],
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 53,
+    "description": "Stopped traffic",
+    "from": "State Route 10",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
+    "length_m": 43.6063,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T14:59:15Z",
+    "to": "Littleton Rd"
+   }
+  ],
   "label": "Near home"
  }
 }
