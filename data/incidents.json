@@ -37,18 +37,6 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 65,
-    "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011001",
-    "length_m": 52.4816098938,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T13:19:45Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
     "delay_s": 72,
     "description": "Stopped traffic",
     "from": "W Hanover Ave",
@@ -61,35 +49,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 259,
+    "delay_s": 127,
     "description": "Stopped traffic",
-    "from": "Paramus Rd (Century Rd)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654364012002",
-    "length_m": 521.0334161214,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T12:59:15Z",
-    "to": "N Farview Ave (E Century Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 90,
-    "description": "Backed up traffic",
     "from": "exit [163]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883528051000",
     "length_m": 771.6017668683,
     "roads": [],
-    "severity": 2,
+    "severity": 3,
     "start": "2026-11-25T13:07:15Z",
     "to": "State Route 17"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 138,
+    "delay_s": 103,
     "description": "Slow traffic",
     "from": "Squirrelwood Rd/Exit 56 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341240032000",
-    "length_m": 2774.7451771154,
+    "length_m": 2241.1605994569,
     "roads": [
      "Bergen Passaic Expy E",
      "I-80 E"
@@ -100,11 +76,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 115,
+    "delay_s": 86,
     "description": "Slow traffic",
     "from": "Exit 61 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341312024000",
-    "length_m": 1830.2047855986,
+    "length_m": 1695.6109888235,
     "roads": [
      "I-80 W",
      "Bergen Passaic Expy W"
@@ -115,11 +91,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 81,
+    "delay_s": 88,
     "description": "Slow traffic",
     "from": "NJ-4/Exit 161 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883376057001",
-    "length_m": 1346.39809945,
+    "length_m": 1566.0060805694,
     "roads": [
      "Garden State Pkwy N"
     ],
@@ -132,18 +108,6 @@
  },
  "home": {
   "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 65,
-    "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011001",
-    "length_m": 52.4816098938,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T13:19:45Z",
-    "to": "Littleton Rd"
-   },
    {
     "category": "Traffic jam",
     "delay_s": 72,
