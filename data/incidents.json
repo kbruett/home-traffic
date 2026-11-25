@@ -15,7 +15,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 411,
+    "delay_s": 147,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287028019000",
@@ -27,7 +27,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 112,
+    "delay_s": 124,
     "description": "Stopped traffic",
     "from": "Malapardis Rd (Littleton Rd/US-202)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287036010004",
@@ -39,6 +39,18 @@
     "severity": 3,
     "start": "2026-11-25T19:22:15Z",
     "to": "NJ-10 (Littleton Rd/US-202)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 151,
+    "description": "Stopped traffic",
+    "from": "State Route 10",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287060003000",
+    "length_m": 118.8456922989,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T19:38:45Z",
+    "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
@@ -54,26 +66,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 217,
-    "description": "Stopped traffic",
-    "from": "Spring St (Speedwell Ave/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057684018001",
-    "length_m": 576.71,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-25T19:25:15Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 281,
+    "delay_s": 360,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943268012000",
-    "length_m": 641.0302177162,
+    "length_m": 814.6436843904,
     "roads": [
      "County Hwy-650"
     ],
@@ -83,23 +80,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 216,
-    "description": "Stopped traffic",
-    "from": "Morris St (Spring St)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713932012002",
-    "length_m": 240.0856600136,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T19:01:15Z",
-    "to": "US-202/Speedwell Ave (Spring St)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 333,
+    "delay_s": 275,
     "description": "Stopped traffic",
     "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599192019001",
-    "length_m": 766.2936548761,
+    "length_m": 523.496,
     "roads": [
      "NJ-124"
     ],
@@ -109,31 +94,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 192,
+    "delay_s": 219,
     "description": "Backed up traffic",
     "from": "Morris Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599444008000",
-    "length_m": 3026.7641934509,
+    "length_m": 2786.4614519026,
     "roads": [
      "I-287 N"
     ],
     "severity": 2,
     "start": "2026-11-25T18:23:45Z",
     "to": "NJ-10/Exit 39 (I-287)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 133,
-    "description": "Slow traffic",
-    "from": "NJ-124/Madison Ave (South St/NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599264019000",
-    "length_m": 659.9051544051,
-    "roads": [
-     "NJ-124"
-    ],
-    "severity": 1,
-    "start": "2026-11-25T19:18:45Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
    }
   ],
   "label": "Near home"
