@@ -34,49 +34,6 @@
     "severity": 4,
     "start": "2026-07-20T13:15:32Z",
     "to": "I-80 (Squirrelwood Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 110,
-    "description": "Stopped traffic",
-    "from": "Crooks Ave (Lakeview Ave)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997612001002",
-    "length_m": 37.1225795614,
-    "roads": [
-     "County Hwy-648"
-    ],
-    "severity": 3,
-    "start": "2026-11-25T23:08:45Z",
-    "to": "I-80/Market St (Lakeview Ave)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 98,
-    "description": "Slow traffic",
-    "from": "Exit 61 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997580024000",
-    "length_m": 2279.3840593108,
-    "roads": [
-     "I-80 W",
-     "Bergen Passaic Expy W"
-    ],
-    "severity": 1,
-    "start": "2026-11-25T17:12:45Z",
-    "to": "Madison Ave/Exit 58 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 48,
-    "description": "Slow traffic",
-    "from": "I-80/Exit 159 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768376017000",
-    "length_m": 1689.2459225226,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 1,
-    "start": "2026-11-25T22:38:45Z",
-    "to": "US-46/Exit 157 (Garden State Pkwy)"
    }
   ],
   "label": "Paramus commute"
