@@ -15,46 +15,22 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 147,
+    "delay_s": 172,
     "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287028019000",
-    "length_m": 246.7933563756,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T19:19:45Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 124,
-    "description": "Stopped traffic",
-    "from": "Malapardis Rd (Littleton Rd/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287036010004",
-    "length_m": 298.2871852268,
+    "from": "I-80 (Littleton Rd/US-202)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287256010002",
+    "length_m": 407.463987552,
     "roads": [
      "US-202 S",
      "US-202 N"
     ],
     "severity": 3,
-    "start": "2026-11-25T19:22:15Z",
+    "start": "2026-11-25T19:47:45Z",
     "to": "NJ-10 (Littleton Rd/US-202)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 151,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287060003000",
-    "length_m": 118.8456922989,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T19:38:45Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 89,
+    "delay_s": 78,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
@@ -66,7 +42,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 360,
+    "delay_s": 383,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943268012000",
@@ -80,7 +56,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 275,
+    "delay_s": 227,
     "description": "Stopped traffic",
     "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599192019001",
@@ -91,20 +67,6 @@
     "severity": 3,
     "start": "2026-11-25T18:57:45Z",
     "to": "NJ-124/Madison Ave (South St/NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 219,
-    "description": "Backed up traffic",
-    "from": "Morris Ave/Exit 36 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599444008000",
-    "length_m": 2786.4614519026,
-    "roads": [
-     "I-287 N"
-    ],
-    "severity": 2,
-    "start": "2026-11-25T18:23:45Z",
-    "to": "NJ-10/Exit 39 (I-287)"
    }
   ],
   "label": "Near home"
