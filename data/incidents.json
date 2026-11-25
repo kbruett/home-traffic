@@ -34,57 +34,12 @@
     "severity": 4,
     "start": "2026-07-20T13:15:32Z",
     "to": "I-80 (Squirrelwood Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 200,
-    "description": "Stopped traffic",
-    "from": "Spring St (Speedwell Ave/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057684026000",
-    "length_m": 514.9249056789,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-25T14:05:45Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 137,
-    "description": "Backed up traffic",
-    "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764012000",
-    "length_m": 575.6016216437,
-    "roads": [
-     "County Hwy-640"
-    ],
-    "severity": 2,
-    "start": "2026-11-25T14:01:15Z",
-    "to": "US-46 (Riverview Dr/CR-640)"
    }
   ],
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 200,
-    "description": "Stopped traffic",
-    "from": "Spring St (Speedwell Ave/US-202)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057684026000",
-    "length_m": 514.925,
-    "roads": [
-     "US-202 S",
-     "US-202 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-25T14:05:45Z",
-    "to": "Hanover Ave (Speedwell Ave/US-202)"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
