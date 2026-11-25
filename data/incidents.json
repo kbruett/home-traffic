@@ -2,24 +2,12 @@
  "commute-montclair": {
   "items": [
    {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "exit [4A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25685683424044000",
-    "length_m": 471.7280852362,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-08-11T16:01:30Z",
-    "to": "exit [4A]"
-   },
-   {
     "category": "Traffic jam",
-    "delay_s": 229,
+    "delay_s": 227,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 482.534,
+    "length_m": 624.552,
     "roads": [
      "County Hwy-650"
     ],
@@ -29,85 +17,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 409,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252019000",
-    "length_m": 636.8702561539,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T23:47:45Z",
-    "to": "I-287 N"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 1078,
-    "description": "Stopped traffic",
-    "from": "Lafayette Ave/Exit 36 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
-    "length_m": 4581.5365104512,
-    "roads": [
-     "I-287 N"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T21:08:34Z",
-    "to": "Parsippany Rd/Exit 40 (I-287)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 652,
-    "description": "Stopped traffic",
-    "from": "I-80 (I-280)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679912744072000",
-    "length_m": 2032.2886898276,
-    "roads": [
-     "I-280 E"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T20:52:55Z",
-    "to": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 71,
+    "delay_s": 32,
     "description": "Slow traffic",
     "from": "I-280/Exit 47A (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058512008000",
-    "length_m": 2006.4181717725,
+    "length_m": 1206.4866957914,
     "roads": [
      "I-80 W"
     ],
     "severity": 1,
-    "start": "2026-11-24T22:56:27Z",
+    "start": "2026-11-25T00:16:15Z",
     "to": "I-287/Exit 43 (I-80)"
-   },
-   {
-    "category": "Crash",
-    "delay_s": 0,
-    "description": "Accident",
-    "from": "NJ-10/Exit 39 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25653943596008001",
-    "length_m": 98.1287591211,
-    "roads": [
-     "I-287 N"
-    ],
-    "severity": 0,
-    "start": "2026-11-25T00:05:45Z",
-    "to": "Parsippany Rd/Exit 40 (I-287)"
-   },
-   {
-    "category": "Lane closed",
-    "delay_s": 0,
-    "description": "Left lane closed",
-    "from": "Laurel Ave/Exit 6 (I-280)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25711652200136000",
-    "length_m": 1658.5488594438,
-    "roads": [
-     "I-280 E"
-    ],
-    "severity": 0,
-    "start": "2026-11-24T23:57:15Z",
-    "to": "Prospect Ave/Exit 8 (I-280)"
    }
   ],
   "label": "Montclair commute"
@@ -124,11 +44,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 228,
+    "delay_s": 227,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 482.534,
+    "length_m": 624.552,
     "roads": [
      "County Hwy-650"
     ],
@@ -138,11 +58,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 1104,
+    "delay_s": 1090,
     "description": "Stopped traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
-    "length_m": 4581.5365104512,
+    "length_m": 4638.1995325124,
     "roads": [
      "I-287 N"
     ],
