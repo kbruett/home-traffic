@@ -3,31 +3,17 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 227,
+    "delay_s": 159,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 624.552,
+    "length_m": 440.529,
     "roads": [
      "County Hwy-650"
     ],
     "severity": 3,
     "start": "2026-11-24T19:52:06Z",
     "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 32,
-    "description": "Slow traffic",
-    "from": "I-280/Exit 47A (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058512008000",
-    "length_m": 1206.4866957914,
-    "roads": [
-     "I-80 W"
-    ],
-    "severity": 1,
-    "start": "2026-11-25T00:16:15Z",
-    "to": "I-287/Exit 43 (I-80)"
    }
   ],
   "label": "Montclair commute"
@@ -44,11 +30,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 227,
+    "delay_s": 159,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 624.552,
+    "length_m": 440.529,
     "roads": [
      "County Hwy-650"
     ],
@@ -58,11 +44,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 1090,
+    "delay_s": 973,
     "description": "Stopped traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
-    "length_m": 4638.1995325124,
+    "length_m": 4917.9506792111,
     "roads": [
      "I-287 N"
     ],
