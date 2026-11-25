@@ -3,30 +3,16 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 157,
+    "delay_s": 225,
     "description": "Stopped traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 390.771,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T19:52:06Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 135,
-    "description": "Backed up traffic",
     "from": "NJ-10 (Littleton Rd/US-202)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25642402008018002",
-    "length_m": 665.1347373752,
+    "length_m": 883.713,
     "roads": [
      "US-202 S",
      "US-202 N"
     ],
-    "severity": 2,
+    "severity": 3,
     "start": "2026-11-25T00:38:15Z",
     "to": "I-80 (Littleton Rd/US-202)"
    }
@@ -45,29 +31,15 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 157,
-    "description": "Stopped traffic",
-    "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 390.771,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-24T19:52:06Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 818,
-    "description": "Stopped traffic",
+    "delay_s": 181,
+    "description": "Slow traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
-    "length_m": 4458.6642699976,
+    "length_m": 3533.0219699041,
     "roads": [
      "I-287 N"
     ],
-    "severity": 3,
+    "severity": 1,
     "start": "2026-11-24T21:08:34Z",
     "to": "Parsippany Rd/Exit 40 (I-287)"
    }
