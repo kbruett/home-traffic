@@ -37,7 +37,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 70,
+    "delay_s": 110,
     "description": "Stopped traffic",
     "from": "Crooks Ave (Lakeview Ave)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997612001002",
@@ -51,11 +51,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 149,
+    "delay_s": 98,
     "description": "Slow traffic",
-    "from": "Garden State Pkwy/Exit 62 (I-80)",
+    "from": "Exit 61 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997580024000",
-    "length_m": 2585.7905953622,
+    "length_m": 2279.3840593108,
     "roads": [
      "I-80 W",
      "Bergen Passaic Expy W"
@@ -66,11 +66,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 148,
+    "delay_s": 48,
     "description": "Slow traffic",
-    "from": "Bergen Toll Plaza (Garden State Pkwy)",
+    "from": "I-80/Exit 159 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768376017000",
-    "length_m": 2269.6540963181,
+    "length_m": 1689.2459225226,
     "roads": [
      "Garden State Pkwy S"
     ],
