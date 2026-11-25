@@ -37,23 +37,63 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 106,
+    "delay_s": 134,
     "description": "Stopped traffic",
-    "from": "State Route 19",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341236017000",
-    "length_m": 490.4571710506,
+    "from": "Minnisink Rd exit [54]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913740021000",
+    "length_m": 201.8914720418,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-25T12:29:45Z",
-    "to": "I-80 E"
+    "start": "2026-11-25T12:39:45Z",
+    "to": "Minnisink Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 31,
+    "delay_s": 135,
+    "description": "Stopped traffic",
+    "from": "State Route 19",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455608020000",
+    "length_m": 411.6978189557,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T12:33:15Z",
+    "to": "Paterson"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 158,
+    "description": "Stopped traffic",
+    "from": "Spruce St",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455824021000",
+    "length_m": 227.8957379204,
+    "roads": [
+     "County Hwy-638"
+    ],
+    "severity": 3,
+    "start": "2026-11-25T12:40:15Z",
+    "to": "New St / Reservoir Ave"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 128,
+    "description": "Backed up traffic",
+    "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764012000",
+    "length_m": 575.6016216437,
+    "roads": [
+     "County Hwy-640"
+    ],
+    "severity": 2,
+    "start": "2026-11-25T12:33:15Z",
+    "to": "US-46 (Riverview Dr/CR-640)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 39,
     "description": "Slow traffic",
-    "from": "NJ-19/Main St/Exit 57 (I-80)",
+    "from": "Madison Ave/Exit 58 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570208016000",
-    "length_m": 688.6064113462,
+    "length_m": 1525.6737964578,
     "roads": [
      "I-80 W",
      "Bergen Passaic Expy W"
@@ -64,17 +104,32 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 166,
+    "delay_s": 314,
     "description": "Slow traffic",
     "from": "Union Blvd/Exit 55 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341240032000",
-    "length_m": 3282.5515915257,
+    "length_m": 5723.2452266922,
     "roads": [
      "Bergen Passaic Expy E",
      "I-80 E"
     ],
     "severity": 1,
     "start": "2026-11-25T12:21:15Z",
+    "to": "Madison Ave/Exit 58 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 52,
+    "description": "Slow traffic",
+    "from": "Exit 61 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997580056001",
+    "length_m": 1191.5652316528,
+    "roads": [
+     "I-80 W",
+     "Bergen Passaic Expy W"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T12:35:45Z",
     "to": "Madison Ave/Exit 58 (I-80)"
    }
   ],
