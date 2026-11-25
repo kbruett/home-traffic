@@ -37,7 +37,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 72,
+    "delay_s": 69,
     "description": "Stopped traffic",
     "from": "W Hanover Ave",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057740012000",
@@ -49,23 +49,65 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 127,
-    "description": "Stopped traffic",
+    "delay_s": 67,
+    "description": "Backed up traffic",
+    "from": "NJ-4/Exit 161 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883376057001",
+    "length_m": 1060.5108341321,
+    "roads": [
+     "Garden State Pkwy N"
+    ],
+    "severity": 2,
+    "start": "2026-11-25T13:05:45Z",
+    "to": "NJ-17/Exit 163 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 87,
+    "description": "Backed up traffic",
     "from": "exit [163]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883528051000",
     "length_m": 771.6017668683,
     "roads": [],
-    "severity": 3,
+    "severity": 2,
     "start": "2026-11-25T13:07:15Z",
     "to": "State Route 17"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 103,
+    "delay_s": 124,
+    "description": "Slow traffic",
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 796.3288437065,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T13:34:45Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 50,
+    "description": "Slow traffic",
+    "from": "US-46/Exit 47 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25656829308008000",
+    "length_m": 1650.5665175482,
+    "roads": [
+     "I-80 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T13:36:45Z",
+    "to": "I-287/Exit 43 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 42,
     "description": "Slow traffic",
     "from": "Squirrelwood Rd/Exit 56 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341240032000",
-    "length_m": 2241.1605994569,
+    "length_m": 1415.6688997709,
     "roads": [
      "Bergen Passaic Expy E",
      "I-80 E"
@@ -76,11 +118,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 86,
+    "delay_s": 55,
     "description": "Slow traffic",
     "from": "Exit 61 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341312024000",
-    "length_m": 1695.6109888235,
+    "length_m": 1367.2390530463,
     "roads": [
      "I-80 W",
      "Bergen Passaic Expy W"
@@ -88,20 +130,6 @@
     "severity": 1,
     "start": "2026-11-25T12:42:15Z",
     "to": "Madison Ave/Exit 58 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 88,
-    "description": "Slow traffic",
-    "from": "NJ-4/Exit 161 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883376057001",
-    "length_m": 1566.0060805694,
-    "roads": [
-     "Garden State Pkwy N"
-    ],
-    "severity": 1,
-    "start": "2026-11-25T13:05:45Z",
-    "to": "NJ-17/Exit 163 (Garden State Pkwy)"
    }
   ],
   "label": "Paramus commute"
@@ -110,7 +138,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 72,
+    "delay_s": 69,
     "description": "Stopped traffic",
     "from": "W Hanover Ave",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057740012000",
@@ -119,6 +147,20 @@
     "severity": 3,
     "start": "2026-11-25T13:15:45Z",
     "to": "Speedwell Ave"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 124,
+    "description": "Slow traffic",
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 796.3288437065,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T13:34:45Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
