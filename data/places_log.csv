@@ -3989,3 +3989,8 @@ timestamp,dow,hour,current_mph,freeflow_mph,congestion_pct,place,direction,trave
 2026-11-25T16:22:36-05:00,2,16,8.3,14.8,43.6,east-hanover,Southbound,489,276
 2026-11-25T16:22:36-05:00,2,16,7.0,13.6,48.6,east-hanover,Northbound,259,133
 2026-11-25T16:22:36-05:00,2,16,36.0,49.6,27.5,commute-paramus,To office,2925,2122
+2026-11-25T16:32:36-05:00,2,16,14.5,18.2,20.2,speedwell,Northbound,129,103
+2026-11-25T16:32:36-05:00,2,16,14.3,16.7,14.5,speedwell,Southbound,131,112
+2026-11-25T16:32:36-05:00,2,16,8.9,14.8,39.9,east-hanover,Southbound,459,276
+2026-11-25T16:32:36-05:00,2,16,6.7,13.6,50.4,east-hanover,Northbound,268,133
+2026-11-25T16:32:36-05:00,2,16,35.2,49.6,29.0,commute-paramus,To office,2987,2122
