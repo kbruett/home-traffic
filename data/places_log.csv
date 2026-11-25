@@ -3468,3 +3468,9 @@ timestamp,dow,hour,current_mph,freeflow_mph,congestion_pct,place,direction,trave
 2026-11-24T18:51:02-05:00,1,18,8.3,14.7,43.8,east-hanover,Southbound,493,277
 2026-11-24T18:51:02-05:00,1,18,11.0,13.6,19.4,east-hanover,Northbound,165,133
 2026-11-24T18:51:02-05:00,1,18,32.0,41.6,23.2,commute-montclair,To office,2188,1680
+2026-11-24T19:01:03-05:00,1,19,15.6,18.0,13.3,speedwell,Northbound,120,104
+2026-11-24T19:01:03-05:00,1,19,15.0,16.6,9.6,speedwell,Southbound,125,113
+2026-11-24T19:01:03-05:00,1,19,9.0,14.7,39.0,east-hanover,Southbound,454,277
+2026-11-24T19:01:03-05:00,1,19,11.7,13.6,13.6,east-hanover,Northbound,154,133
+2026-11-24T19:01:03-05:00,1,19,36.9,42.4,13.1,commute-montclair,To office,2251,1957
+2026-11-24T19:01:03-05:00,1,19,35.8,41.8,14.4,commute-montclair,To home,1948,1668

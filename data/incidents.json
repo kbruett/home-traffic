@@ -15,11 +15,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 222,
+    "delay_s": 165,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 464.681,
+    "length_m": 430.967839576,
     "roads": [
      "County Hwy-650"
     ],
@@ -29,7 +29,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 175,
+    "delay_s": 295,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252019000",
@@ -41,11 +41,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 605,
+    "delay_s": 1100,
     "description": "Stopped traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
-    "length_m": 4581.5365104512,
+    "length_m": 4819.6321252912,
     "roads": [
      "I-287 N"
     ],
@@ -55,35 +55,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 139,
-    "description": "Stopped traffic",
-    "from": "US Highway 46",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714776024000",
-    "length_m": 532.6818875581,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T21:29:44Z",
-    "to": "I-80 W"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 292,
-    "description": "Stopped traffic",
-    "from": "I-280 W",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662600264000001",
-    "length_m": 538.1848020099,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T19:38:23Z",
-    "to": "I-80 W"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 110,
+    "delay_s": 318,
     "description": "Stopped traffic",
     "from": "New Rd/Exit 1 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679912744072000",
-    "length_m": 840.8641832614,
+    "length_m": 1716.2578181954,
     "roads": [
      "I-280 E"
     ],
@@ -93,31 +69,43 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 26,
-    "description": "Heavy traffic",
-    "from": "Parsippany Rd/Exit 40 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287600080000",
-    "length_m": 1472.826708728,
-    "roads": [
-     "I-287 N"
-    ],
-    "severity": 1,
-    "start": "2026-11-24T21:08:34Z",
-    "to": "US-46 (I-287)"
+    "delay_s": 53,
+    "description": "Backed up traffic",
+    "from": "US Highway 46",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714776024000",
+    "length_m": 509.0915953273,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-24T21:29:44Z",
+    "to": "I-80 W"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 103,
+    "delay_s": 85,
     "description": "Slow traffic",
     "from": "US-46/Exit 47 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058512008000",
-    "length_m": 2338.3629389212,
+    "length_m": 2332.8992503354,
     "roads": [
      "I-80 W"
     ],
     "severity": 1,
     "start": "2026-11-24T22:56:27Z",
     "to": "I-287/Exit 43 (I-80)"
+   },
+   {
+    "category": "Lane closed",
+    "delay_s": 0,
+    "description": "Left lane closed",
+    "from": "Laurel Ave/Exit 6 (I-280)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25711652200136000",
+    "length_m": 1658.5488594438,
+    "roads": [
+     "I-280 E"
+    ],
+    "severity": 0,
+    "start": "2026-11-24T23:57:15Z",
+    "to": "Prospect Ave/Exit 8 (I-280)"
    }
   ],
   "label": "Montclair commute"
@@ -134,11 +122,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 222,
+    "delay_s": 165,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 464.681,
+    "length_m": 430.968,
     "roads": [
      "County Hwy-650"
     ],
@@ -148,23 +136,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 59,
-    "description": "Stopped traffic",
-    "from": "The American Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25653943264015000",
-    "length_m": 141.3789469659,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-24T23:08:47Z",
-    "to": "E Hanover Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 605,
+    "delay_s": 1100,
     "description": "Stopped traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
-    "length_m": 4581.5365104512,
+    "length_m": 4819.6321252912,
     "roads": [
      "I-287 N"
     ],
