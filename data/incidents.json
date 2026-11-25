@@ -124,7 +124,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 229,
+    "delay_s": 228,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
@@ -138,7 +138,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 1078,
+    "delay_s": 1104,
     "description": "Stopped traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
