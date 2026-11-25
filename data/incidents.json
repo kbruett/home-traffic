@@ -15,11 +15,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 165,
+    "delay_s": 229,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 430.967839576,
+    "length_m": 482.534,
     "roads": [
      "County Hwy-650"
     ],
@@ -29,11 +29,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 295,
+    "delay_s": 409,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252019000",
-    "length_m": 565.7005573198,
+    "length_m": 636.8702561539,
     "roads": [],
     "severity": 3,
     "start": "2026-11-24T23:47:45Z",
@@ -41,11 +41,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 1100,
+    "delay_s": 1078,
     "description": "Stopped traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
-    "length_m": 4819.6321252912,
+    "length_m": 4581.5365104512,
     "roads": [
      "I-287 N"
     ],
@@ -55,11 +55,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 318,
+    "delay_s": 652,
     "description": "Stopped traffic",
-    "from": "New Rd/Exit 1 (I-280)",
+    "from": "I-80 (I-280)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679912744072000",
-    "length_m": 1716.2578181954,
+    "length_m": 2032.2886898276,
     "roads": [
      "I-280 E"
     ],
@@ -69,29 +69,31 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 53,
-    "description": "Backed up traffic",
-    "from": "US Highway 46",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714776024000",
-    "length_m": 509.0915953273,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-24T21:29:44Z",
-    "to": "I-80 W"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 85,
+    "delay_s": 71,
     "description": "Slow traffic",
-    "from": "US-46/Exit 47 (I-80)",
+    "from": "I-280/Exit 47A (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058512008000",
-    "length_m": 2332.8992503354,
+    "length_m": 2006.4181717725,
     "roads": [
      "I-80 W"
     ],
     "severity": 1,
     "start": "2026-11-24T22:56:27Z",
     "to": "I-287/Exit 43 (I-80)"
+   },
+   {
+    "category": "Crash",
+    "delay_s": 0,
+    "description": "Accident",
+    "from": "NJ-10/Exit 39 (I-287)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25653943596008001",
+    "length_m": 98.1287591211,
+    "roads": [
+     "I-287 N"
+    ],
+    "severity": 0,
+    "start": "2026-11-25T00:05:45Z",
+    "to": "Parsippany Rd/Exit 40 (I-287)"
    },
    {
     "category": "Lane closed",
@@ -122,11 +124,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 165,
+    "delay_s": 229,
     "description": "Stopped traffic",
     "from": "Martin Luther King Ave/Horse Hill Rd (Hanover Ave/CR-650)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057796036000",
-    "length_m": 430.968,
+    "length_m": 482.534,
     "roads": [
      "County Hwy-650"
     ],
@@ -136,11 +138,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 1100,
+    "delay_s": 1078,
     "description": "Stopped traffic",
     "from": "Lafayette Ave/Exit 36 (I-287)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659714252504000",
-    "length_m": 4819.6321252912,
+    "length_m": 4581.5365104512,
     "roads": [
      "I-287 N"
     ],
