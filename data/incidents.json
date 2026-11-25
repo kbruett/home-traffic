@@ -37,7 +37,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 77,
+    "delay_s": 69,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
@@ -49,82 +49,46 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 86,
+    "delay_s": 69,
     "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
-    "length_m": 52.4816098938,
-    "roads": [],
+    "from": "Crooks Ave (Lakeview Ave)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997612001002",
+    "length_m": 37.1225795614,
+    "roads": [
+     "County Hwy-648"
+    ],
     "severity": 3,
-    "start": "2026-11-25T22:54:15Z",
-    "to": "Littleton Rd"
+    "start": "2026-11-25T23:08:45Z",
+    "to": "I-80/Market St (Lakeview Ave)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 291,
-    "description": "Backed up traffic",
-    "from": "Main St/Exit 44 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651058340056000",
-    "length_m": 4469.8184903234,
-    "roads": [
-     "I-287 S"
-    ],
-    "severity": 2,
-    "start": "2026-11-25T22:23:45Z",
-    "to": "Parsippany Rd/Exit 40 (I-287)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 103,
-    "description": "Backed up traffic",
-    "from": "Lakeview Ave",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883012017000",
-    "length_m": 570.3145748918,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-25T22:33:15Z",
-    "to": "McLean Blvd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 117,
-    "description": "Backed up traffic",
-    "from": "County Hwy-507 exit [61]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883048036000",
-    "length_m": 393.846200266,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-25T22:30:15Z",
-    "to": "River Dr"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 628,
-    "description": "Backed up traffic",
-    "from": "NJ-17/Exit 163 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768376017000",
-    "length_m": 7268.8590028594,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 2,
-    "start": "2026-11-25T22:38:45Z",
-    "to": "US-46/Exit 156 (Garden State Pkwy)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 266,
+    "delay_s": 171,
     "description": "Slow traffic",
     "from": "Garden State Pkwy/Exit 62 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997580024000",
-    "length_m": 5021.7142555326,
+    "length_m": 2920.052596587,
     "roads": [
      "I-80 W",
      "Bergen Passaic Expy W"
     ],
     "severity": 1,
     "start": "2026-11-25T17:12:45Z",
-    "to": "NJ-19/Main St/Exit 57 (I-80)"
+    "to": "Madison Ave/Exit 58 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 219,
+    "description": "Slow traffic",
+    "from": "NJ-4/Exit 161 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768376017000",
+    "length_m": 3856.8814842697,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T22:38:45Z",
+    "to": "US-46/Exit 157 (Garden State Pkwy)"
    }
   ],
   "label": "Paramus commute"
@@ -133,7 +97,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 77,
+    "delay_s": 69,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
@@ -145,26 +109,14 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 86,
-    "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
-    "length_m": 52.4816098938,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T22:54:15Z",
-    "to": "Littleton Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 157,
+    "delay_s": 114,
     "description": "Stopped traffic",
     "from": "Morris St (Spring St)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713936020000",
-    "length_m": 287.583,
+    "length_m": 312.556,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-25T21:42:45Z",
+    "start": "2026-11-25T23:08:45Z",
     "to": "US-202/Speedwell Ave (Spring St)"
    }
   ],
