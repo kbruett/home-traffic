@@ -39,20 +39,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 165,
-    "description": "Stopped traffic",
-    "from": "Ford Ave",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484652014000",
-    "length_m": 341.019,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T11:44:45Z",
-    "to": "De Kalb Pl"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
