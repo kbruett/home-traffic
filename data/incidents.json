@@ -52,51 +52,35 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 136,
+    "delay_s": 62,
     "description": "Stopped traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 332.550674976,
-    "roads": [
-     "County Hwy-650"
-    ],
-    "severity": 3,
-    "start": "2026-11-25T13:00:15Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 142,
-    "description": "Stopped traffic",
-    "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764012000",
-    "length_m": 575.6016216437,
-    "roads": [
-     "County Hwy-640"
-    ],
-    "severity": 3,
-    "start": "2026-11-25T12:59:45Z",
-    "to": "US-46 (Riverview Dr/CR-640)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 111,
-    "description": "Stopped traffic",
-    "from": "State Route 19",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455608020000",
-    "length_m": 411.6978189557,
+    "from": "Tabor Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
+    "length_m": 52.4816098938,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-25T12:33:15Z",
-    "to": "Paterson"
+    "start": "2026-11-25T13:00:45Z",
+    "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 168,
+    "delay_s": 148,
+    "description": "Stopped traffic",
+    "from": "Minnisink Rd exit [54]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913740021000",
+    "length_m": 259.0294574185,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T13:06:15Z",
+    "to": "Minnisink Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 124,
     "description": "Stopped traffic",
     "from": "New St / Reservoir Ave",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455760029000",
-    "length_m": 322.5568355827,
+    "length_m": 261.9224139272,
     "roads": [
      "County Hwy-638"
     ],
@@ -106,64 +90,79 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 220,
-    "description": "Stopped traffic",
-    "from": "NJ-4/Broadway (Saddle River Rd)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654096028000",
-    "length_m": 608.6826127914,
-    "roads": [
-     "County Hwy-79"
-    ],
-    "severity": 3,
-    "start": "2026-11-25T12:52:15Z",
-    "to": "Pehle Ave (Saddle River Rd)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 51,
+    "delay_s": 125,
     "description": "Backed up traffic",
-    "from": "Squirrelwood Rd exit [56]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570224013000",
-    "length_m": 197.754900859,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-25T12:44:45Z",
-    "to": "Squirrelwood Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 159,
-    "description": "Backed up traffic",
-    "from": "Garden State Pkwy/Exit 62 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341312024000",
-    "length_m": 1983.8360733112,
+    "from": "I-80 (Two Bridges Rd/CR-613)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674142676013000",
+    "length_m": 559.6434463235,
     "roads": [
-     "I-80 W",
-     "Bergen Passaic Expy W"
+     "County Hwy-613"
     ],
     "severity": 2,
-    "start": "2026-11-25T12:42:15Z",
-    "to": "Madison Ave/Exit 58 (I-80)"
+    "start": "2026-11-25T13:03:15Z",
+    "to": "New Dutch Ln/Sherwood Ln (Passaic Ave/CR-613)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 103,
+    "delay_s": 115,
+    "description": "Backed up traffic",
+    "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764012000",
+    "length_m": 732.7635240353,
+    "roads": [
+     "County Hwy-640"
+    ],
+    "severity": 2,
+    "start": "2026-11-25T12:59:45Z",
+    "to": "US-46 (Riverview Dr/CR-640)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 97,
     "description": "Backed up traffic",
     "from": "exit [163]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883528051000",
     "length_m": 771.6017668683,
     "roads": [],
     "severity": 2,
-    "start": "2026-11-25T12:51:15Z",
+    "start": "2026-11-25T13:07:15Z",
     "to": "State Route 17"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 222,
+    "delay_s": 164,
+    "description": "Backed up traffic",
+    "from": "NJ-4/Broadway (Saddle River Rd)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654096028000",
+    "length_m": 693.2810376134,
+    "roads": [
+     "County Hwy-79"
+    ],
+    "severity": 2,
+    "start": "2026-11-25T12:52:15Z",
+    "to": "I-80 (Saddle River Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 116,
+    "description": "Slow traffic",
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 796.3288437065,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T13:07:15Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 182,
     "description": "Slow traffic",
     "from": "Union Blvd/Exit 55 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341240032000",
-    "length_m": 3832.6264895864,
+    "length_m": 3690.6708155329,
     "roads": [
      "Bergen Passaic Expy E",
      "I-80 E"
@@ -174,16 +173,31 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 40,
+    "delay_s": 134,
+    "description": "Slow traffic",
+    "from": "Garden State Pkwy/Exit 62 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341312024000",
+    "length_m": 2117.6914056408,
+    "roads": [
+     "I-80 W",
+     "Bergen Passaic Expy W"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T12:42:15Z",
+    "to": "Madison Ave/Exit 58 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 56,
     "description": "Slow traffic",
     "from": "NJ-4/Exit 161 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883520009002",
-    "length_m": 700.2148440377,
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883376057001",
+    "length_m": 1201.5135965432,
     "roads": [
      "Garden State Pkwy N"
     ],
     "severity": 1,
-    "start": "2026-11-25T12:50:15Z",
+    "start": "2026-11-25T13:05:45Z",
     "to": "NJ-17/Exit 163 (Garden State Pkwy)"
    }
   ],
@@ -191,6 +205,18 @@
  },
  "home": {
   "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 178,
+    "description": "Stopped traffic",
+    "from": "Idlewild Dr",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645286880006000",
+    "length_m": 349.427,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T13:09:15Z",
+    "to": "Grove Ave"
+   },
    {
     "category": "Traffic jam",
     "delay_s": 239,
@@ -208,29 +234,29 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 136,
+    "delay_s": 62,
     "description": "Stopped traffic",
-    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
-    "length_m": 332.550674976,
-    "roads": [
-     "County Hwy-650"
-    ],
+    "from": "Tabor Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
+    "length_m": 52.4816098938,
+    "roads": [],
     "severity": 3,
-    "start": "2026-11-25T13:00:15Z",
-    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+    "start": "2026-11-25T13:00:45Z",
+    "to": "Littleton Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 181,
-    "description": "Backed up traffic",
-    "from": "Mills St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713836006000",
-    "length_m": 489.896,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-25T12:57:15Z",
-    "to": "Speedwell Ave"
+    "delay_s": 116,
+    "description": "Slow traffic",
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 796.3288437065,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T13:07:15Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
    }
   ],
   "label": "Near home"
