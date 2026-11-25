@@ -37,19 +37,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 134,
-    "description": "Stopped traffic",
-    "from": "Minnisink Rd exit [54]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913740021000",
-    "length_m": 201.8914720418,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-25T12:39:45Z",
-    "to": "Minnisink Rd"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 135,
+    "delay_s": 144,
     "description": "Stopped traffic",
     "from": "State Route 19",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455608020000",
@@ -61,54 +49,37 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 158,
+    "delay_s": 120,
     "description": "Stopped traffic",
-    "from": "Spruce St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455824021000",
-    "length_m": 227.8957379204,
+    "from": "New St / Reservoir Ave",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455760029000",
+    "length_m": 261.9224139272,
     "roads": [
      "County Hwy-638"
     ],
     "severity": 3,
-    "start": "2026-11-25T12:40:15Z",
-    "to": "New St / Reservoir Ave"
+    "start": "2026-11-25T12:48:45Z",
+    "to": "Spruce St"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 128,
+    "delay_s": 58,
     "description": "Backed up traffic",
-    "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764012000",
-    "length_m": 575.6016216437,
-    "roads": [
-     "County Hwy-640"
-    ],
+    "from": "Squirrelwood Rd exit [56]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570224013000",
+    "length_m": 197.754900859,
+    "roads": [],
     "severity": 2,
-    "start": "2026-11-25T12:33:15Z",
-    "to": "US-46 (Riverview Dr/CR-640)"
+    "start": "2026-11-25T12:44:45Z",
+    "to": "Squirrelwood Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 39,
-    "description": "Slow traffic",
-    "from": "Madison Ave/Exit 58 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570208016000",
-    "length_m": 1525.6737964578,
-    "roads": [
-     "I-80 W",
-     "Bergen Passaic Expy W"
-    ],
-    "severity": 1,
-    "start": "2026-11-25T12:30:15Z",
-    "to": "Squirrelwood Rd/Exit 56 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 314,
+    "delay_s": 283,
     "description": "Slow traffic",
     "from": "Union Blvd/Exit 55 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341240032000",
-    "length_m": 5723.2452266922,
+    "length_m": 4547.9867603548,
     "roads": [
      "Bergen Passaic Expy E",
      "I-80 E"
@@ -119,18 +90,32 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 52,
+    "delay_s": 153,
     "description": "Slow traffic",
-    "from": "Exit 61 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25702997580056001",
-    "length_m": 1191.5652316528,
+    "from": "Garden State Pkwy/Exit 62 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341312024000",
+    "length_m": 2683.3422454864,
     "roads": [
      "I-80 W",
      "Bergen Passaic Expy W"
     ],
     "severity": 1,
-    "start": "2026-11-25T12:35:45Z",
+    "start": "2026-11-25T12:42:15Z",
     "to": "Madison Ave/Exit 58 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 27,
+    "description": "Slow traffic",
+    "from": "Bergen Toll Plaza (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768720017000",
+    "length_m": 1335.5374805747,
+    "roads": [
+     "Garden State Pkwy N"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T12:47:45Z",
+    "to": "Paramus Rd/Exit 160 (Garden State Pkwy)"
    }
   ],
   "label": "Paramus commute"
