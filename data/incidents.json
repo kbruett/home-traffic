@@ -34,6 +34,48 @@
     "severity": 4,
     "start": "2026-07-20T13:15:32Z",
     "to": "I-80 (Squirrelwood Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 106,
+    "description": "Stopped traffic",
+    "from": "State Route 19",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341236017000",
+    "length_m": 490.4571710506,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-25T12:29:45Z",
+    "to": "I-80 E"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 31,
+    "description": "Slow traffic",
+    "from": "NJ-19/Main St/Exit 57 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570208016000",
+    "length_m": 688.6064113462,
+    "roads": [
+     "I-80 W",
+     "Bergen Passaic Expy W"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T12:30:15Z",
+    "to": "Squirrelwood Rd/Exit 56 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 166,
+    "description": "Slow traffic",
+    "from": "Union Blvd/Exit 55 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341240032000",
+    "length_m": 3282.5515915257,
+    "roads": [
+     "Bergen Passaic Expy E",
+     "I-80 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-25T12:21:15Z",
+    "to": "Madison Ave/Exit 58 (I-80)"
    }
   ],
   "label": "Paramus commute"
