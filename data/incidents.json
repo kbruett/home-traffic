@@ -37,7 +37,50 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 144,
+    "delay_s": 239,
+    "description": "Stopped traffic",
+    "from": "NJ-10 (Tabor Rd/NJ-53)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
+    "length_m": 296.054957736,
+    "roads": [
+     "Alex DeCroce Memorial Hwy",
+     "NJ-53"
+    ],
+    "severity": 3,
+    "start": "2026-11-25T12:58:45Z",
+    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 136,
+    "description": "Stopped traffic",
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 332.550674976,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-25T13:00:15Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 142,
+    "description": "Stopped traffic",
+    "from": "CR-681/Totowa Rd (Riverview Dr/CR-640)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25679913764012000",
+    "length_m": 575.6016216437,
+    "roads": [
+     "County Hwy-640"
+    ],
+    "severity": 3,
+    "start": "2026-11-25T12:59:45Z",
+    "to": "US-46 (Riverview Dr/CR-640)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 111,
     "description": "Stopped traffic",
     "from": "State Route 19",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455608020000",
@@ -49,11 +92,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 120,
+    "delay_s": 168,
     "description": "Stopped traffic",
     "from": "New St / Reservoir Ave",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691455760029000",
-    "length_m": 261.9224139272,
+    "length_m": 322.5568355827,
     "roads": [
      "County Hwy-638"
     ],
@@ -63,7 +106,21 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 58,
+    "delay_s": 220,
+    "description": "Stopped traffic",
+    "from": "NJ-4/Broadway (Saddle River Rd)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654096028000",
+    "length_m": 608.6826127914,
+    "roads": [
+     "County Hwy-79"
+    ],
+    "severity": 3,
+    "start": "2026-11-25T12:52:15Z",
+    "to": "Pehle Ave (Saddle River Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 51,
     "description": "Backed up traffic",
     "from": "Squirrelwood Rd exit [56]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25688570224013000",
@@ -75,11 +132,38 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 283,
+    "delay_s": 159,
+    "description": "Backed up traffic",
+    "from": "Garden State Pkwy/Exit 62 (I-80)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341312024000",
+    "length_m": 1983.8360733112,
+    "roads": [
+     "I-80 W",
+     "Bergen Passaic Expy W"
+    ],
+    "severity": 2,
+    "start": "2026-11-25T12:42:15Z",
+    "to": "Madison Ave/Exit 58 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 103,
+    "description": "Backed up traffic",
+    "from": "exit [163]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883528051000",
+    "length_m": 771.6017668683,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-25T12:51:15Z",
+    "to": "State Route 17"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 222,
     "description": "Slow traffic",
     "from": "Union Blvd/Exit 55 (I-80)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341240032000",
-    "length_m": 4547.9867603548,
+    "length_m": 3832.6264895864,
     "roads": [
      "Bergen Passaic Expy E",
      "I-80 E"
@@ -90,38 +174,65 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 153,
+    "delay_s": 40,
     "description": "Slow traffic",
-    "from": "Garden State Pkwy/Exit 62 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25694341312024000",
-    "length_m": 2683.3422454864,
-    "roads": [
-     "I-80 W",
-     "Bergen Passaic Expy W"
-    ],
-    "severity": 1,
-    "start": "2026-11-25T12:42:15Z",
-    "to": "Madison Ave/Exit 58 (I-80)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 27,
-    "description": "Slow traffic",
-    "from": "Bergen Toll Plaza (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25708768720017000",
-    "length_m": 1335.5374805747,
+    "from": "NJ-4/Exit 161 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25705883520009002",
+    "length_m": 700.2148440377,
     "roads": [
      "Garden State Pkwy N"
     ],
     "severity": 1,
-    "start": "2026-11-25T12:47:45Z",
-    "to": "Paramus Rd/Exit 160 (Garden State Pkwy)"
+    "start": "2026-11-25T12:50:15Z",
+    "to": "NJ-17/Exit 163 (Garden State Pkwy)"
    }
   ],
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 239,
+    "description": "Stopped traffic",
+    "from": "NJ-10 (Tabor Rd/NJ-53)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172416027000",
+    "length_m": 296.054957736,
+    "roads": [
+     "Alex DeCroce Memorial Hwy",
+     "NJ-53"
+    ],
+    "severity": 3,
+    "start": "2026-11-25T12:58:45Z",
+    "to": "US-202/Littleton Rd (Tabor Rd/NJ-53)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 136,
+    "description": "Stopped traffic",
+    "from": "Ketch Rd/Koch Ave (Hanover Ave/CR-650)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25651057724028000",
+    "length_m": 332.550674976,
+    "roads": [
+     "County Hwy-650"
+    ],
+    "severity": 3,
+    "start": "2026-11-25T13:00:15Z",
+    "to": "US-202/Speedwell Ave (Hanover Ave/CR-650)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 181,
+    "description": "Backed up traffic",
+    "from": "Mills St",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713836006000",
+    "length_m": 489.896,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-25T12:57:15Z",
+    "to": "Speedwell Ave"
+   }
+  ],
   "label": "Near home"
  }
 }
