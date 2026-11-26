@@ -12,6 +12,20 @@
     "severity": 4,
     "start": "2026-08-11T16:01:30Z",
     "to": "exit [4A]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 42,
+    "description": "Heavy traffic",
+    "from": "Livingston Ave/Exit 5B (I-280)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25685683612032000",
+    "length_m": 3251.6499077825,
+    "roads": [
+     "I-280 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-26T22:47:45Z",
+    "to": "New Rd/Exit 1 (I-280)"
    }
   ],
   "label": "Montclair commute"
