@@ -34,6 +34,18 @@
     "severity": 4,
     "start": "2026-07-20T13:15:32Z",
     "to": "I-80 (Squirrelwood Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 201,
+    "description": "Stopped traffic",
+    "from": "exit [161]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654220017000",
+    "length_m": 878.6596121393,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-26T00:19:45Z",
+    "to": "E State Route 4"
    }
   ],
   "label": "Paramus commute"
