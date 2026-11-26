@@ -12,22 +12,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 43,
-    "description": "Slow traffic",
-    "from": "Lafayette Ave/Exit 36 (I-287)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484772000000",
-    "length_m": 836.859,
-    "roads": [
-     "I-287 N"
-    ],
-    "severity": 1,
-    "start": "2026-11-26T07:11:15Z",
-    "to": "NJ-24/Exit 37 (I-287)"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
