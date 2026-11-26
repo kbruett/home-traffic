@@ -1,19 +1,6 @@
 {
  "commute-montclair": {
-  "items": [
-   {
-    "category": "Road closed",
-    "delay_s": 0,
-    "description": "Closed",
-    "from": "exit [4A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25685683424044000",
-    "length_m": 471.7280852362,
-    "roads": [],
-    "severity": 4,
-    "start": "2026-08-11T16:01:30Z",
-    "to": "exit [4A]"
-   }
-  ],
+  "items": [],
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
