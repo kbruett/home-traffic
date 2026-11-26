@@ -37,11 +37,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 306,
+    "delay_s": 187,
     "description": "Stopped traffic",
     "from": "exit [161]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654220017000",
-    "length_m": 878.6596121393,
+    "length_m": 667.008013141,
     "roads": [],
     "severity": 3,
     "start": "2026-11-26T00:19:45Z",
