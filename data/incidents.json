@@ -12,7 +12,20 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 172,
+    "description": "Stopped traffic",
+    "from": "South St",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599224014000",
+    "length_m": 171.223,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-26T05:19:15Z",
+    "to": "Maple Ave"
+   }
+  ],
   "label": "Near home"
  }
 }
