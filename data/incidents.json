@@ -37,11 +37,11 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 187,
+    "delay_s": 174,
     "description": "Stopped traffic",
     "from": "exit [161]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654220017000",
-    "length_m": 667.008013141,
+    "length_m": 623.3427719153,
     "roads": [],
     "severity": 3,
     "start": "2026-11-26T00:19:45Z",
@@ -51,7 +51,22 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 173,
+    "description": "Slow traffic",
+    "from": "NJ-124/Madison Ave (South St/NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599264035000",
+    "length_m": 779.178,
+    "roads": [
+     "NJ-124"
+    ],
+    "severity": 1,
+    "start": "2026-11-26T00:41:45Z",
+    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
+   }
+  ],
   "label": "Near home"
  }
 }
