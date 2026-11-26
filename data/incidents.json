@@ -37,7 +37,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 201,
+    "delay_s": 306,
     "description": "Stopped traffic",
     "from": "exit [161]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711654220017000",
