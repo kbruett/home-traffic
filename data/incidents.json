@@ -4,20 +4,7 @@
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 57,
-    "description": "Backed up traffic",
-    "from": "exit [136]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25769359192012000",
-    "length_m": 66.5472134623,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-27T14:45:15Z",
-    "to": "Centennial Ave"
-   }
-  ],
+  "items": [],
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
