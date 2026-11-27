@@ -7,81 +7,83 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 72,
+    "delay_s": 299,
+    "description": "Stopped traffic",
+    "from": "Vauxhall Rd/Exit 141 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25757817916009000",
+    "length_m": 2652.0732971195,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 3,
+    "start": "2026-11-27T22:42:15Z",
+    "to": "Exit 138 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 1928,
+    "description": "Stopped traffic",
+    "from": "Green St (US-1)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795326764010000",
+    "length_m": 4107.7205081568,
+    "roads": [
+     "US-1 S"
+    ],
+    "severity": 3,
+    "start": "2026-11-27T22:05:15Z",
+    "to": "I-287 (US-1)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 91,
+    "description": "Stopped traffic",
+    "from": "Woodbridge",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327040026000",
+    "length_m": 286.9532976675,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T22:38:45Z",
+    "to": "US Highway 1"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 87,
     "description": "Stopped traffic",
     "from": "US Highway 9",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25832836744012000",
     "length_m": 120.2756818709,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-27T22:42:45Z",
+    "start": "2026-11-27T22:44:15Z",
     "to": "Bordentown Ave / Kenneth Ave"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 159,
-    "description": "Stopped traffic",
-    "from": "Glenwood Dr",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25853034132015000",
-    "length_m": 92.2808590313,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T22:20:15Z",
-    "to": "US Highway 9"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 129,
-    "description": "Backed up traffic",
-    "from": "Hobart Gap Rd (NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25726078276017000",
-    "length_m": 1296.3483928209,
-    "roads": [
-     "NJ-24 E"
-    ],
-    "severity": 2,
-    "start": "2026-11-27T22:22:45Z",
-    "to": "I-78 (NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 47,
-    "description": "Backed up traffic",
-    "from": "Woodbridge",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327040026000",
-    "length_m": 286.9532976675,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-27T22:38:45Z",
-    "to": "US Highway 1"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 46,
+    "delay_s": 100,
     "description": "Slow traffic",
-    "from": "Chestnut St/Exit 139 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25757817916009000",
-    "length_m": 991.6663827603,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 1,
-    "start": "2026-11-27T22:42:15Z",
-    "to": "Exit 138 (Garden State Pkwy)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 31,
-    "description": "Slow traffic",
-    "from": "Wood Ave/Exit 131 (Garden State Pkwy)",
+    "from": "Middlesex Tpke/Exit 131 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327020097000",
-    "length_m": 679.8739147063,
+    "length_m": 1722.5530500622,
     "roads": [
      "Garden State Pkwy S"
     ],
     "severity": 1,
     "start": "2026-11-27T22:42:45Z",
     "to": "I-95/US-9/Exit 129 (Garden State Pkwy)"
+   },
+   {
+    "category": "Crash",
+    "delay_s": 0,
+    "description": "Accident",
+    "from": "Wood Ave/Exit 131 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25792441696009002",
+    "length_m": 129.9674376165,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 0,
+    "start": "2026-11-27T22:45:15Z",
+    "to": "US-1/Exit 130 (Garden State Pkwy)"
    }
   ],
   "label": "Old Bridge commute"
@@ -91,7 +93,20 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 59,
+    "description": "Stopped traffic",
+    "from": "State Route 10",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
+    "length_m": 43.6063,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T22:49:45Z",
+    "to": "Littleton Rd"
+   }
+  ],
   "label": "Near home"
  }
 }
