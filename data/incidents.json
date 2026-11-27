@@ -7,7 +7,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 121,
+    "delay_s": 154,
     "description": "Stopped traffic",
     "from": "River Road exit [7B-A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651300020000",
@@ -19,25 +19,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 234,
+    "delay_s": 82,
     "description": "Stopped traffic",
-    "from": "Summit Ave/Exit 8 (NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25731849228001000",
-    "length_m": 2213.211232525,
-    "roads": [
-     "NJ-24 E"
-    ],
+    "from": "Woodbridge",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327040026000",
+    "length_m": 286.9532976675,
+    "roads": [],
     "severity": 3,
-    "start": "2026-11-27T20:15:45Z",
-    "to": "I-78 (NJ-24)"
+    "start": "2026-11-27T21:32:45Z",
+    "to": "US Highway 1"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 315,
+    "delay_s": 285,
     "description": "Stopped traffic",
-    "from": "Garden State Pkwy (South Amboy) (US-9)",
+    "from": "Bordentown Ave (US-9)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25838607536018000",
-    "length_m": 2300.2528348699,
+    "length_m": 2221.0894662342,
     "roads": [
      "US-9 S"
     ],
@@ -47,69 +45,59 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 96,
-    "description": "Stopped traffic",
-    "from": "US Highway 9",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25853034160007000",
-    "length_m": 33.3181630121,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T21:09:45Z",
-    "to": "US Highway 9"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 386,
+    "delay_s": 77,
     "description": "Backed up traffic",
-    "from": "I-78/Exit 142 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25746277108001000",
-    "length_m": 5593.250052412,
-    "roads": [
-     "Garden State Pkwy N"
-    ],
-    "severity": 2,
-    "start": "2026-11-27T19:00:15Z",
-    "to": "I-280/Exit 145 (Garden State Pkwy)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 72,
-    "description": "Slow traffic",
     "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484888001001",
     "length_m": 1097.8057677411,
     "roads": [
      "NJ-24 W"
     ],
-    "severity": 1,
+    "severity": 2,
     "start": "2026-11-27T20:31:15Z",
     "to": "I-287 (NJ-24)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 51,
-    "description": "Heavy traffic",
-    "from": "NJ-124/Exit 49 (I-78)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25743391100041000",
-    "length_m": 2704.7352854148,
+    "delay_s": 168,
+    "description": "Backed up traffic",
+    "from": "Hobart Gap Rd (NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25731849228001000",
+    "length_m": 1838.5880094698,
     "roads": [
-     "I-78 E"
+     "NJ-24 E"
     ],
-    "severity": 1,
-    "start": "2026-11-27T21:22:45Z",
-    "to": "Garden State Pkwy/Exit 52 (I-78)"
+    "severity": 2,
+    "start": "2026-11-27T20:15:45Z",
+    "to": "I-78 (NJ-24)"
    },
    {
-    "category": "Crash",
-    "delay_s": 0,
-    "description": "Accident",
-    "from": "I-95 exit [129]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25801097624017002",
-    "length_m": 218.3237012071,
-    "roads": [],
-    "severity": 0,
-    "start": "2026-11-27T20:51:15Z",
-    "to": "New Jersey Tpke N"
+    "category": "Traffic jam",
+    "delay_s": 242,
+    "description": "Slow traffic",
+    "from": "I-78/Exit 142 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25746277108001000",
+    "length_m": 3990.8924386318,
+    "roads": [
+     "Garden State Pkwy N"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T19:00:15Z",
+    "to": "South Orange Ave/Exit 144 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 58,
+    "description": "Slow traffic",
+    "from": "Chestnut St/Exit 139 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25760703096009001",
+    "length_m": 2223.0857736909,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T21:29:15Z",
+    "to": "NJ-28/Exit 137 (Garden State Pkwy)"
    }
   ],
   "label": "Old Bridge commute"
@@ -122,15 +110,17 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 46,
-    "description": "Stopped traffic",
-    "from": "Tabor Rd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
-    "length_m": 52.4816,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T21:19:45Z",
-    "to": "Littleton Rd"
+    "delay_s": 146,
+    "description": "Backed up traffic",
+    "from": "NJ-124/Madison Ave (South St/NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599264027001",
+    "length_m": 524.908,
+    "roads": [
+     "NJ-124"
+    ],
+    "severity": 2,
+    "start": "2026-11-27T21:31:15Z",
+    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
    }
   ],
   "label": "Near home"
