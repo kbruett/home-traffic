@@ -5457,3 +5457,8 @@ timestamp,dow,hour,current_mph,freeflow_mph,congestion_pct,place,direction,trave
 2026-11-27T18:44:23-05:00,4,18,12.8,13.6,5.7,east-hanover,Northbound,141,133
 2026-11-27T18:44:23-05:00,4,18,52.7,56.8,7.1,commute-old-bridge,To office,3202,2974
 2026-11-27T18:44:23-05:00,4,18,51.9,55.2,5.9,commute-old-bridge,To home,3025,2846
+2026-11-27T18:54:24-05:00,4,18,16.4,18.0,8.8,speedwell,Northbound,114,104
+2026-11-27T18:54:24-05:00,4,18,15.5,16.7,7.4,speedwell,Southbound,121,112
+2026-11-27T18:54:24-05:00,4,18,13.3,14.7,9.5,east-hanover,Southbound,306,277
+2026-11-27T18:54:24-05:00,4,18,12.9,13.5,4.3,east-hanover,Northbound,140,134
+2026-11-27T18:54:24-05:00,4,18,53.6,56.8,5.6,commute-old-bridge,To office,3149,2974
