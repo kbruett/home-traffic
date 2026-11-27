@@ -7,7 +7,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 231,
+    "delay_s": 140,
     "description": "Stopped traffic",
     "from": "River Road exit [7B-A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651300020000",
@@ -19,33 +19,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 189,
-    "description": "Stopped traffic",
-    "from": "Morris Ave (River Rd)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651332060000",
-    "length_m": 462.5861808323,
-    "roads": [
-     "County Hwy-649"
-    ],
-    "severity": 3,
-    "start": "2026-11-27T20:48:45Z",
-    "to": "Parsonage Hill Rd (John F Kennedy Pkwy)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 148,
-    "description": "Stopped traffic",
-    "from": "John F Kennedy Pkwy",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651400022000",
-    "length_m": 359.5239056644,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T20:48:45Z",
-    "to": "Morris Tpke"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 164,
+    "delay_s": 121,
     "description": "Stopped traffic",
     "from": "JFK Pkwy exit [7C]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651412020001",
@@ -57,53 +31,65 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 217,
+    "delay_s": 116,
     "description": "Stopped traffic",
-    "from": "NJ-24/Summit Ave (Morris Tpke/NJ-124)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651412035000",
-    "length_m": 350.9002915286,
-    "roads": [
-     "NJ-124"
-    ],
-    "severity": 3,
-    "start": "2026-11-27T19:42:45Z",
-    "to": "NJ-24/John F Kennedy Pkwy (Morris Tpke/NJ-124)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 300,
-    "description": "Stopped traffic",
-    "from": "Bordentown Ave (US-9)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25838607536018000",
-    "length_m": 1925.2110234415,
-    "roads": [
-     "US-9 S"
-    ],
-    "severity": 3,
-    "start": "2026-11-27T17:30:15Z",
-    "to": "Perrine Rd (US-9)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 135,
-    "description": "Backed up traffic",
     "from": "Hobart Gap Rd (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25731849228001000",
-    "length_m": 1641.0766754464,
+    "length_m": 1078.7295666596,
     "roads": [
      "NJ-24 E"
     ],
-    "severity": 2,
+    "severity": 3,
     "start": "2026-11-27T20:15:45Z",
     "to": "I-78 (NJ-24)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 41,
+    "delay_s": 96,
+    "description": "Stopped traffic",
+    "from": "US Highway 9",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25853034160007000",
+    "length_m": 33.3181630121,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T21:09:45Z",
+    "to": "US Highway 9"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 346,
+    "description": "Backed up traffic",
+    "from": "Union Toll Plaza (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25746277108001000",
+    "length_m": 4829.7091356177,
+    "roads": [
+     "Garden State Pkwy N"
+    ],
+    "severity": 2,
+    "start": "2026-11-27T19:00:15Z",
+    "to": "South Orange Ave/Exit 144 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 237,
+    "description": "Backed up traffic",
+    "from": "Bordentown Ave (US-9)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25838607536018000",
+    "length_m": 2208.018439165,
+    "roads": [
+     "US-9 S"
+    ],
+    "severity": 2,
+    "start": "2026-11-27T17:30:15Z",
+    "to": "Perrine Rd (US-9)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 61,
     "description": "Slow traffic",
     "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484888001001",
-    "length_m": 764.1833149306,
+    "length_m": 1097.8057677411,
     "roads": [
      "NJ-24 W"
     ],
@@ -113,45 +99,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 45,
+    "delay_s": 52,
     "description": "Slow traffic",
-    "from": "NJ-124/Exit 7 (NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25685682752065000",
-    "length_m": 1649.244682308,
-    "roads": [
-     "NJ-24 W"
-    ],
-    "severity": 1,
-    "start": "2026-11-27T20:44:45Z",
-    "to": "Columbia Tpke/Exit 2B-2A (NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 21,
-    "description": "Slow traffic",
-    "from": "NJ-124/Exit 7 (NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25700109672065000",
-    "length_m": 933.2941967064,
-    "roads": [
-     "NJ-24 W"
-    ],
-    "severity": 1,
-    "start": "2026-11-27T21:02:15Z",
-    "to": "Columbia Tpke/Exit 2B-2A (NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 33,
-    "description": "Heavy traffic",
-    "from": "Exit 138 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25754932592089000",
-    "length_m": 2579.0472594845,
+    "from": "I-78/Mill Rd/Exit 142 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25752047424025000",
+    "length_m": 1208.0069218639,
     "roads": [
      "Garden State Pkwy S"
     ],
     "severity": 1,
-    "start": "2026-11-27T20:52:45Z",
-    "to": "Centennial Ave/Exit 136 (Garden State Pkwy)"
+    "start": "2026-11-27T21:04:15Z",
+    "to": "Vauxhall Rd/Exit 141 (Garden State Pkwy)"
    },
    {
     "category": "Crash",
@@ -173,22 +131,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 138,
-    "description": "Stopped traffic",
-    "from": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599192011001",
-    "length_m": 344.168,
-    "roads": [
-     "NJ-124"
-    ],
-    "severity": 3,
-    "start": "2026-11-27T21:01:15Z",
-    "to": "NJ-124/Madison Ave (South St/NJ-24)"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
