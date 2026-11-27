@@ -7,41 +7,43 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 182,
+    "delay_s": 60,
     "description": "Stopped traffic",
-    "from": "NJ-28 exit [137]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25760703080035000",
-    "length_m": 425.7398112258,
+    "from": "US Highway 9",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25832836744012000",
+    "length_m": 120.2756818709,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-27T23:19:15Z",
-    "to": "NJ-28 exit [137]"
+    "start": "2026-11-27T23:32:45Z",
+    "to": "Bordentown Ave / Kenneth Ave"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 783,
-    "description": "Stopped traffic",
+    "delay_s": 70,
+    "description": "Backed up traffic",
+    "from": "Centennial Ave/Exit 136 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25760702880049000",
+    "length_m": 899.7200278111,
+    "roads": [
+     "Garden State Pkwy N"
+    ],
+    "severity": 2,
+    "start": "2026-11-27T23:29:45Z",
+    "to": "NJ-28/Exit 137 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 379,
+    "description": "Backed up traffic",
     "from": "NJ-28/Exit 137 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25769358796041000",
-    "length_m": 3975.8675077485,
+    "length_m": 4563.4632224785,
     "roads": [
      "Garden State Pkwy S"
     ],
-    "severity": 3,
+    "severity": 2,
     "start": "2026-11-27T23:07:45Z",
     "to": "NJ-27/Exit 131 (Garden State Pkwy)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 141,
-    "description": "Stopped traffic",
-    "from": "Glenwood Dr",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25853034132015000",
-    "length_m": 92.2808590313,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T23:04:15Z",
-    "to": "US Highway 9"
    },
    {
     "category": "Crash",
@@ -62,7 +64,7 @@
     "delay_s": 0,
     "description": "Accident",
     "from": "Wood Ave/Exit 131 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25792441696009002",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25792441696009001",
     "length_m": 129.9674376165,
     "roads": [
      "Garden State Pkwy S"
