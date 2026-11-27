@@ -7,55 +7,29 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 268,
+    "delay_s": 182,
     "description": "Stopped traffic",
-    "from": "Raritan Rd (Garden State Pkwy)",
+    "from": "NJ-28 exit [137]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25760703080035000",
+    "length_m": 425.7398112258,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T23:19:15Z",
+    "to": "NJ-28 exit [137]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 783,
+    "description": "Stopped traffic",
+    "from": "NJ-28/Exit 137 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25769358796041000",
-    "length_m": 1956.4287017829,
+    "length_m": 3975.8675077485,
     "roads": [
      "Garden State Pkwy S"
     ],
     "severity": 3,
     "start": "2026-11-27T23:07:45Z",
     "to": "NJ-27/Exit 131 (Garden State Pkwy)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 542,
-    "description": "Stopped traffic",
-    "from": "Green St (US-1)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795326764010000",
-    "length_m": 1894.9347294662,
-    "roads": [
-     "US-1 S"
-    ],
-    "severity": 3,
-    "start": "2026-11-27T22:05:15Z",
-    "to": "CR-501/Amboy Ave (US-1)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 63,
-    "description": "Stopped traffic",
-    "from": "Woodbridge",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327040026000",
-    "length_m": 286.9532976675,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T22:38:45Z",
-    "to": "US Highway 1"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 76,
-    "description": "Stopped traffic",
-    "from": "US Highway 9",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25832836744012000",
-    "length_m": 120.2756818709,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T23:02:15Z",
-    "to": "Bordentown Ave / Kenneth Ave"
    },
    {
     "category": "Traffic jam",
@@ -70,32 +44,18 @@
     "to": "US Highway 9"
    },
    {
-    "category": "Traffic jam",
-    "delay_s": 94,
-    "description": "Slow traffic",
-    "from": "Vauxhall Rd/Exit 141 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25757817916009000",
-    "length_m": 2684.6214885558,
+    "category": "Crash",
+    "delay_s": 0,
+    "description": "Accident",
+    "from": "Central Ave/Brant Ave/Exit 135 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25772244268153000",
+    "length_m": 1875.8822651951,
     "roads": [
      "Garden State Pkwy S"
     ],
-    "severity": 1,
-    "start": "2026-11-27T22:42:15Z",
-    "to": "NJ-28/Exit 137 (Garden State Pkwy)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 27,
-    "description": "Slow traffic",
-    "from": "Wood Ave/Exit 131 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327020097000",
-    "length_m": 837.1405844902,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 1,
-    "start": "2026-11-27T22:42:45Z",
-    "to": "I-95/US-9/Exit 129 (Garden State Pkwy)"
+    "severity": 0,
+    "start": "2026-11-27T23:14:15Z",
+    "to": "NJ-27/Exit 131 (Garden State Pkwy)"
    },
    {
     "category": "Crash",
