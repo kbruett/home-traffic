@@ -7,7 +7,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 140,
+    "delay_s": 121,
     "description": "Stopped traffic",
     "from": "River Road exit [7B-A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651300020000",
@@ -19,29 +19,31 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 121,
+    "delay_s": 234,
     "description": "Stopped traffic",
-    "from": "JFK Pkwy exit [7C]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651412020001",
-    "length_m": 215.8712940747,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T20:36:15Z",
-    "to": "JFK Pkwy exit [7C]"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 116,
-    "description": "Stopped traffic",
-    "from": "Hobart Gap Rd (NJ-24)",
+    "from": "Summit Ave/Exit 8 (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25731849228001000",
-    "length_m": 1078.7295666596,
+    "length_m": 2213.211232525,
     "roads": [
      "NJ-24 E"
     ],
     "severity": 3,
     "start": "2026-11-27T20:15:45Z",
     "to": "I-78 (NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 315,
+    "description": "Stopped traffic",
+    "from": "Garden State Pkwy (South Amboy) (US-9)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25838607536018000",
+    "length_m": 2300.2528348699,
+    "roads": [
+     "US-9 S"
+    ],
+    "severity": 3,
+    "start": "2026-11-27T17:30:15Z",
+    "to": "Perrine Rd (US-9)"
    },
    {
     "category": "Traffic jam",
@@ -57,35 +59,21 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 346,
+    "delay_s": 386,
     "description": "Backed up traffic",
-    "from": "Union Toll Plaza (Garden State Pkwy)",
+    "from": "I-78/Exit 142 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25746277108001000",
-    "length_m": 4829.7091356177,
+    "length_m": 5593.250052412,
     "roads": [
      "Garden State Pkwy N"
     ],
     "severity": 2,
     "start": "2026-11-27T19:00:15Z",
-    "to": "South Orange Ave/Exit 144 (Garden State Pkwy)"
+    "to": "I-280/Exit 145 (Garden State Pkwy)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 237,
-    "description": "Backed up traffic",
-    "from": "Bordentown Ave (US-9)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25838607536018000",
-    "length_m": 2208.018439165,
-    "roads": [
-     "US-9 S"
-    ],
-    "severity": 2,
-    "start": "2026-11-27T17:30:15Z",
-    "to": "Perrine Rd (US-9)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 61,
+    "delay_s": 72,
     "description": "Slow traffic",
     "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484888001001",
@@ -99,17 +87,17 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 52,
-    "description": "Slow traffic",
-    "from": "I-78/Mill Rd/Exit 142 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25752047424025000",
-    "length_m": 1208.0069218639,
+    "delay_s": 51,
+    "description": "Heavy traffic",
+    "from": "NJ-124/Exit 49 (I-78)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25743391100041000",
+    "length_m": 2704.7352854148,
     "roads": [
-     "Garden State Pkwy S"
+     "I-78 E"
     ],
     "severity": 1,
-    "start": "2026-11-27T21:04:15Z",
-    "to": "Vauxhall Rd/Exit 141 (Garden State Pkwy)"
+    "start": "2026-11-27T21:22:45Z",
+    "to": "Garden State Pkwy/Exit 52 (I-78)"
    },
    {
     "category": "Crash",
@@ -131,7 +119,20 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 46,
+    "description": "Stopped traffic",
+    "from": "Tabor Rd",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25648172424011000",
+    "length_m": 52.4816,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T21:19:45Z",
+    "to": "Littleton Rd"
+   }
+  ],
   "label": "Near home"
  }
 }
