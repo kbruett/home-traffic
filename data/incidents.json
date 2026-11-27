@@ -7,71 +7,17 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 60,
+    "delay_s": 235,
     "description": "Stopped traffic",
-    "from": "US Highway 9",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25832836744012000",
-    "length_m": 120.2756818709,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T23:32:45Z",
-    "to": "Bordentown Ave / Kenneth Ave"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 70,
-    "description": "Backed up traffic",
-    "from": "Centennial Ave/Exit 136 (Garden State Pkwy)",
+    "from": "Central Ave/Brant Ave/Exit 135 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25760702880049000",
-    "length_m": 899.7200278111,
+    "length_m": 1992.3704391847,
     "roads": [
      "Garden State Pkwy N"
     ],
-    "severity": 2,
+    "severity": 3,
     "start": "2026-11-27T23:29:45Z",
     "to": "NJ-28/Exit 137 (Garden State Pkwy)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 379,
-    "description": "Backed up traffic",
-    "from": "NJ-28/Exit 137 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25769358796041000",
-    "length_m": 4563.4632224785,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 2,
-    "start": "2026-11-27T23:07:45Z",
-    "to": "NJ-27/Exit 131 (Garden State Pkwy)"
-   },
-   {
-    "category": "Crash",
-    "delay_s": 0,
-    "description": "Accident",
-    "from": "Central Ave/Brant Ave/Exit 135 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25772244268153000",
-    "length_m": 1875.8822651951,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 0,
-    "start": "2026-11-27T23:14:15Z",
-    "to": "NJ-27/Exit 131 (Garden State Pkwy)"
-   },
-   {
-    "category": "Crash",
-    "delay_s": 0,
-    "description": "Accident",
-    "from": "Wood Ave/Exit 131 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25792441696009001",
-    "length_m": 129.9674376165,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 0,
-    "start": "2026-11-27T22:45:15Z",
-    "to": "US-1/Exit 130 (Garden State Pkwy)"
    }
   ],
   "label": "Old Bridge commute"
