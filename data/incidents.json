@@ -4,7 +4,260 @@
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 229,
+    "description": "Stopped traffic",
+    "from": "River Road exit [7B-A]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651300020000",
+    "length_m": 332.2953095443,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T19:16:45Z",
+    "to": "John F Kennedy Pkwy"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 141,
+    "description": "Stopped traffic",
+    "from": "Morris Tpke",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651312014002",
+    "length_m": 207.9691729514,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T20:01:45Z",
+    "to": "John F Kennedy Pkwy"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 123,
+    "description": "Stopped traffic",
+    "from": "John F Kennedy Pkwy",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651400022000",
+    "length_m": 210.359082782,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T19:45:45Z",
+    "to": "Morris Tpke"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 86,
+    "description": "Stopped traffic",
+    "from": "JFK Pkwy exit [7C]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651412020000",
+    "length_m": 215.8712940747,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T17:02:15Z",
+    "to": "JFK Pkwy exit [7C]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 201,
+    "description": "Stopped traffic",
+    "from": "NJ-24/Summit Ave (Morris Tpke/NJ-124)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651412035000",
+    "length_m": 554.9589244078,
+    "roads": [
+     "NJ-124"
+    ],
+    "severity": 3,
+    "start": "2026-11-27T19:42:45Z",
+    "to": "NJ-24/John F Kennedy Pkwy (Morris Tpke/NJ-124)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 127,
+    "description": "Stopped traffic",
+    "from": "exit [50B]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25743391168028000",
+    "length_m": 268.0885871546,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T19:57:15Z",
+    "to": "exit [50B]"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 70,
+    "description": "Stopped traffic",
+    "from": "Woodbridge",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327040026002",
+    "length_m": 286.9532976675,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T19:50:45Z",
+    "to": "US Highway 1"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 79,
+    "description": "Stopped traffic",
+    "from": "US Highway 9",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25858804668004000",
+    "length_m": 32.6211321726,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T19:52:15Z",
+    "to": "US Highway 9 / Ferry Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 238,
+    "description": "Backed up traffic",
+    "from": "Garden State Pkwy/Exit 52 (I-78)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25737620216025000",
+    "length_m": 3451.0388183296,
+    "roads": [
+     "I-78 W"
+    ],
+    "severity": 2,
+    "start": "2026-11-27T19:33:15Z",
+    "to": "NJ-24/Exit 48 (I-78)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 181,
+    "description": "Backed up traffic",
+    "from": "Stuyvesant Ave (Vauxhall Rd)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25743391192052000",
+    "length_m": 625.7915540676,
+    "roads": [
+     "County Hwy-630"
+    ],
+    "severity": 2,
+    "start": "2026-11-27T19:52:15Z",
+    "to": "NJ-124/Springfield Ave (Vauxhall Rd)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 183,
+    "description": "Backed up traffic",
+    "from": "Bordentown Ave (US-9)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25838607536018000",
+    "length_m": 1865.6495667271,
+    "roads": [
+     "US-9 S"
+    ],
+    "severity": 2,
+    "start": "2026-11-27T17:30:15Z",
+    "to": "Perrine Rd (US-9)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 149,
+    "description": "Backed up traffic",
+    "from": "CR-516 (US-9)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25844378116010001",
+    "length_m": 1322.3436438376,
+    "roads": [
+     "US-9 N"
+    ],
+    "severity": 2,
+    "start": "2026-11-27T20:02:45Z",
+    "to": "Perrine Rd (US-9)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 94,
+    "description": "Slow traffic",
+    "from": "Whippany Rd/Exit 1A (NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25677026408113001",
+    "length_m": 2152.1798979268,
+    "roads": [
+     "NJ-24 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T19:11:45Z",
+    "to": "NJ-124/Exit 7 (NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 103,
+    "description": "Slow traffic",
+    "from": "Summit Ave/Exit 8 (NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25700109672073001",
+    "length_m": 2059.0857568822,
+    "roads": [
+     "NJ-24 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T19:36:45Z",
+    "to": "Columbia Tpke/Exit 2B-2A (NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 280,
+    "description": "Slow traffic",
+    "from": "Lyons Ave/Exit 143 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25754932744441000",
+    "length_m": 5142.2821040416,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T18:43:15Z",
+    "to": "Exit 138 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 43,
+    "description": "Slow traffic",
+    "from": "Exit 138 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25760703096017000",
+    "length_m": 1598.5539217715,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T18:43:15Z",
+    "to": "Centennial Ave/Exit 136 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 38,
+    "description": "Slow traffic",
+    "from": "Raritan Rd (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25769359156081000",
+    "length_m": 1382.8632872489,
+    "roads": [
+     "Garden State Pkwy N"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T18:51:15Z",
+    "to": "NJ-28/Exit 137 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 106,
+    "description": "Slow traffic",
+    "from": "Central Ave/Brant Ave/Exit 135 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25780900100009000",
+    "length_m": 2340.6620377094,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T19:53:45Z",
+    "to": "US-1/Exit 130 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 29,
+    "description": "Slow traffic",
+    "from": "US-1/Exit 130 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327020065000",
+    "length_m": 945.4563747796,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T19:59:15Z",
+    "to": "I-95/US-9/Exit 129 (Garden State Pkwy)"
+   }
+  ],
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
