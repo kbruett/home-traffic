@@ -4,7 +4,22 @@
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 111,
+    "description": "Backed up traffic",
+    "from": "US-9/Gordons Corner Rd/Wickatunk Rd (Tennent Rd/CR-3)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25881887820036000",
+    "length_m": 444.4321733164,
+    "roads": [
+     "County Hwy-3"
+    ],
+    "severity": 2,
+    "start": "2026-11-27T15:12:15Z",
+    "to": "NJ-18/CR-520 (Tennent Rd/CR-3)"
+   }
+  ],
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
