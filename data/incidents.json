@@ -4,7 +4,20 @@
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 105,
+    "description": "Stopped traffic",
+    "from": "I-287 exit [48]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25731849292025000",
+    "length_m": 530.2212293066,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T12:39:45Z",
+    "to": "State Route 24"
+   }
+  ],
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
