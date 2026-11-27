@@ -12,20 +12,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 45,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
-    "length_m": 43.6063,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T19:19:45Z",
-    "to": "Littleton Rd"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
