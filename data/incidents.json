@@ -15,7 +15,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 95,
+    "delay_s": 45,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
