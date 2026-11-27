@@ -4,7 +4,22 @@
   "label": "Montclair commute"
  },
  "commute-old-bridge": {
-  "items": [],
+  "items": [
+   {
+    "category": "Traffic jam",
+    "delay_s": 150,
+    "description": "Stopped traffic",
+    "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691453484049000",
+    "length_m": 889.9097008156,
+    "roads": [
+     "NJ-24 E"
+    ],
+    "severity": 3,
+    "start": "2026-11-27T13:07:45Z",
+    "to": "NJ-124/Exit 7 (NJ-24)"
+   }
+  ],
   "label": "Old Bridge commute"
  },
  "commute-paramus": {
