@@ -7,17 +7,29 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 418,
+    "delay_s": 831,
     "description": "Stopped traffic",
     "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691453484049000",
-    "length_m": 2339.5176811146,
+    "length_m": 3085.9316226403,
     "roads": [
      "NJ-24 E"
     ],
     "severity": 3,
     "start": "2026-11-27T13:07:45Z",
     "to": "NJ-124/Exit 7 (NJ-24)"
+   },
+   {
+    "category": "Crash",
+    "delay_s": 0,
+    "description": "Accident",
+    "from": "US-9 exit [11]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25803983336041001",
+    "length_m": 452.6658884979,
+    "roads": [],
+    "severity": 0,
+    "start": "2026-11-27T13:29:15Z",
+    "to": "Garden State Pkwy N"
    }
   ],
   "label": "Old Bridge commute"
