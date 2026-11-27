@@ -15,29 +15,15 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 67,
+    "delay_s": 95,
     "description": "Stopped traffic",
     "from": "State Route 10",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
-    "length_m": 43.6063153467,
+    "length_m": 43.6063,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-27T19:09:15Z",
+    "start": "2026-11-27T19:19:45Z",
     "to": "Littleton Rd"
-   },
-   {
-    "category": "Rain",
-    "delay_s": 126,
-    "description": "Heavy rain",
-    "from": "NJ-124/Madison Ave (South St/NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599264043000",
-    "length_m": 522.833,
-    "roads": [
-     "NJ-124"
-    ],
-    "severity": 2,
-    "start": "2026-11-27T18:44:45Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
    }
   ],
   "label": "Near home"
