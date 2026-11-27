@@ -7,21 +7,35 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 1830,
+    "delay_s": 268,
+    "description": "Stopped traffic",
+    "from": "Raritan Rd (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25769358796041000",
+    "length_m": 1956.4287017829,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 3,
+    "start": "2026-11-27T23:07:45Z",
+    "to": "NJ-27/Exit 131 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 542,
     "description": "Stopped traffic",
     "from": "Green St (US-1)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795326764010000",
-    "length_m": 4073.5091706521,
+    "length_m": 1894.9347294662,
     "roads": [
      "US-1 S"
     ],
     "severity": 3,
     "start": "2026-11-27T22:05:15Z",
-    "to": "I-287 (US-1)"
+    "to": "CR-501/Amboy Ave (US-1)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 88,
+    "delay_s": 63,
     "description": "Stopped traffic",
     "from": "Woodbridge",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327040026000",
@@ -33,7 +47,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 60,
+    "delay_s": 76,
     "description": "Stopped traffic",
     "from": "US Highway 9",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25832836744012000",
@@ -45,25 +59,37 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 323,
-    "description": "Backed up traffic",
-    "from": "Union Toll Plaza (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25757817916009000",
-    "length_m": 3324.1237185551,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 2,
-    "start": "2026-11-27T22:42:15Z",
-    "to": "Exit 138 (Garden State Pkwy)"
+    "delay_s": 141,
+    "description": "Stopped traffic",
+    "from": "Glenwood Dr",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25853034132015000",
+    "length_m": 92.2808590313,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T23:04:15Z",
+    "to": "US Highway 9"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 78,
+    "delay_s": 94,
     "description": "Slow traffic",
-    "from": "Middlesex Tpke/Exit 131 (Garden State Pkwy)",
+    "from": "Vauxhall Rd/Exit 141 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25757817916009000",
+    "length_m": 2684.6214885558,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T22:42:15Z",
+    "to": "NJ-28/Exit 137 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 27,
+    "description": "Slow traffic",
+    "from": "Wood Ave/Exit 131 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327020097000",
-    "length_m": 1782.7595902786,
+    "length_m": 837.1405844902,
     "roads": [
      "Garden State Pkwy S"
     ],
@@ -93,22 +119,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 132,
-    "description": "Slow traffic",
-    "from": "NJ-124/Madison Ave (South St/NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599264051000",
-    "length_m": 524.623,
-    "roads": [
-     "NJ-124"
-    ],
-    "severity": 1,
-    "start": "2026-11-27T23:01:15Z",
-    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
