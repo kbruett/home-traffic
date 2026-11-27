@@ -7,25 +7,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 299,
-    "description": "Stopped traffic",
-    "from": "Vauxhall Rd/Exit 141 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25757817916009000",
-    "length_m": 2652.0732971195,
-    "roads": [
-     "Garden State Pkwy S"
-    ],
-    "severity": 3,
-    "start": "2026-11-27T22:42:15Z",
-    "to": "Exit 138 (Garden State Pkwy)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 1928,
+    "delay_s": 1830,
     "description": "Stopped traffic",
     "from": "Green St (US-1)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795326764010000",
-    "length_m": 4107.7205081568,
+    "length_m": 4073.5091706521,
     "roads": [
      "US-1 S"
     ],
@@ -35,7 +21,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 91,
+    "delay_s": 88,
     "description": "Stopped traffic",
     "from": "Woodbridge",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327040026000",
@@ -47,23 +33,37 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 87,
+    "delay_s": 60,
     "description": "Stopped traffic",
     "from": "US Highway 9",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25832836744012000",
     "length_m": 120.2756818709,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-27T22:44:15Z",
+    "start": "2026-11-27T23:02:15Z",
     "to": "Bordentown Ave / Kenneth Ave"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 100,
+    "delay_s": 323,
+    "description": "Backed up traffic",
+    "from": "Union Toll Plaza (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25757817916009000",
+    "length_m": 3324.1237185551,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 2,
+    "start": "2026-11-27T22:42:15Z",
+    "to": "Exit 138 (Garden State Pkwy)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 78,
     "description": "Slow traffic",
     "from": "Middlesex Tpke/Exit 131 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327020097000",
-    "length_m": 1722.5530500622,
+    "length_m": 1782.7595902786,
     "roads": [
      "Garden State Pkwy S"
     ],
@@ -96,15 +96,17 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 59,
-    "description": "Stopped traffic",
-    "from": "State Route 10",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25645287280003000",
-    "length_m": 43.6063,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T22:49:45Z",
-    "to": "Littleton Rd"
+    "delay_s": 132,
+    "description": "Slow traffic",
+    "from": "NJ-124/Madison Ave (South St/NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25662599264051000",
+    "length_m": 524.623,
+    "roads": [
+     "NJ-124"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T23:01:15Z",
+    "to": "US-202/N Park Pl/Market St/Bank St (W Park Pl/Washington St/South St/NJ-24)"
    }
   ],
   "label": "Near home"
