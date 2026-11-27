@@ -15,17 +15,31 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 112,
+    "delay_s": 63,
     "description": "Heavy traffic",
     "from": "Beverwyck Rd/Exit 45 (I-80)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665485800016000",
-    "length_m": 9935.640343175,
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25668371252464000",
+    "length_m": 5927.7361248867,
     "roads": [
      "I-80 E"
     ],
     "severity": 1,
     "start": "2026-11-27T00:12:15Z",
     "to": "Two Bridges Rd/Exit 52 (I-80)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 39,
+    "description": "Heavy traffic",
+    "from": "Eisenhower Pkwy/4th Ave/Exit 4 (I-280)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691454348064000",
+    "length_m": 2108.2740947255,
+    "roads": [
+     "I-280 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T00:32:15Z",
+    "to": "Laurel Ave/Exit 6 (I-280)"
    }
   ],
   "label": "Montclair commute"
