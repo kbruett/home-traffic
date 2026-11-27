@@ -7,32 +7,6 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 1090,
-    "description": "Stopped traffic",
-    "from": "NJ-124/Exit 7 (NJ-24)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484888001001",
-    "length_m": 3929.2026460872,
-    "roads": [
-     "NJ-24 W"
-    ],
-    "severity": 3,
-    "start": "2026-11-27T20:31:15Z",
-    "to": "Whippany Rd/Exit 1A (NJ-24)"
-   },
-   {
-    "category": "Traffic jam",
-    "delay_s": 223,
-    "description": "Stopped traffic",
-    "from": "exit [2A]",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674141140012000",
-    "length_m": 256.2593208726,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T22:02:15Z",
-    "to": "State Route 24"
-   },
-   {
-    "category": "Traffic jam",
     "delay_s": 147,
     "description": "Stopped traffic",
     "from": "Glenwood Dr",
@@ -45,31 +19,57 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 129,
-    "description": "Backed up traffic",
-    "from": "Bordentown Ave (US-9)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25838607536018000",
-    "length_m": 1677.1329026025,
-    "roads": [
-     "US-9 S"
-    ],
-    "severity": 2,
-    "start": "2026-11-27T17:30:15Z",
-    "to": "Perrine Rd (US-9)"
+    "delay_s": 64,
+    "description": "Stopped traffic",
+    "from": "US Highway 9",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25858804668004000",
+    "length_m": 32.6211321726,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T22:29:15Z",
+    "to": "US Highway 9 / Ferry Rd"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 38,
-    "description": "Slow traffic",
+    "delay_s": 80,
+    "description": "Backed up traffic",
     "from": "Hobart Gap Rd (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25726078276017000",
-    "length_m": 596.2904756745,
+    "length_m": 1078.7295666596,
     "roads": [
      "NJ-24 E"
     ],
-    "severity": 1,
+    "severity": 2,
     "start": "2026-11-27T22:22:45Z",
     "to": "I-78 (NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 164,
+    "description": "Slow traffic",
+    "from": "NJ-124/Exit 7 (NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484888001001",
+    "length_m": 3189.4724210293,
+    "roads": [
+     "NJ-24 W"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T20:31:15Z",
+    "to": "I-287 (NJ-24)"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 42,
+    "description": "Slow traffic",
+    "from": "Wood Ave/Exit 131 (Garden State Pkwy)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25795327020097000",
+    "length_m": 1156.3929756538,
+    "roads": [
+     "Garden State Pkwy S"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T22:22:15Z",
+    "to": "I-95/US-9/Exit 129 (Garden State Pkwy)"
    },
    {
     "category": "Crash",
@@ -82,6 +82,20 @@
     "severity": 0,
     "start": "2026-11-27T22:22:15Z",
     "to": "Chimney Ridge Dr"
+   },
+   {
+    "category": "Crash",
+    "delay_s": 0,
+    "description": "Accident",
+    "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25668370356017001",
+    "length_m": 205.4097880212,
+    "roads": [
+     "NJ-24 W"
+    ],
+    "severity": 0,
+    "start": "2026-11-27T22:29:45Z",
+    "to": "Whippany Rd/Exit 1A (NJ-24)"
    }
   ],
   "label": "Old Bridge commute"
@@ -91,20 +105,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 138,
-    "description": "Backed up traffic",
-    "from": "Washington St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713752022000",
-    "length_m": 158.991,
-    "roads": [],
-    "severity": 2,
-    "start": "2026-11-27T22:12:15Z",
-    "to": "Bank St / Ann St"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
