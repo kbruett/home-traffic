@@ -5259,3 +5259,7 @@ timestamp,dow,hour,current_mph,freeflow_mph,congestion_pct,place,direction,trave
 2026-11-27T12:04:13-05:00,4,12,15.4,16.7,8.2,speedwell,Southbound,122,112
 2026-11-27T12:04:13-05:00,4,12,13.2,14.7,10.4,east-hanover,Southbound,309,277
 2026-11-27T12:04:13-05:00,4,12,13.0,13.5,3.6,east-hanover,Northbound,139,134
+2026-11-27T12:14:13-05:00,4,12,15.8,18.2,13.4,speedwell,Northbound,119,103
+2026-11-27T12:14:13-05:00,4,12,15.2,16.7,8.9,speedwell,Southbound,123,112
+2026-11-27T12:14:13-05:00,4,12,13.1,14.7,11.2,east-hanover,Southbound,312,277
+2026-11-27T12:14:13-05:00,4,12,12.9,13.5,4.3,east-hanover,Northbound,140,134
