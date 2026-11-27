@@ -7,11 +7,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 842,
+    "delay_s": 1732,
     "description": "Stopped traffic",
     "from": "NJ-124/Exit 7 (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484888001001",
-    "length_m": 2489.0671526446,
+    "length_m": 3929.2026460872,
     "roads": [
      "NJ-24 W"
     ],
@@ -21,23 +21,23 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 76,
+    "delay_s": 145,
     "description": "Stopped traffic",
-    "from": "Eugene Blvd",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25832836892012000",
-    "length_m": 101.9551601914,
+    "from": "exit [2A]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674141140012000",
+    "length_m": 256.2593208726,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-27T21:35:45Z",
-    "to": "US Highway 9"
+    "start": "2026-11-27T22:02:15Z",
+    "to": "State Route 24"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 414,
+    "delay_s": 344,
     "description": "Stopped traffic",
-    "from": "Bordentown Ave (US-9)",
+    "from": "Garden State Pkwy (South Amboy) (US-9)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25838607536018000",
-    "length_m": 2221.0894662342,
+    "length_m": 2300.2528348699,
     "roads": [
      "US-9 S"
     ],
@@ -47,17 +47,65 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 75,
+    "delay_s": 117,
+    "description": "Stopped traffic",
+    "from": "US Highway 9",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25844378136014000",
+    "length_m": 117.3146098402,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T21:53:15Z",
+    "to": "Perrine Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 66,
+    "description": "Stopped traffic",
+    "from": "US Highway 9",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25858804668004000",
+    "length_m": 32.6211321726,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T22:01:15Z",
+    "to": "US Highway 9 / Ferry Rd"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 59,
+    "description": "Backed up traffic",
+    "from": "River Road exit [7B-A]",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25711651312012000",
+    "length_m": 332.2953095443,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-27T21:55:15Z",
+    "to": "John F Kennedy Pkwy"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 47,
+    "description": "Backed up traffic",
+    "from": "US Highway 9",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25832836752004000",
+    "length_m": 120.2756818709,
+    "roads": [],
+    "severity": 2,
+    "start": "2026-11-27T21:53:45Z",
+    "to": "Bordentown Ave / Kenneth Ave"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 29,
     "description": "Slow traffic",
-    "from": "Chestnut St/Exit 139 (Garden State Pkwy)",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25760703096025001",
-    "length_m": 3639.7865482314,
+    "from": "I-287 (NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25668370136009000",
+    "length_m": 662.539289521,
     "roads": [
-     "Garden State Pkwy S"
+     "NJ-24 E"
     ],
     "severity": 1,
-    "start": "2026-11-27T21:46:15Z",
-    "to": "Centennial Ave/Exit 136 (Garden State Pkwy)"
+    "start": "2026-11-27T21:53:45Z",
+    "to": "Columbia Tpke/Exit 2B-2A (NJ-24)"
    }
   ],
   "label": "Old Bridge commute"
