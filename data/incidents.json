@@ -7,11 +7,11 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 150,
+    "delay_s": 418,
     "description": "Stopped traffic",
     "from": "Columbia Tpke/Exit 2B-2A (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25691453484049000",
-    "length_m": 889.9097008156,
+    "length_m": 2339.5176811146,
     "roads": [
      "NJ-24 E"
     ],
