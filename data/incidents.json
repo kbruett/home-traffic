@@ -7,7 +7,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 1056,
+    "delay_s": 1090,
     "description": "Stopped traffic",
     "from": "NJ-124/Exit 7 (NJ-24)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25665484888001001",
@@ -21,7 +21,7 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 133,
+    "delay_s": 223,
     "description": "Stopped traffic",
     "from": "exit [2A]",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25674141140012000",
@@ -33,29 +33,55 @@
    },
    {
     "category": "Traffic jam",
-    "delay_s": 212,
+    "delay_s": 147,
     "description": "Stopped traffic",
+    "from": "Glenwood Dr",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25853034132015000",
+    "length_m": 92.2808590313,
+    "roads": [],
+    "severity": 3,
+    "start": "2026-11-27T22:20:15Z",
+    "to": "US Highway 9"
+   },
+   {
+    "category": "Traffic jam",
+    "delay_s": 129,
+    "description": "Backed up traffic",
     "from": "Bordentown Ave (US-9)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25838607536018000",
-    "length_m": 1651.8854246758,
+    "length_m": 1677.1329026025,
     "roads": [
      "US-9 S"
     ],
-    "severity": 3,
+    "severity": 2,
     "start": "2026-11-27T17:30:15Z",
     "to": "Perrine Rd (US-9)"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 66,
-    "description": "Stopped traffic",
-    "from": "US Highway 9",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25858804668004000",
-    "length_m": 32.6211321726,
+    "delay_s": 38,
+    "description": "Slow traffic",
+    "from": "Hobart Gap Rd (NJ-24)",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25726078276017000",
+    "length_m": 596.2904756745,
+    "roads": [
+     "NJ-24 E"
+    ],
+    "severity": 1,
+    "start": "2026-11-27T22:22:45Z",
+    "to": "I-78 (NJ-24)"
+   },
+   {
+    "category": "Crash",
+    "delay_s": 0,
+    "description": "Accident",
+    "from": "Chimney Ridge Dr",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTR25668370216030001",
+    "length_m": 328.1453709528,
     "roads": [],
-    "severity": 3,
-    "start": "2026-11-27T22:01:15Z",
-    "to": "US Highway 9 / Ferry Rd"
+    "severity": 0,
+    "start": "2026-11-27T22:22:15Z",
+    "to": "Chimney Ridge Dr"
    }
   ],
   "label": "Old Bridge commute"
@@ -68,7 +94,7 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 137,
+    "delay_s": 138,
     "description": "Backed up traffic",
     "from": "Washington St",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713752022000",
