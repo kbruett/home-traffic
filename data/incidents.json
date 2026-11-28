@@ -7,23 +7,23 @@
   "items": [
    {
     "category": "Traffic jam",
-    "delay_s": 79,
+    "delay_s": 65,
     "description": "Stopped traffic",
-    "from": "Centennial Ave",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25769359160020000",
-    "length_m": 328.4583115954,
+    "from": "US Highway 9",
+    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25832836744012001",
+    "length_m": 120.2756818709,
     "roads": [],
     "severity": 3,
-    "start": "2026-11-27T23:55:45Z",
-    "to": "Garden State Pkwy N"
+    "start": "2026-11-28T00:10:45Z",
+    "to": "Bordentown Ave / Kenneth Ave"
    },
    {
     "category": "Traffic jam",
-    "delay_s": 136,
+    "delay_s": 143,
     "description": "Backed up traffic",
     "from": "Central Ave/Brant Ave/Exit 135 (Garden State Pkwy)",
     "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25760702880049000",
-    "length_m": 1598.5727072564,
+    "length_m": 1992.3704391847,
     "roads": [
      "Garden State Pkwy N"
     ],
