@@ -12,20 +12,7 @@
   "label": "Paramus commute"
  },
  "home": {
-  "items": [
-   {
-    "category": "Traffic jam",
-    "delay_s": 174,
-    "description": "Stopped traffic",
-    "from": "Prospect St",
-    "id": "TTI-d6105829-532b-44da-8e9e-9c0fbba8d424-TTL25659713840022000",
-    "length_m": 152.402,
-    "roads": [],
-    "severity": 3,
-    "start": "2026-11-28T03:53:15Z",
-    "to": "Speedwell Ave"
-   }
-  ],
+  "items": [],
   "label": "Near home"
  }
 }
